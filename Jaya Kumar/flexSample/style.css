@@ -231,22 +231,23 @@ progress::-webkit-progress-bar {
 }
 .listFileOptions a > span{
     position: absolute;
-    bottom: -22px;
+    bottom: -25px;
     left: 0;
     background: white;
-    font-size: 12px;
-    padding: 3px 5px;
+    font-size: 11px;
+    padding: 4px 5px;
     box-shadow: 0 0 2px rgb(105, 105, 105);
     white-space: nowrap;
     display: none;
 }    
 .listFileOptions a > span::before{
-    content: ">";   
+    content: "\25BE";
     position: absolute;
     top: -50%;
     left: 10%;
-    transform: translate(-20%) rotate(-90deg);
-    color: rgb(164, 164, 164);
+    transform: translate(-20%) rotate(180deg);
+    color: rgb(208 208 208 / 80%);
+    font-size: .7rem;
 }
 .listFileOptions a:hover span {
 display: inline-block;
