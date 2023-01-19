@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+    integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/landing.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaLogin.css ">
+
+</head>
+<body>
+    <section class="landingParent">
+        <div class="landingContainer">
+            <header class="header">
+                <figure class="landingLogo"><span></span>Expense Tracker</figure>
+                <ul class="optionsEntry">
+                    <li class="signInLand">Sign in</li>
+                    <li class="landingActive signUpLand">Sign up</li>
+                </ul>
+            </header>
+            <div class="landingContent">
+                <div class="imageBigLogo"></div>
+
+                <div class="contentLanding">
+                    <h1>Track Your Expenses<hr> Without Any Hassle </h1>
+                    <p>Use our app to keep eye on your daily expenses, Expense Tracker is easy to understand and can be your best friend in savings suggestions.</p>
+                    <div class="startBtnContainer">
+                        <button type="button" class="startBtn buttonLanding">Get Start</button>
+                        <button type="button" class="callBtn buttonLanding">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <template class="allFormTemplate">
+        <section class="userForm closeFormBtn">
+            <i class="fa-regular fa-circle-xmark closeFormBtn"></i>
+            <div class="container">
+                <figure class="logo"></figure>
+                <h3 class="title">Expense Tracker</h3>
+                <div class="forms">
+    
+                </div>
+            </div>
+        </section>  
+    </template>
+
+
+    <template class="loginDiv">
+        <form class="loginRegForm logForm">
+            <div>
+                <span class="redBorder"></span>
+
+                <input type="email" class="loginUserEmail input" value="jayakumaroman2000@gmail.com"
+                    placeholder="Email: Example@test.com" />
+
+            </div>
+            <div class="passWordDiv">
+                <span class="redBorder"></span>
+
+                <input type="password" class="loginPassword input" placeholder="Enter PIN: 344553"
+                    oncopy="return false" onpaste="return false" oncut="return false" />
+
+                <div class="eyeIcon">
+                    <i class="fa-regular fa-eye" id="showPassword"></i>
+                </div>
+            </div>
+            <span class="incorectpassWord">Incorrect password and Email ID</span>
+            <button type="submit" class="loginButton button" disabled>LOG-IN</button>
+            <a href="#" class="registerBtn">Reginster Now!!!</a>
+        </form>
+    </template>
+
+    <template class="RegisterDiv">
+        <form class="loginRegForm regForm">
+            <div class="userNameDiv">
+                <span class="redBorder"></span>
+                <input type="text" class="registerUserName input" placeholder="Name: Min 5 Characters"
+                    autocomplete="off" />
+                <h1 class="userDP" title="Upload Your Image"><input type="file" class="userImageGet input"
+                        accept=".jpg, .jpeg, .png" /><i class="fa-solid fa-cloud-arrow-up"
+                        title="Upload Your Image "></i></h1>
+            </div>
+            <div>
+                <span class="redBorder"></span>
+                <input type="email" class="registerUserEmail input" placeholder="Email: Example@test.com" />
+                <span class="EmailExist">Email Already Exist</span>
+            </div>
+            <div class="passWordDiv">
+                <span class="redBorder"></span>
+                <input  type="password" class="registerPassword input"
+                    placeholder="Enter PIN: (6 digits)" oncopy="return false" onpaste="return false"
+                    oncut="return false" />
+                <div class="eyeIcon"><i class="fa-regular fa-eye" id="showPassword"></i></div>
+            </div>
+            <div class="passWordDiv">
+                <span class="redBorder"></span>
+                <input type="password" class="registerRePassword input" placeholder="Confirm PIN" oncopy="return false"
+                    onpaste="return false" oncut="return false" />
+                <div class="eyeIcon"><i class="fa-regular fa-eye" id="showPassword"></i></div>
+            </div>
+            <button type="submit" class="registerButton button" disabled>REGISTER</button>
+            <a href="#" class="loginBtn">Login Now !!!</a>
+        </form>
+    </template>
+
+    <template class="OTP-div">
+        <div class="loginRegForm otpConfirmation">
+            <div>
+                <p class="msgOTPsent">OTP sent to your Email Id</p>
+                <h2 class="emailIDOtpDiv"></h2>
+                <input  type="number" class="otpInput input" placeholder="Enter yout OTP" />
+                <span class="otpError"></span>
+
+                <p class="OTP-place">Please Check Inbox / Spam</p>
+                <div class="confirmBtns">
+                    <button type="button" class="verifyotp button">Verify OTP</button>
+                    <button type="button" class="resendotp button">Resend OTP</button>
+                </div>
+            </div>
+            <a href="#" class="loginBtn">Login Now!!!</a>
+        </div>
+    </template>
+
+
+    <template class="noNetWork">
+        <div class="networkPopup">
+            <figure></figure>
+            <h1>Ooops</h1>
+            <p>No Internet connection found.<br> Check your connection.</p>
+            <button  class="checkInternet" data-type="checkInternet" type="button">Try Again</button>
+
+            <div class="popUpwifiLoader">
+                <h2>Checking...</h2>
+                <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            </div>
+
+        </div>
+    </template>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <script type="text/javascript" src="javascript/firebaseLib.js"></script>
+    <script src="javascript/landingModel.js"></script>
+
+</body>
+</html>

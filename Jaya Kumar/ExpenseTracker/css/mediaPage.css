@@ -1,0 +1,613 @@
+@media (max-width: 1100px){
+    .filterBox{
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 100;
+	    transition: .2s ease-out;
+    }
+    .filterMenus{
+        display: block !important;
+    }
+    .SearchBox{
+        padding-right: 0;
+    }
+    .allTransactionDiv{
+        margin-right: 0;
+    }
+    .transactionArticle{
+        height: calc(100% - 50px) !important;
+    }
+    .transactionArticle .innerChild{
+        width: 100%;
+        padding: 10px;
+    }
+    .dashBoard{
+        padding: 10px;
+    }
+}   
+@media (max-width: 1800px) and (min-width: 1325px){ 
+    main{
+        width: 90%;
+    }
+}    
+
+@media (min-width: 980px) and (max-width: 1325px){
+    main{
+        width: 100%;
+    }
+    .secondDiv{
+        background-size: 45% !important;
+    } 
+
+
+}
+
+@media (max-width: 980px){
+    main{
+        width: 100%;
+    }
+    article .firstDiv{
+    	grid-template-columns: repeat(2, 1fr);
+    } 
+    .TransactionHead,
+    .TransactionBody{
+        font-size: 15px;
+    }
+    .TransactionHead th,
+    .TransactionBody td{
+        padding: 10px; 
+    }
+    .secondDiv{
+        height: auto !important;
+        background-size: 60% !important;
+    } 
+    .chartSection{
+        flex-direction: column;
+        min-height: 300px;
+    }
+
+    .search::placeholder{
+        font-size: 15px;
+    } 
+
+}
+
+
+@media (max-width: 786px){
+    main{
+        width: 100%;
+    }
+    .info{
+        position: fixed;
+        left: -100%;
+        z-index: 15;
+	    transition: .2s ease-out;
+    }
+    .filterMenus{
+        display: none !important;
+    }
+    .editContainer{
+        height: 100%;
+        top: 0;
+    }
+    .logoExpense{
+        display: var(--none);
+    }
+    .imageDiv, .linksDiv{
+        padding: 35px 0;
+    }
+    main .mainContainer{
+        width: 100%;
+    }
+    .mainContainer .navbar-header{
+        display: var(--displayFlex);
+    } 
+    article .firstDiv,.secondDiv{
+        margin-top: 15px;
+    } 
+    .TransactionHead,
+    .TransactionBody{
+        font-size: 14px;
+    }
+    .TransactionHead th,
+    .TransactionBody td{
+        padding: 6px;
+    }
+    .TransactionHead th{
+        padding: 10px   ;
+    }
+    .filterBtn{
+        display: var(--none);
+    }
+    .secondDiv{
+        background-size: 60% !important;
+    } 
+
+    .checkStyle{
+        width:35px;
+    }
+    .selectAllTransDiv {
+        margin-left: 7px;
+    }
+    .selectAllTrans{
+        font-size: 17px ;
+    }
+    .checkStyle i{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px){
+    .NoDataFoundErr{
+        width: 80%;
+        padding: 0 21px;
+        text-align: var(--center);
+    }
+    .empty-state__message{
+            font-size: 1.3rem;
+    }
+    .empty-state__help{
+        line-height: 20px;
+    }
+    .secondDiv{
+        background-size: 73% !important;
+    }
+    .selectAllTransDiv{
+        margin-left: 7px;
+    }
+    .innerBox{
+        min-width: 480px;
+        padding: 20px;
+    }
+    .TransactionHead th,
+    .TransactionBody td{
+        font-size: 12px;
+    }
+    .TransactionHead th{
+        padding: 10px 6px;
+    }
+}
+
+@media (max-width: 530px){
+    .popUpContainer .popupBox{
+        width: 80%;
+    }
+    .secondDiv{
+        background-size: 75% !important;
+    }
+    .secondDiv h2,.noRecentTrans{
+        font-size: 15px;
+    }   
+    .innerBox{
+        min-width: 400px;
+    } 
+    .TransactionHead th,
+    .TransactionBody td{
+        font-size: 11px;
+    }  
+    .checkStyle{
+        width:30px;
+    }
+    .selectAllTransDiv {
+        margin-left: 5px;
+    }
+    .selectAllTrans{
+        font-size: 16px ;
+    }
+    .checkStyle i{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .imageDiv, .linksDiv{
+        padding: 30px 0;
+    }
+    .logoutBtn{
+        margin-top: 30px;
+    }
+    .firstDiv div{
+        height: 50px;
+    }
+    .firstDiv div span{
+        font-size: 1.2rem  ;
+    }
+    .firstDiv div p{
+        font-size: 11px;
+    }
+    .dashBoard>div{
+        margin-top: 10px;
+    }
+    .secondDiv{
+        margin-top: 20px !important;
+        height: auto !important;
+    }
+    .chartDetails table{
+        width: 100%;
+    }
+
+    .secondDiv .chartBox, .chartDetails{
+        min-width: 300px;
+    }
+
+    .TransactionHead th,
+    .TransactionBody td{
+        padding: 3px;
+        font-size: 8.5px;
+    }
+    .TransactionHead th{
+        padding: 8px 3px;
+    }
+    .category-icon{
+        height: 25px;
+        width: 25px;
+    }
+    .editDelterBtn{
+        height: 30px;
+    }
+    .editDelterBtn button {
+        height: 20px;
+        font-size: 11px;
+        margin: 4px 1px;
+    }
+    .checkStyle{
+        width: 25px;
+    }
+    .selectAllTransDiv {
+        margin-left: 5px;
+    }
+    .selectAllTrans{
+        font-size: 14px ;
+    }
+    .checkStyle i{
+        font-size: 14px;
+    }
+
+    .thirdDiv > h1{
+        font-size: 15px;
+    }
+    .popUpContainer .popupBox{
+        width: 90%;
+        height: var(--auto);
+    }
+    .popupBox div input:not([type=radio]){
+        margin: 7px 0;
+    }
+    .popupBox .date > div{
+        width: 100%;
+    }  
+    .popupBox .date > div input{
+        width: 100%;
+    }
+    .popupBox div input:not([type=radio]){
+        margin: 5px 0;
+        padding: 0;
+    }  
+    .popupBox > div{
+        margin: 5px 0 !important;
+    }
+    .popupBox .radio{
+        margin: 10px 0  !important;
+    }
+    .SearchBox .search{
+        min-width: 290px;
+    }
+    .SearchBox .newTransaction{
+        min-width: 35px;
+    }
+    .popupBox *{
+        font-size: 14px !important;
+    }
+    .CategoryAndPaymode{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .NoDataFoundErr{
+        height: 300px;
+        width: 85%;
+        padding: 0 15px;
+    }
+    .empty-state__message{
+        font-size: 1.1rem;
+    }
+    .empty-state__help{
+        line-height: 17px;
+        font-size: 0.775rem;
+    }
+    .thirdDiv{
+        min-height: 100px !important;
+    }
+    .secondDiv h2,.noRecentTrans{
+        font-size: 13px;
+    }  
+    .search::placeholder{
+        font-size: 13px;
+    }  
+    .innerBox{
+        width: 80%;
+        min-width: 330px;
+        padding: 10px;
+    }  
+    .innerBox p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .innerBox .twoButtons button{
+        margin-top: 10px;
+    }
+    .totalSelectedTrans{
+        margin-left: 5px;
+    }
+    .totalSelectedTrans,.totalSelectedTrans b{
+        font-size: 12px;
+    }
+}    
+@media (max-width: 360px){
+    .info{
+        width: 150px;
+    }
+    .imageDiv, .linksDiv{
+        padding: 25px 0;
+    }
+    .profileImg{
+        width: 80px;
+        height: 80px;
+        background-size: 80px;
+    }
+    .linksDiv a{
+        border-radius: 5px;
+    }
+    .logoutBtn{
+        margin-top: 25px;
+    }
+    article .firstDiv{
+    	grid-template-columns: repeat(1, 1fr);
+        grid-gap: 7px;
+    } 
+
+    .TransactionHead th,
+    .TransactionBody td{
+        padding: 6px 3px;
+        font-size: 7.5px;
+    }
+    .TransactionHead th{
+        padding: 8px 3px;
+    }
+    .selectAllTransDiv {
+        margin-left: 4px;
+    }
+    .selectAllTrans{
+        font-size: 13px ;
+    }
+    .checkStyle i{
+        font-size: 12px;
+    }
+    .popUpContainer .popupBox{
+        width: 90%;
+        padding: 8px 8px 0;
+    } 
+    .popupBox .radio {
+        margin: 5px 0 0 !important;
+    }
+    .dropDown{
+        margin: 0;
+    }    
+    .SearchBox .search{
+        min-width: 200px;
+    }
+    .SearchBox .newTransaction{
+        min-width: 35px;
+    }
+    input[type=checkbox]{
+        height: 12px;
+        width: 12px;
+    }
+    .transactionArticle .filterBox{
+        min-width: 200px;
+        margin-left: 0;
+    }
+    .transactionArticle .filterBox > div{
+        height: 45%;
+    }
+
+    .filterBox input{
+        margin: 5px 0 !important;
+    }
+    .filterBox *{
+        font-size: 13px ;
+    }
+    .filterBox h2 i{
+        font-size: 1.3rem;
+    }
+    .amountRange{
+        height: 24px;
+        margin: 5px 0;
+    }
+    .category .dropDown{
+        margin: 0;
+    }
+    .amountRange h1{
+        font-weight: lighter;
+    }
+    .amountRange h1 input{
+        margin: 5px 0;
+    }
+    .filterBox .cashflow > div span{
+        margin: 3px 0;
+    }
+    .popupBox *{
+        font-size: 13px !important;
+    }
+    .NoDataFoundErr{
+        height: 260px;
+        padding: 0 20px;
+    }
+    .errorIcon{
+        height: 150px;
+        width: 150px;
+    }
+    .empty-state__message{
+        font-size: 1rem;
+    }
+    .empty-state__help{
+        line-height: 14px;
+        font-size: 0.725rem;
+    } 
+    .secondDiv{
+        background-size: 95% !important;
+        padding: 5px;
+    }   
+    .secondDiv h1, .thirdDiv>h1,.dashBoardHead{
+        font-size: 14px;
+    }
+    .dashBoardHead{
+        padding-left: 3px;
+    }
+    .thirdDiv{
+        min-height: 80px !important;
+    }
+    .thirdDiv > h1{
+        padding: 6px 3px;
+    }
+
+    .secondDiv h2,.noRecentTrans{
+        font-size: 12px;
+    }
+
+    .SearchBox .newTransaction{
+        height:25px
+    }
+    .SearchBox{
+        height: 30px;
+        margin: 8px 0;
+    }
+    .SearchBox .search{
+        height:25px;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .search::placeholder{
+        font-size: 9px;
+    }    
+    .editDelterBtn button{
+        height: 23px;
+        font-size: 11px;
+        margin: 6px 2px;
+    }  
+    .totalSelectedTrans,.totalSelectedTrans b{
+        font-size: 10px;
+    }  
+    .innerBox{
+        width: 90%;
+        min-width: 250px;
+    }  
+    .innerBox p{
+        line-height: 14px;
+    }
+    .innerBox .twoButtons button{
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .catImg .category-icon{
+        display: none;
+    }
+    .filterAndCancelBtn{
+        margin-top: 30px;
+    }
+    .secondDiv .chartBox, .chartDetails{
+        min-width: 250px;
+    }
+    .chartSection{
+        margin: 10px 0 0;
+    }
+    .chartDetails table{
+        width: 80%;
+    }
+    .chartDetails table td{
+        height: 21px;
+        font-size: 10px;
+    }
+}       
+
+@media (max-width: 280px){
+    .navbar-brand{
+        background-position: 2px;
+    }
+    .TransactionHead th,
+    .TransactionBody td{
+        padding: 5px 2px
+    }
+    .material-symbols-outlined{
+        font-size: 17px  !important;
+    }
+    .thirdDiv > h1{
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+    .popupBox .date > div{
+        margin: 4px 0;
+    }  
+    .popupBox .date > div input{
+        margin: 0;
+    }  
+    .popupBox div input:not([type=radio]){
+        height: 25px;
+    }
+    .NoDataFoundErr{
+        height: 220px;
+        padding: 0 10px;
+    }
+    .errorIcon{
+        height: 130px;
+        width: 130px;
+    }
+    .empty-state__message{
+        font-size: .855rem;
+    }
+    .empty-state__help{
+        line-height: 12px;
+        font-size: 0.725rem;
+    } 
+    .thirdDiv{
+        min-height: 70px !important;
+    }
+    .secondDiv h2,.noRecentTrans{
+        font-size: 10px;
+    } 
+    .transactionArticle form{
+        height: 50%;
+    }   
+    .totalSelectedTrans,.totalSelectedTrans b{
+        font-size: 9px;
+    }
+    .innerBox{
+        width: 90%;
+        min-width: 200px;
+    }  
+    .innerBox p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .innerBox .twoButtons button{
+        font-size: 8px;
+    }
+    .editDelterBtn{
+        height: 25px;
+    }
+    .editDelterBtn button {
+        height: 20px;
+        font-size: 8px;
+        margin: 4px 1px;
+    }
+    .TransactionHead th,
+    .TransactionBody td {
+        font-size: 6.8px;
+    }
+    .selectAllTrans{
+        font-size: 12px ;
+    }
+    .checkStyle i{
+        font-size: 10px;
+    }
+}   
