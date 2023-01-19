@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.zohowebstatic.com/sites/all/themes/zoho/css/zfont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="sideBar">
+            <figure class="logo"></figure>
+            <nav>
+                <ul class="listOfOption">
+                    <a href="#">
+                        <i class="fa-regular fa-file-lines"></i>Files
+                    </a>
+                    <a href="#" class="active">
+                        <i class="fa-regular fa-file-image"></i>Photos
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-share-nodes"></i>Sharing
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-link"></i>Links
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-clock"></i>Events
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-dots"></i>Get started<span class="counts">3</span>
+                    </a>
+                </ul>
+                <div class="totalMemory">
+                    <div class="memoryInfo">
+                        <span class="usedMemory">50 GB / 100 GB</span>
+                        <button type="button" class="addExtraMemory">+</button>
+                    </div>
+                    <progress class="progressBar" max="100" value="45"> </progress>
+                    <button class="upgradeBtn" type="button"><i class="fa-solid fa-up-long"></i>Upgrade account</button>
+                </div>
+            </nav>
+        </section>
+        <section class="container">
+            <div class="header">
+                <div class="searchBar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search..." />
+                </div>
+                <div class="notification">
+                    <a href="#" class="fa-regular fa-bell"></a>
+                    <button type="button">Eddle Lobanovskly <i class="fa-solid fa-angle-down"></i></button>
+                </div>
+            </div>
+            <h2 class="photoHead">Photos</h2>
+
+            <div class="fileOption">
+                <div class="listFileOptions">
+                    <a href="#" class="fa-regular fa-file-lines"><span>Upload File</span></a>
+                    <a href="#" class="fa-regular fa-folder"><span>Upload Folder</span></a>
+                    <a href="#" class="fa-regular fa-folder-closed"><span>Create Folder</span></a>
+                    <a href="#" class="fa-solid fa-grip"><span>Layout</span></a>
+                </div>
+
+                <div class="sortOption">
+                    <a href="#" class="active">Name </a>
+                    <a href="#">Size</a>
+                    <a href="#">Modeifed</a>
+                </div>
+            </div>
+
+            <div class="allPhotos">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671378932631-f95853bd2397?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTI1NA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672679415931-147d9e4d00d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTI5Mg&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672193964688-443f2a5353d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTMwNA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                    <i class="fa-regular fa-circle-check"></i>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671873570652-ed7a38d90fab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTM5Ng&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671955100981-a80351f7a810?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ0Mg&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671772296732-b801fef482c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ0NA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671595063544-5c086e4b050f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ1NA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671826638399-54ac6a5447ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ1Nw&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673376992658-0942c962e84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ1OQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673376992658-0942c962e84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ2MA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673719017331-76caa25dd26b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ3Nw&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673017275736-9be403d5624c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ2NQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673276628202-737bf3020ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ2OA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673276628202-737bf3020ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ2OQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672797494267-affab75c2bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ3MA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1669937736289-031161d1d9e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ4MA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1671640699279-99cf33f98918?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ3Mw&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1669937736289-031161d1d9e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ4MQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672106157109-056c567e3833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1ODg5NQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672184158656-225643b8e57e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTU4MQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672106157109-056c567e3833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1ODg5NQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1673276628202-737bf3020ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ2OQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672106157109-056c567e3833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1ODg5NQ&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1672797494267-affab75c2bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NDA1OTQ3MA&ixlib=rb-4.0.3&q=80&w=1080" />
+                    <h5>Happy.png</h5>
+                    <h6>3 MB</h6>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

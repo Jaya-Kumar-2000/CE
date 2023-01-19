@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@200;300;400&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+main{
+    width: 650px;
+    height: 88%;
+    background: #CFE6D3;
+    padding: 10px;
+}
+header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header figure{
+    height: 100%;
+    width: 80px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/Seal_of_Tamil_Nadu.png") no-repeat;
+    background-size: 71px;
+    background-position: center;
+}
+header h4{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    letter-spacing: .2px;
+}
+header span{
+    background: black;
+    font-size: 18px;
+    padding: 1px 10px;
+    margin-left: 5px;
+    background-color: rgb(255 247 231 / 80%);
+    color: black;
+    letter-spacing: 1.5px;
+}
+nav{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav figure{
+    height: 85%;
+    width: 100px;
+    background-size: cover !important;
+}
+nav .studentImage{  
+    background: rgb(239 239 239 / 50%) url("https://www.sina.pk/wp-content/uploads/2017/11/dummy-dp.png") center;
+}
+nav .qrCode{  
+    background: url("https://img.freepik.com/premium-vector/qr-code-sample-smartphone-scanning-qr-code-icon-flat-design-stock-vector-illustration_550395-108.jpg?w=2000") center;
+}
+.policy{
+    height: 100%;
+    width: 65%;
+    text-align: center;
+    text-transform: uppercase;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.policy h6,.policy h5{
+    font-size: 12px;
+}
+
+section{
+    background: #F1EDE8;
+}
+section p{
+    font-size: 15px;
+    margin: 8px 0;
+}
+section > table{
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+thead th{
+    color: brown;
+}
+thead .head{
+    background: #e97474;
+}
+tr>th, tr>td{
+    border: 1px solid  brown;
+    padding: 3px 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.subject, .mark{
+    width: 300px;
+}
+
+tr>td{
+    padding: 10px 0;
+}
+tr >td span{
+    display: inline-block;
+    width: 65%;
+    text-transform: uppercase;
+}
+.cat,.pracMark{
+    width: 60px;
+}
+.totalMark{
+    text-align: left;
+}
+.totalMark span{
+    margin-left: 20px;
+}
+.totalMark td{
+    padding: 10px 5px;
+}
+.title{
+    border-right: 1px solid #CFE6D3;
+    color: brown;
+}
+td table{
+    width: 100%;
+    border-collapse: collapse   ;
+}
+.dateOFBirthRow td{
+    padding: 0;
+    color: brown;
+}
+.dateOfBirth,.registerNum{
+    border: none;
+    padding: 4px 0 !important;
+}
+.dateOfBirth {
+    border-right: 1px solid;
+}
+.language,.groupCode,.school{
+    padding: 4px 0;
+    color: brown;
+}
+
+b {
+    margin: 2px 0;
+    display: inline-block;
+    color: black;
+}
+.criteria{
+    font-size: 13.5px;
+    margin: 5px 0;
+}

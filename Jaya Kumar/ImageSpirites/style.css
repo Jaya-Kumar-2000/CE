@@ -1,0 +1,1142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ZohoPuviSemBd';
+}
+:root {
+    --hundredPercent: 100%;
+    --displayGrid : grid;
+    --displayFlex: flex;
+    --displayblock: block;
+    --displayInlineBlock: inline-block;
+    --center: center;
+    --column: column;
+    --colorWhite: white;
+    --colorBlack: black;
+    --none: none; 
+    --positionRelative: relative;
+    --positionAbsolute: absolute;
+    --auto: auto;
+    --noRepeat: no-repeat;
+    --cursorPointer: pointer;
+    --upperCase: uppercase;
+    --spaceBetween: space-between;
+    --puvi: "ZohoPuvi";
+    --puviLight: "ZohoPuviLight";
+    --skyBlue: #03a9f5;
+  }
+
+
+html,
+body {
+    height: var(--skyBlue);
+    width: var(--hundredPercent);
+}
+a{
+    text-decoration: var(--none);
+}
+li{
+    list-style: var(--none);
+}
+header{
+    width: 69%;
+    margin: var(--auto);
+    height: var(--auto);
+    padding-top: 15px;
+    display: var(--displayFlex);
+    justify-content: var(--spaceBetween);
+}
+.officeLogo{
+    background: url("https://www.zohowebstatic.com/sites/default/files/zh-sprite-2x-new.png") var(--noRepeat);
+}
+header .companyLogo{
+    width: 140px;
+    background-size: 1500px;
+    height: 50px;
+    background-position: -420px 4px;
+}
+header nav{
+    width: 50%;
+    min-width: 700px;
+    height: 35px;
+    display: var(--displayFlex);
+    justify-content: flex-end;
+    align-items:  var(--center);
+}
+header nav a{
+    color: var(--colorBlack);
+    font-size: 14px;
+    letter-spacing: .35px;
+    opacity: .8;
+    padding-right:34px;
+
+}
+.active{
+    color: #039b3f;
+}
+.navLanguage{
+    padding-right:15px ;
+    opacity: 1;
+    display: var(--displayFlex);
+    align-items:  var(--center);
+}
+.navLanguage span{
+    display: var(--displayInlineBlock);
+    height: 17px;
+    width: 20px;
+    margin-right: 4px;
+    background-size: 300px;
+    background-position: -278px 0;
+}
+.navSearch{
+    display: var(--displayInlineBlock);
+    height: 25px;
+    width: 25px;
+    background-size: 1100px;
+    background-position: -310px -54px;
+    margin-left: 10px;
+    padding-right:0;
+}
+.zohoQuotes{
+    width: 63%;
+    height: var(--auto);
+    margin: 70px var(--auto) 0;
+    text-align:  var(--center);
+}
+.zohoQuotes h1{
+    font-size: 2.3rem;
+    letter-spacing: .5px;
+    word-spacing: .8px;
+    font-family: var(--puvi);
+}   
+.zohoQuotes h3{
+    margin-top: 16px;
+    font-size: 18px;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    line-height: 30px;
+}     
+.remoteAndFeature{
+    width: 63%;
+    height: 370px;
+    margin: 90px var(--auto) 0;
+}
+.featuredAPPS >h6{
+    font-size: 11px;
+    text-align:  var(--center);
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 500;
+    font-family: var(--puvi);
+}
+.remoteAndFeature > div{
+    height: calc(var(--hundredPercent) - 35px);
+    display: var(--displayGrid);
+    margin: 13px 0 0;
+    grid-template-columns: repeat(2,1fr);
+}
+.mainAPP{
+    padding: 0 40px;
+    display: var(--displayFlex);
+    align-items:  var(--center);
+    color: var(--colorBlack);
+    border: 1px solid #f8f8f8;
+}
+.featuredCRM{
+    background: linear-gradient(to right,#e8f4ff 30%, var(--colorWhite) var(--hundredPercent));
+}
+.workPlace{
+    background: linear-gradient(to right,#ffeded 0%, var(--colorWhite) var(--hundredPercent));
+}
+.mainAPP figure{
+    height: 110px;
+    min-width: 80px;
+    display: var(--displayFlex);
+    align-items:  var(--center);
+    justify-content: var(--spaceBetween);
+    flex-direction: var(--column);
+}
+.mainAPP figure span{
+    display: var(--displayInlineBlock);
+    height: 80px;
+    width: 71px;
+}
+.workPlace figure span{
+    background-size: 1000px;
+    background-position: -74px 0;
+}
+.featuredCRM figure span{
+    background-size: 1410px;
+    background-position: -890px 10px;
+}
+.featuredCRM figure h3{
+    font-size: 18px;
+}
+.workPlace figure h3{
+    font-size: 16px;
+}
+.mainAPP figure h3{
+    letter-spacing: 1px;
+}
+.mainAPPinfo{
+    width: var(--hundredPercent);
+    margin-left: 40px;
+}
+.mainAPPinfo h2{
+    font-size: 26px;
+}
+.mainAPPinfo p{
+    width: 80%;
+    font-size: 1.05rem;
+    margin: 10px 0 15px;
+    line-height: 27px;
+    font-family: var(--puvi);
+}    
+.featuredCRM p{
+    width: 92%;
+    font-size: .98rem;
+
+}
+.mainAPPinfo span{
+    color: var(--colorWhite);
+    background: #f0483e;
+    padding: 8px 20px;
+    display:var(--displayInlineBlock);
+    text-transform: var(--upperCase);
+    font-size: 13.5px;
+    font-weight: bold;
+}
+.allAPPinfo{
+    list-style: var(--none);
+    display: var(--displayGrid);
+    grid-template-columns: repeat(2,1fr);
+}
+.allAPPinfo a{
+    color: var(--colorBlack);
+    padding: 25px 0 25px 25px;
+    border-right: 1px solid rgb(239 239 239 / 80%);
+    border-bottom: 1px solid rgb(239 239 239 / 80%);
+}
+.allAPPinfo li{
+   height: var(--hundredPercent);
+   display: var(--displayFlex);
+   width: var(--hundredPercent);
+}
+.allAPPinfo a:nth-child(even){  
+    border-right: 0;
+}
+.allAPPinfo a:nth-last-child(-n+2){  
+    border-bottom: 0;
+}
+
+.allAPPinfo li span{
+    display: var(--displayInlineBlock);
+    height: 60px;
+    min-width: 55px;
+    background-size: 1718px !important;
+}    
+
+.allAPPinfo li .remoteappInfo{
+    width: calc(var(--hundredPercent) - 60px);
+    margin-left: 20px;
+}
+.remoteappInfo h3{
+    font-size: 19px;
+}
+.remoteappInfo p{
+    font-size: 13.5px;
+    line-height: 18px;
+    width: 90%;
+    margin: 5px 0 20px;
+    font-family: var(--puvi);
+}
+.remoteappInfo label{
+    font-size: 12px;
+    padding: 6px 8px;
+    color: var(--skyBlue);
+    border: 1px solid var(--skyBlue);
+    cursor: pointer;
+}    
+#workPlaceAssist{
+    background-position: -346px -170px;
+}
+#workPlaceMeeting{
+    background-position: -3px -170px;
+}
+#workPlaceSprints{
+    background-position: -1548px -113px;
+}
+#workPlaceCliq{
+    background-position: -1204px -112px;
+}
+#featuredBooks{
+    background-position: 0 -111px;
+}
+#featuredMail{
+    background-position: -1147px -111px;
+}
+#featuredPeople{
+    background-position: -632px -171px;;
+}
+#featuredProjects{
+    background-position: -1491px -111px;
+}
+.bundleProducts{
+    width: 63%;
+    height: var(--auto);
+    border: 1px solid #efefef;
+    position: var(--positionRelative);
+    margin: 90px var(--auto) 100px;
+
+}
+.bundleProducts > span{
+    position: var(--positionAbsolute);
+    left: 50%;
+    top: -8px;
+    transform: translate(-50%,0);
+    padding: 0 8px;
+    background: var(--colorWhite);
+
+    letter-spacing: 2px;
+    font-size: 14px;
+    opacity: .9;
+}
+.bundleProducts .zohoOne{
+    height: 200px;
+    width: var(--hundredPercent);
+    padding: 40px 80px;
+    display: var(--displayFlex);
+    align-items:  var(--center);
+    border-bottom: 1px solid #efefef;
+}
+.zohoOne figure{
+    height: var(--hundredPercent);
+    min-width: 100px;
+    text-align:  var(--center);
+}
+.zohoOne figure span{
+    display: var(--displayInlineBlock);
+    height: 70%;
+    width: 70%;
+    background-size: 1000px;
+    background-position: -732px 3px;
+}
+.zohoOne figure h3{
+    opacity: .8;
+    font-size: 21px;
+    font-family: var(--puvi);
+}
+.zohoOneInfo{
+    margin-left: 50px;
+    display: var(--displayFlex);
+    flex-direction: var(--column);
+    gap: 20px;
+}
+.zohoOneInfo p{
+    line-height: 28px;
+    font-family: var(--puvi);
+}
+.zohoOneInfo a{
+    width: 77px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--skyBlue);
+    color: var(--skyBlue);
+}
+.bundleProducts .bundledList{
+    height: calc(var(--hundredPercent) - 200px);
+    padding: 30px 20px 50px;
+    display: var(--displayGrid);
+    grid-template-columns: repeat(3,1fr);
+}
+.bundledList > a{
+    padding: 20px;
+    color: var(--colorBlack);
+}
+.bundledList > a li{
+    list-style: var(--none);
+    width: var(--hundredPercent);
+    gap: 15px;
+    display: var(--displayFlex);
+}
+
+.bundledList .bundledIcon{
+    height: 70px;
+    min-width: 70px;
+    background-size: 935px;
+}
+#zohoCRM{
+    background-position: 6px 0px;
+}
+#zohoFinance{
+    background-position: -132px 0px;
+}
+#zohoWorkplace{
+    background-position: -64px 0px;
+}
+#zohoPeople{
+    background-position: -344px 0px;
+}
+#zohoITmanagement{
+    background-position: -198px 0px;
+}
+#zohoMarketingPlus{
+    background-position: -868px 0px;
+}
+.projectInfo h2{
+    font-size: 20px;
+    letter-spacing: .5px;
+    opacity: .9;
+}
+.projectInfo p{
+    font-family: var(--puvi);
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 5px 0;
+    max-width: 250px;
+}    
+.projectInfo h5{
+    font-family: var(--puviLight);
+    display: inline;
+    color: var(--skyBlue);
+    font-size: 14px;
+    border-bottom: 1px solid var(--skyBlue);
+} 
+
+main {
+    width: 70%;
+    height: var(--auto);
+    margin: var(--auto);
+    padding: 20px 0;
+}
+.header {
+    text-align:  var(--center);
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.container {
+    width: var(--hundredPercent);
+    height: var(--auto);
+    margin: 35px 0;
+    display: var(--displayGrid);
+    grid-template-columns: repeat(3, 1fr);
+}
+.container:nth-last-child(1){
+    margin-top: 50px;
+}
+.container .innerContainer {
+    padding:0  18px;
+    border: var(--none);
+    border-right: 1px solid rgb(229 229 229 / 80%);
+    text-align:  var(--center);
+}
+.innerContainer ul {
+    display: var(--displayGrid);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+.innerContainer ul > a{
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    height: 130px;
+    color: var(--colorBlack);
+    position: var(--positionRelative);
+
+}
+
+.innerContainer ul > a li {
+    width: var(--hundredPercent);
+    height: var(--hundredPercent);
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+    align-items:  var(--center);  
+    transition: .5s ease;
+    cursor: var(--cursorPointer);
+}
+.tip{
+    position: var(--positionAbsolute);
+    top: 0;
+    left: 0;
+    font-size: 9px;
+    padding: 2px 5px;
+    background: #fef07d;
+    color: #c46b0c;
+    letter-spacing: .6px;
+    text-transform: var(--upperCase);
+}
+.extraWidth {
+    grid-column: span 2;
+}
+.container ul a:nth-last-child(-n+3) {
+    border-bottom: 1px solid var(--colorWhite) !important;
+}
+.twoRows ul a:nth-last-child(n+2) {
+    border-bottom: 1px solid #f5f5f5 !important;
+}
+.removeRightBorder {
+    border-right: 1px solid var(--colorWhite) !important;
+}
+.twoRows{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(229 229 229 / 80%);
+}
+.twoRows:nth-last-child(1){
+    border-bottom: 0;
+    margin-top: 30px;
+}
+.humanResources ul a:nth-last-child(-n+3){
+    border-bottom: 1px solid var(--colorWhite) !important;
+}
+.custom ul a:nth-last-child(-n+2){
+    border-bottom: 1px solid var(--colorWhite) !important;
+}
+.categoryTitle {
+    font-size: 1.4rem;
+    padding: 3px 0 10px;
+    letter-spacing: .5px;
+}
+.innerContainer p {
+    width: 90%;
+    margin: var(--auto);
+    font-size: .95rem;
+    opacity: .8;
+    line-height: 23px;
+    font-family: var(--puvi);
+}
+.container ul li figure,
+.allAPPinfo li span{
+    background: url("https://www.zohowebstatic.com/sites/default/files/zp-global-icon-sprite-2x.png") var(--noRepeat);
+}
+.container ul li figure {
+    display: var(--displayInlineBlock);
+    height: 60px;
+    width: 70px;
+    background-repeat: var(--noRepeat);
+    background-size: 590px ;
+}
+.container ul li figure:not(.largeImage) {
+    display: var(--displayInlineBlock);
+    height: 40px;
+    width: 40px;
+}
+.container ul li h6{
+    font-size: .6rem;
+    text-transform: var(--upperCase);
+    margin-top: 5px;
+    font-family: var(--puviLight);
+    line-height: 16px;
+    letter-spacing: .4px;
+}
+.extraWidth h6 {
+    font-size: .9rem !important;
+    opacity: .8;
+    font-family: var(--puvi) !important;
+}
+#crm{
+    background-position: -124px -2px;
+}
+#bigin{
+    background-size: 1041px ;
+    background-position: 4px -135px;
+}
+#campaigns{
+    background-position: -354px 0 ;
+}
+#forms{
+    background-size: 1075px ;
+    background-position: -142px -71px;
+}
+#sign{
+    background-size: 1087px ;
+    background-position: -179px -69px;
+}
+#social{
+    background-size: 1087px ;
+    background-position: -215px -69px;
+}
+#salesiq{
+    background-position: -272px -75px;
+}
+#survey{
+    background-size: 1120px;
+    background-position: -297px -75px;
+}
+#sites{
+    background-position: -429px -77px;
+}
+#pagesense{
+    background-size: 1086px;
+    background-position: -108px -71px;
+}
+#backstage,#commerce,#analytics{
+    background-size: 1100px;
+}
+#backstage{
+    background-position: -585px -109px;
+}
+#commerce{
+    background-position: -549px -109px;
+}
+#bookings{
+    background-size: 1086px;
+    background-position: -795px -108px;
+}
+.commomSize{
+    background-size: 1130px !important;
+}
+#marketingAuto{
+    background-position: -865px -112px;
+}
+#landingpage{
+    background-position: -730px -155px;
+}
+#thrive{
+    background-position: -766px -157px;
+}
+#webinar{
+    background-position: -862px -152px;
+}
+#mail,#recruit,#vault,
+#creator,#desk,#books,#crm{
+    background-size: 960px;
+}
+#mail{
+    background-position: -254px -3px;
+}
+#metting,#cliq{
+    background-size: 580px;
+}
+#metting{
+    background-position: -500px 2px;
+}
+#cliq{
+    background-position: -540px 2px;
+}
+#voice{
+    background-position: -549px -154px;
+}
+#workdrive{
+    background-position: -903px -111px;
+}
+#writer{
+    background-position: -865px -72px;
+}
+#sheet{
+    background-position: -903px -72px;
+}
+#show{
+    background-position: -940px -72px;
+}
+#projects{
+    background-position: -978px -70px;
+}
+#sprints{
+    background-position: -1016px -73px;
+}
+#bugtracker{
+    background-position: -1053px -73px;
+}
+#connect{
+    background-position: -1090px -73px;
+}
+#showtime{
+    background-position: -74px -109px;
+}
+#notebook{
+    background-position: -112px -109px;
+}
+#teaminbox,#zeptomail,#learn
+,#voice,#landingpage,#thrive,
+#flow,#sites,#salesiq,#mobiledevice{
+    background-size: 1170px;
+}
+#teaminbox{
+    background-position: -311px -156px;
+}
+#zeptomail{
+    background-position: -352px -156px;
+}
+#learn{
+    background-position: -432px -157px;
+}
+#calendar{
+    background-position: -1056px -113px;
+}
+#desk{
+    background-position: -314px -2px;
+}
+#assist{
+    background-position: -223px -112px;
+}
+#lens{
+    background-position: -35px -148px;
+}
+#books{
+    background-position: 5px -2px;
+}
+#inventory{
+    background-position: -526px -72px;
+}
+#invoice{
+    background-position: -564px -72px;
+}
+#subscription{
+    background-position: -602px -72px;
+}
+#expense{
+    background-position: -638px -72px;
+}
+#checkout{
+    background-position: -677px -74px;
+}
+#payroll{
+    background-position: -790px -111px;
+}
+#recruit{
+    background-position: -380px -2px;
+}
+#people{
+    background-position: -413px -112px;
+}
+#workerly{
+    background-position: -752px -112px;
+}
+#backtowork{
+    background-size: 500px;
+    background-position: 4px -112px;
+}
+#shifts{
+    background-position: -671px -150px;
+}
+#contracts{
+    background-size: 900px;
+    background-position: 7px -273px;
+}
+#vault{
+    background-position: -402px -299px;;
+}
+#servicedesk{
+    background-position: -263px -110px;
+}
+#mobiledevice{
+    background-position: -310px -116px;
+}
+#patchManager{
+    background-position: -677px -111px;
+}
+#remoteAccess{
+    background-position: -75px -150px;
+}
+#site24{
+    background-position: -338px -110px;
+}
+#cloudSiem{
+    background-position: -996px -112px;
+}
+#identity{
+    background-position: -1016px -112px;
+}
+#endpointCentral{
+    background-position: -224px -149px;
+}
+#domainToolkit,#cloudSiem,#flow,
+#qntrl,#research,#webinar{
+    background-size: 1150px;
+}
+#domainToolkit{
+    background-position: -383px -152px;
+}
+#creator{
+    background-position: -192px -2px;
+}
+#catalyst{
+    background-position: -1090px -113px;
+}
+#flow{
+    background-position: -498px -113px;
+}
+#officeInte{
+    background-position: -640px -111px;
+}
+#qntrl{
+    background-position: -459px -152px;
+}
+#research{
+    background-position: -790px -152px;
+}
+#apptics{
+    background-position: -810px -150px;
+}
+#analytics{
+    background-position: -734px -7px
+}
+#dataprep{
+    background-size: 1205px;
+    background-position: -678px -161px;
+}
+#embeddedBI{
+    background-position: -565px -148px;
+}
+
+.container-1 ul a:hover{
+    border-bottom: 1px solid #1aabe2 !important;
+}
+.container-2 ul a:hover{
+    border-bottom: 1px solid #5ab46c !important;
+}
+.container-3 ul a:hover{
+    border-bottom: 1px solid #ea785d !important;
+}
+
+#contract{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.privacyOFZoho{
+    width: 70%;
+    margin: 50px var(--auto) 0;
+    height: 210px;
+}
+.privacyOFZoho div{
+    width: 500px;
+    height: var(--hundredPercent);
+    margin: var(--auto);
+    background: #0F0F11 url("https://www.zohowebstatic.com/sites/default/files/zoho_general_pages/privacy-shield.png")  var(--center) var(--noRepeat);
+    background-size: 160px;
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+    flex-direction: var(--column);
+    align-items:  var(--center);
+}
+.privacyOFZoho h1{
+    color: var(--colorWhite);
+    font-size: 30px;
+}
+.privacyOFZoho p {
+    color: var(--colorWhite);
+    font-size: 18px;
+    font-family: var(--puvi);
+    margin: 5px 0;
+}
+.privacyOFZoho a{
+    color: red;
+    padding: 9px 12px;
+    border: 1px solid #ff0e00;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+.customers{
+    height: 580px;
+    margin: 90px 0 0;
+}
+
+.customers .totalCustomerNum{
+    text-align:  var(--center);
+    font-size: 2.1rem;
+}
+.customerFeedbackDiv{
+    height: 290px;
+    margin-top: 75px;
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+}
+.customerVideo{
+    background: var(--colorBlack) url("https://www.zohowebstatic.com/sites/default/files/zoho_general_pages/zoho-home-testimonial-nicolas-2x.jpg")  var(--center) var(--noRepeat);
+    background-size: cover;
+    height: var(--hundredPercent);
+    width: 520px;
+    padding: 25px;
+    color: var(--colorWhite);
+    display: var(--displayFlex);
+    justify-content: end;
+    flex-direction: var(--column);
+    position: var(--positionRelative);
+    cursor: pointer;
+}
+.customerVideo aside{
+    position: var(--positionAbsolute);
+    top: 0;
+    z-index: 1;
+    left: 0;
+    height: var(--hundredPercent);
+    width: var(--hundredPercent);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.73) var(--hundredPercent));
+}
+.customerQuote{
+    font-size: 19px;
+    line-height: 27px;
+    position: var(--positionRelative);
+    z-index: 2;
+}
+.customerName{
+    font-size: 11px;
+    margin: 10px 0 0;
+    position: var(--positionRelative);
+    z-index: 2;
+    font-family: var(--puvi);
+}
+.customerName span{
+    font-size: 13px;
+    font-weight: bold;
+}
+.playBtn{
+    background: #f0483e;
+    font-size: 11px;
+    padding: 6px 8px;
+    text-transform: var(--upperCase);
+    bottom: 25px;
+    position: var(--positionAbsolute);
+    right: 25px;
+    color: var(--colorWhite);
+    z-index: 2;
+}
+.playBtn i{
+    margin-right: 10px;
+}
+.customers .customerList{
+    width: 620px;
+    height: var(--hundredPercent);
+    padding-left: 80px;
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+    flex-direction: var(--column);
+}
+.customerList ul{
+    height: var(--auto);
+    width: var(--hundredPercent);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.customerList ul li{
+    height: 60px;
+    text-align:  var(--center);
+    display: var(--displayFlex);
+    align-items:  var(--center);
+}
+.customerLogo{
+    display: var(--displayInlineBlock);
+    background: url("https://www.zohowebstatic.com/sites/default/files/zoho-customers-top-brands.png") var(--noRepeat);
+}
+#hyatt{
+    width: 128px;
+    height: 71%;
+    background-size: 1181px;
+    background-position: -1059px 0px;
+}
+#kpmg{
+    height: var(--hundredPercent);
+    width: 71px;
+    background-size: 1108px;
+    background-position: -153px 10px;
+}
+#loreal{
+    height: 46%;
+    width: 66%;
+    background-size: 1130px;
+    background-position: -466px -53px;
+}
+#mahindra{
+    height: 46%;
+    width: 73%;
+    background-size: 1088px;
+    background-position: -117px -50px;
+}
+#tata{
+    height: 65%;
+    width: 72%;
+    background-size: 988px;
+    background-position: -106px -76px;
+}
+#suzuki{
+    height: 74%;
+    width: 18%;
+    background-size: 1029px;
+    background-position: -414px 0;
+}
+.customerList a{
+    font-size: 13px;
+    text-transform: var(--upperCase);
+    text-decoration: underline;
+    display: var(--displayInlineBlock);
+    color: var(--skyBlue);
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-top: 13px;
+}
+.promtionSection{
+    height: var(--auto);
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+    gap: 20px;
+}
+.promtionSection div{
+    width: 280px;
+}
+.promtionSection div h3{
+    display: var(--displayFlex);
+    font-size: 1.1rem;
+}
+.promtionSection div h3 span{
+    display: var(--displayInlineBlock);
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    
+}
+.promtionSection div p{
+    font-size: 15px;
+    width: 85%;
+    line-height: 24px;
+    margin: 10px 0 5px;
+    font-family: var(--puvi);
+}
+.promtionSection div a{
+    border-bottom: 1px solid var(--skyBlue);
+    color: var(--skyBlue);
+    font-size: .9rem;
+    width: 80%;
+    margin-top: 10px;
+    font-family: var(--puvi);
+}
+.promtionSection span{
+    background-size: 1500px;
+}
+.developer span{
+    background-position: -433px -48px;
+}
+.marketPlace span{
+    background-position: -462px -46px;
+}
+footer{
+    height: var(--auto);
+    margin-top: 90px;
+    background: #333;
+    color: #ccc;
+    padding: 50px 0 40px;
+}
+.typesOfSection{
+    width: var(--hundredPercent);
+    height: var(--auto);
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+}
+.typesOfSection ul{
+    min-width: 260px;
+}
+.typesOfSection ul h5{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.typesOfSection ul li,h6{
+    font-size: 13.9px;
+    width: var(--auto);
+    padding: 4.5px 0;
+}
+.typesOfSection ul li a{
+    color: #ccc;
+    font-family: var(--puvi);
+    line-height: 22px;
+
+}
+.contacts li{
+    margin-left: 10px;
+}
+.searchField{
+    border: 1px solid #666;
+    width: 49%;
+    height: 43px;
+    margin: 50px var(--auto);
+    display: var(--displayFlex);
+}
+.searchField input{
+    color: #ccc;    
+    height: var(--hundredPercent);
+    width: calc(var(--hundredPercent) - 45px);
+    padding-left: 10px;
+    font-size: 15px;
+    background: transparent;
+    border: var(--none);
+    font-family: var(--puvi);
+    outline: var(--none);
+}
+.searchField .seachIcon{
+    display: var(--displayInlineBlock);
+    width: 45px;
+    height: var(--hundredPercent);
+    background: #2d2d2d url("https://www.zohowebstatic.com/sites/default/files/help-new-sprite.png") var(--noRepeat) ;
+    background-position: -121px -14px;
+    background-size: 160px;
+    cursor: pointer;
+}
+.listOfPrivacy,.listOfSocial{
+    display: var(--displayFlex);
+    justify-content:  var(--center);    
+    gap: 20px;
+    font-size: .67rem;
+}
+.listOfPrivacy li{
+    border-right:1px solid #ccc ;
+    padding-right:10px;
+
+}
+.listOfPrivacy li:last-child{
+    border-right:0 ;
+}
+.listOfPrivacy li a{
+    color: #ccc;
+    font-family: var(--puvi);
+}
+footer .copyRights,footer  .language{
+    text-align:  var(--center);
+    margin: 15px 0;
+    font-size: .68rem;
+    font-family: var(--puvi);
+}
+footer  .language{
+    display: var(--displayFlex);
+    justify-content:  var(--center);
+    align-items:  var(--center);
+    gap: 3px;
+    margin: 20px 0;
+}
+.languageSpriteImg{
+    background: url("https://www.zohowebstatic.com/sites/default/files/zoho_general_pages/zh-language-sprite.png") var(--noRepeat);
+}
+footer  .language span{
+    display: var(--displayInlineBlock);
+    height: 20px;
+    width: 20px;
+    background-size: 300px;
+    background-position: -3px -16px
+}
+.listOfSocial{
+    height: 30px;
+    gap: 9px;
+}
+.listOfSocial a{
+    height: var(--hundredPercent);
+    width: 30px;
+}
+.socialIcon{
+    background-size: 1505px;
+}
+#twitter{
+    background-position: -726px -76px;
+}
+#facebook{
+    background-position: -668px -76px;
+}
+#youtube{
+    background-position: -697px -76px;
+}
+#linkedIn{
+    background-position: -756px -76px;
+}
+#instagram{
+    background-position: -785px -76px;
+}
