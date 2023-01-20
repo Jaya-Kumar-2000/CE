@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Marksheet{
+    width: 40%;
+    height: 970px;
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(to right, rgb(77, 160, 176), rgb(211, 157, 56));
+}
+.Marksheet > p{
+    margin: 15px 0px;
+}
+.TamilNadu_icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 10px auto;
+    background-image:url("tamilnadu_logo.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+.certicate_no{
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 20px;
+    top: 10px;
+}
+.certicate_no > span:nth-child(1){
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    
+}
+.certicate_no > span:nth-child(2){
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.header_ofMS{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.header_ofMS > .img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    background-image: url("Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_ofMS > .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.header_ofMS > .QR_code{
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url("qr_code.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#name_exam,#mark_table{
+    width: 100%;
+    height: auto; 
+}
+table,td,th{
+    border: 1px solid black;
+}
+#name_exam > tr > th,td{
+    padding: 10px;
+}
+#name_exam,#mark_table{
+    border-collapse: collapse;
+}
+.marks_total > span{
+    margin-right: 20px;
+    
+}
+.dob_border{
+    border: none!important;
+}
+.center_do{
+    text-align: center;
+}
+th{
+    padding: 10px;
+}
