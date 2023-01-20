@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100%;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 30px;
+}
+.headline{
+    text-align: center;
+    margin-top: 30px;
+}
+.sales,.customer,.email{
+    /* height: 100%; */
+    width: 33.3%;
+    text-align: center;
+
+}
+.customer{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.salesp{
+    margin-top: 15px;
+    font-size: 19px;
+}
+.customerp{
+    margin-top: 15px;
+    font-size: 19px;
+
+}
+.emailp{
+    margin-top: 15px;
+    font-size: 19px;
+
+}
+.customersec1{
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+}
+.desk{
+    height: 100%;
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-size: 1500px; */
+    /* background-position:0px 200px ; */
+}
+.deskp{
+    margin-top: 10px;
+}
+.deskimg{
+    height: 60%;
+    width: 28%;
+    /* border: 1px solid black; */
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: -327px 5px;
+    margin-left: 110px;
+
+}
+.assist{
+    height: 100%;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+.customersec2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.lens{
+    height: 100%;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; 
+}
+.customerempty{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 10%;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    margin-top: 30px;
+}
+.financeh1{
+    text-align: center;
+    margin-top:30px ;
+}
+.financep{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 19px;
+}
+.finance{
+    width: 100%;
+    margin-top: 40px;
+}
+.financesec1{
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    display: flex;
+}
+.books{
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    height: 100%;
+
+}
+.inventory{
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    height: 100%;
+
+}
+.financesec2{
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+.invoice{
+width: 33.3%;
+height: 100%;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+
+}
+.subscriptions{
+    width: 33.3%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    
+}
+.expense{
+    width: 33.3%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.financesec3{
+    height: 120px;
+    width: 100%;
+}
+.checkout{
+    width: 33.3%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.salessec1{
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    display: flex;
+}
+.crm{
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    height: 100%;
+}
+.bigin{
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    height: 100%;
+
+}
