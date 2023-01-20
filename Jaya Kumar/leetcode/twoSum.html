@@ -1,0 +1,22 @@
+
+<script>
+let twoSum = function (nums, target) {
+    if (2 <= nums.length <= 10000 && -1000000000 <= target <= 1000000000) {
+        for (i = 0; i < nums.length; i++) {
+            if (-1000000000 <= nums[i] <= 1000000000) {
+                let count = nums[i]
+                for (j = i + 1; j < nums.length; j++) {
+                    count += nums[j]
+                    if (count == target) {
+                        return [i, j];
+                    }
+                    else {
+                        count = nums[i];
+                    }
+                }
+            }
+        }
+    }
+}
+console.log(twoSum([2, 7, 11, 15],9))
+</script> 
