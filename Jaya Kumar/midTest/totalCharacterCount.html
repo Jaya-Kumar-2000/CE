@@ -1,0 +1,22 @@
+<script>
+    function calculate(str,refStr){
+        str=str.toLowerCase();
+        refStr=refStr.toLowerCase();
+        let obj={};
+        let count=0;
+        for(let i=0;i<refStr.length;i++){
+            for(let j=0;j<str.length;j++){
+                obj[refStr[i]] = count;
+                if(str[j]==refStr[i]){
+                    count+=1;
+                    obj[refStr[i]] = count;
+                }
+            }
+            count=0;
+        }
+
+        console.log(obj)
+    }
+
+    calculate("Hello World Please","HelpWz")
+</script>

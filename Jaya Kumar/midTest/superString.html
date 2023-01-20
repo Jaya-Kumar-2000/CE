@@ -1,0 +1,18 @@
+<script>
+    let X = ["ceo"];
+    let Y = ["oe"]
+    let startIndex=0;
+    let endIndex=0;
+
+    for (let i = 0; i < Y.length; i++) {
+        for (j = 0; j < X.length; j++) {
+            for(k=0; k< Y[i].length;k++){
+                if(X[j].includes(Y[i][k])){
+                    console.log(Y[i][k])
+                    startIndex=k;
+                    endIndex=k
+                }   
+            }
+        }
+    }
+</script>
