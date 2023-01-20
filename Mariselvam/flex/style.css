@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Work+Sans&display=swap');
 
 html,
 body {
@@ -11,19 +9,18 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Zoho_Puvi_Regular';
 }
 
 .Main_page {
     width: 100%;
     height: 100%;
     display: flex;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .left_side_sec {
     width: 15%;
     height: 100%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +29,7 @@ body {
 
 .left_logo {
     width: 50px;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,60 +47,65 @@ body {
     /* border: 1px solid black; */
 }
 
-.full_li_list>.lists_only>.li_lists {
+
+.menu_bar_ul{
+    list-style-type: none;
     width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
 }
 
-.full_li_list>.lists_only>.li_lists>.list_values {
-    width: 220px;
+.menu_bar_li{
+    width: 100%;
+    height: auto;
     display: flex;
-    align-items: center;
+    padding: 15px 0px;
     color: #848491;
+    position: relative;
 }
 
-.full_li_list>.lists_only>.li_lists>.list_values>i {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu_bar_li:hover{
+    background-color: #c8c8d2;
+    color: #313234;
+    cursor: pointer;
+}
+.menu_bar_icon{
+    width: 20px;
+    margin: 0px 10px;
     font-size: 20px;
 }
-
-.full_li_list>.lists_only>.li_lists>.list_values>span {
+.menu_bar_text{
+    width: 130px;
+    margin: 0px 10px;
     font-size: 20px;
-    display: flex;
 }
 
 .get_start_btn {
     width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    position: absolute;
+    right: 15px;
+    padding: 2px;
     border-radius: 5px;
     border: 1px solid rgb(130, 127, 127);
     color: rgb(59, 105, 222);
     font-size: 20px;
+    text-align: center;
 }
 
 .space_update {
     width: 100%;
-    height: 20%;
+    height: auto;
+    padding: 10px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* border: 1px solid black; */
 }
 
 .space_div {
     width: 100%;
-    height: 50px;
-    font-size: 15px;
+    height: auto;
+    padding: 50px 0px;
     color: white;
     font-weight: bold;
     display: flex;
@@ -113,14 +115,19 @@ body {
 }
 
 
-.space_div>.space {
+.space {
     width: 70%;
+    height: auto;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.space_div>.space>.add_icon {
+.storage_value{
+    font-size: 15px;
+}
+.add_icon {
     width: 20px;
     height: 20px;
     color: rgb(76, 175, 211);
@@ -133,24 +140,29 @@ body {
 
 .progress_child {
     width: 50%;
-    height: 100%;
+    padding: 2px 0px;
+    height: auto;
     background-color: rgb(91, 146, 209);
     position: absolute;
+    border-radius: 2px;
+    top: 0;
+    bottom: 0;
 }
 
 .progress {
     width: 70%;
-    height: 5px;
+    height: auto;
+    padding: 2px 0px;
     position: relative;
     border: 1px solid #3f4348;
     background-color: #313234;
+    border-radius: 2px;
 }
 
-.space_update>button {
+.upgrade_div {
     border: none;
     width: 70%;
     height: 35px;
-    font-size: 16px;
     background: none;
     display: flex;
     justify-content: space-around;
@@ -158,6 +170,10 @@ body {
     border: 1px solid rgb(76, 175, 211);
     color: white;
     border-radius: 4px;
+}
+
+.Upgrade_span{
+    font-size: 16px;
 }
 
 
@@ -169,47 +185,48 @@ body {
     padding: 20px;
 }
 
-.right_side_page>.input_eddie {
+.input_eddie {
     width: 100%;
-    height: 70px;
+    height: auto;
+    padding: 0px 0px 30px 0px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(200, 200, 200, .2);
 }
 
-.right_side_page>.input_eddie>.search_input {
+.search_input {
     width: 50%;
-    height: 40px;
+    height: auto;
     position: relative;
     display: flex;
     align-items: center;
     color: #848491;
 }
 
-.right_side_page>.input_eddie>.search_input>span {
+.search_input_icon{
     position: absolute;
 }
 
-.right_side_page>.input_eddie>.search_input>input {
+.search_input_box{
     width: 100%;
-    height: 40px;
+    height: auto;
     padding: 0px 0px 0px 30px;
     border: none;
     outline: none;
     font-size: 18px;
 }
 
-.right_side_page>.input_eddie>.icon_lobanovskiy {
+.icon_lobanovskiy {
     width: 15%;
-    height: 40px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.right_side_page>.input_eddie>.icon_lobanovskiy .select_option {
+.select_option {
     width: 80%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,7 +237,7 @@ body {
 
 .Main_Photos {
     width: 100%;
-    height: 150px;
+    height: 12%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -228,31 +245,35 @@ body {
     border-bottom: 1px solid rgba(200, 200, 200, .2);
 }
 
-.Main_Photos>h3 {
+.photo_Head {
     font-size: 25px;
-    font-family: 'Raleway', sans-serif;
 }
 
-.Main_Photos>.icons_content {
+.icons_content {
     width: 100%;
-    height: 30px;
+    height: auto;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.Main_Photos>.icons_content>.icons {
+.upload_icons{
     width: 10%;
     height: 100%;
-    font-size: 25px;
     color: #bbbbbf;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
+.Folder_icons{
+    font-size: 25px;
+}
+
 .tooltiptext {
     width: 70px;
-    height: 20px;
+    height: auto;
+    padding: 5px 0px;
     background-color: rgb(255, 252, 252);
     border: 1px solid rgba(200, 200, 200, .6);
     color: rgb(17, 17, 17);
@@ -262,7 +283,7 @@ body {
     border-radius: 3px;
     position: absolute;
     z-index: 1;
-    bottom: -30px;
+    bottom: -40px;
     left: -10px;
     font-size: 12px;
 }
@@ -286,23 +307,27 @@ body {
     border-bottom-color: white;
 }
 
-.Main_Photos>.icons_content>.content {
-    width: 16%;
+.image_filter {
+    width: 15%;
     height: 100%;
     display: flex;
 }
 
-.Main_Photos>.icons_content>.content>button {
+.image_filter_ul {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.image_filter_li{
+    padding: 5px 10px;
+    border-radius: 3px;
     font-size: 16px;
-    border: none;
-    outline: none;
-    background: none;
-    border-radius: 5px;
 }
 
-.Main_Photos>.icons_content>.content>button:nth-child(1) {
+.filter_name{
     background-color: #3f4348;
     color: white;
 }
@@ -321,9 +346,9 @@ body {
     height: calc(100% - 240px);
 }
 
-.All_photos>.Image_content {
+.Image_content {
     width: 250px;
-    height: 280px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -331,42 +356,16 @@ body {
     margin: 10px 0px;
 }
 
-.All_photos>.Image_content>.img {
+.All_photos_image{
     width: 100%;
-    height: 200px;
-    background-image: url('NATURE WALLPAPER.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 316px;
+    height: auto;
 }
 
-.All_photos>.Image_content:nth-child(2) {
-    position: relative;
-    background-color: #e7e7e8;
-    border-radius: 5px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+.photo_name{
+    padding: 20px 0px;
 }
 
-.All_photos>.Image_content:nth-child(2)>.img {
-    position: relative;
-}
-
-.All_photos>.Image_content:nth-child(2)>.img>.bg {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(77, 80, 77, .8);
-    position: absolute;
-}
-
-.All_photos>.Image_content:nth-child(2)>span {
-    position: absolute;
-    color: green;
-    right: 20px;
-    font-size: 40px;
-    z-index: 99;
-}
-
-.All_photos>.Image_content>h5 {
+.photo_size{
     color: #848491;
 }
 
@@ -374,12 +373,11 @@ body {
 /* scroll bar */
 
 
-/* width */
 ::-webkit-scrollbar {
     width: 4px;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: rgb(104, 102, 102);
     border-radius: 10px;

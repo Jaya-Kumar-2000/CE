@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="style.css" type="text/css" />
 
+    <link href="https://www.zohowebstatic.com/sites/all/themes/zoho/css/zfont.css" rel="stylesheet"/>
+
 
 
 
@@ -22,70 +24,54 @@
 
 <body>
 
-    <section class="Main_page">
+    <div class="Main_page">
 
-        <section class="left_side_sec">
+        <div class="left_side_sec">
 
-            <span class="left_logo"><i class="fa-brands fa-dropbox"></i></span>
+            <i class="fa-brands fa-dropbox left_logo"></i>
 
 
             <div class="full_li_list">
 
                 <div class="lists_only">
-                    <div class="li_lists">
 
-                        <div class="list_values">
-                            <i class="fa-regular fa-file-lines"></i>
-                            <span class="content">Files</span>
-                        </div>
 
-                    </div>
+                    <ul class="menu_bar_ul">
 
-                    <div class="li_lists">
+                        <li class="menu_bar_li">
+                            <i class="fa-regular fa-file-lines menu_bar_icon"></i>
+                            <span class="menu_bar_text">Files</span>
+                        </li>
 
-                        <div class="list_values">
-                            <i class="fa-regular fa-image"></i>
-                            <span class="content">Photos</span>
-                        </div>
+                        <li class="menu_bar_li">
+                            <i class="fa-regular fa-image menu_bar_icon"></i>
+                            <span class="menu_bar_text">Photos</span>
+                        </li>
 
-                    </div>
+                        <li class="menu_bar_li">
+                            <i class="fa-solid fa-retweet menu_bar_icon"></i>
+                            <span class="menu_bar_text">Share</span>
+                        </li>
 
-                    <div class="li_lists">
+                        <li class="menu_bar_li">
+                            <i class="fa-solid fa-link menu_bar_icon"></i>
+                            <span class="menu_bar_text">Links</span>
+                        </li>
 
-                        <div class="list_values">
-                            <i class="fa-solid fa-retweet"></i>
-                            <span class="content">Share</span>
-                        </div>
+                        <li class="menu_bar_li">
+                            <i class="fa-regular fa-clock menu_bar_icon"></i>
+                            <span class="menu_bar_text">Events</span>
+                        </li>
 
-                    </div>
+                        <li class="menu_bar_li">
+                            <i class="fa-solid fa-arrow-up-from-bracket menu_bar_icon"></i>
+                            <span class="menu_bar_text">Get started</span>
+                            <span class="get_start_btn">3</span>
+                        </li>
 
-                    <div class="li_lists">
 
-                        <div class="list_values">
-                            <i class="fa-solid fa-link"></i>
-                            <span class="content">Links</span>
-                        </div>
 
-                    </div>
-
-                    <div class="li_lists">
-
-                        <div class="list_values">
-                            <i class="fa-regular fa-clock"></i>
-                            <span class="content">Events</span>
-                        </div>
-
-                    </div>
-
-                    <div class="li_lists">
-
-                        <div class="list_values">
-                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                            <span class="content">Get started</span>
-                        </div>
-
-                        <span class="get_start_btn">3</span>
-                    </div>
+                    </ul>
                 </div>
 
 
@@ -97,7 +83,9 @@
                     <div class="space_div">
 
                         <div class="space">
-                            <span><span>50GB / </span>100GB</span>
+                            <p>
+                                <span class="storage_value"> 50GB / </span><span class="storage_value">100GB</span>
+                            </p>
 
                             <i class="fa-solid fa-plus add_icon"></i>
                         </div>
@@ -110,27 +98,33 @@
 
                     </div>
 
-                    <button><span class="material-symbols-outlined">
+                    <div class="upgrade_div">
+                        <span class="material-symbols-outlined">
                             arrow_upward
-                        </span> Upgarde account</button>
+                        </span>
+
+                        <span class="Upgrade_span">
+                            Upgarde account
+                        </span>
+                    </div>
                 </div>
 
             </div>
 
-        </section>
+        </div>
 
 
-        <section class="right_side_page">
+        <div class="right_side_page">
 
             <div class="input_eddie">
 
                 <div class="search_input">
 
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined search_input_icon">
                         search
                     </span>
 
-                    <input type="text" placeholder="Search...">
+                    <input class="search_input_box" type="text" placeholder="Search...">
 
                 </div>
 
@@ -155,30 +149,32 @@
 
             <div class="Main_Photos">
 
-                <h3>Photos</h3>
+                <p class="photo_Head">Photos</p>
 
 
                 <div class="icons_content">
 
-                    <div class="icons">
+                    <div class="upload_icons">
 
-                        <i class="fa-solid fa-file-arrow-up"></i>
+                        <i class="fa-solid fa-file-arrow-up Folder_icons"></i>
 
-                        <i class="fa-regular fa-folder-closed"></i>
+                        <i class="fa-regular fa-folder-closed Folder_icons"></i>
 
-                        <i class="fa-regular fa-folder-closed"></i>
+                        <i class="fa-regular fa-folder-closed Folder_icons"></i>
 
-                        <i class="fa-regular fa-trash-can"></i>
+                        <i class="fa-regular fa-trash-can Folder_icons"></i>
 
                         <span class="tooltiptext">Upload</span>
 
                     </div>
 
-                    <div class="content">
+                    <div class="image_filter">
 
-                        <button>Name</button>
-                        <button>Size</button>
-                        <button>Modified</button>
+                        <ul class="image_filter_ul">
+                            <li class="image_filter_li filter_name">Name</li>
+                            <li class="image_filter_li">Size</li>
+                            <li class="image_filter_li">Modified</li>
+                        </ul>
 
 
                     </div>
@@ -192,211 +188,188 @@
 
                 <div class="Image_content">
 
-                    <div class="img">
 
-                    </div>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
-                    <h3>Sad Clown.png</h3>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                    <h5>3MB</h5>
-
-
-                </div>
-
-                <div class="Image_content">
-
-                    <span class="material-symbols-outlined">
-                        check_circle
-                    </span>
-
-                    <div class="img">
-
-                        <div class="bg">
-
-                        </div>
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
-                    </div>
+                    <div class="bg"></div>
 
-                    <h3>Sad Clown.png</h3>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                    <h5>3MB</h5>
-
-
-                </div>
-
-                <div class="Image_content">
-
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
 
-                </div>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                <div class="Image_content">
-
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
 
-                </div>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                <div class="Image_content">
-
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
 
-                </div>
-                <div class="Image_content">
+                    <p class="photo_name">Sad Clown.png</p>
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
 
-                </div>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                <div class="Image_content">
-
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
 
-                </div>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                <div class="Image_content">
-
-                    <div class="img">
-
-                    </div>
-
-                    <h3>Sad Clown.png</h3>
-
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
                 <div class="Image_content">
 
-                    <div class="img">
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
 
-                    </div>
 
-                    <h3>Sad Clown.png</h3>
+                    <p class="photo_name">Sad Clown.png</p>
 
-                    <h5>3MB</h5>
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
+
+
+                </div>
+
+                <div class="Image_content">
+
+                    <img class="All_photos_image" src="NATURE WALLPAPER.jpg" alt="">
+
+
+                    <p class="photo_name">Sad Clown.png</p>
+
+                    <p class="photo_size">3MB</p>
 
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
 
-    </section>
+    </div>
 
     <script src="script.js">
 
