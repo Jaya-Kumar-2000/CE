@@ -15,12 +15,14 @@ body {
 .Main_page {
     width: 100%;
     height: 100%;
+    clear: both;
 }
 
 .left_side_sec {
     width: 15%;
     height: 100%;
     float: left;
+    position: relative;
     background-color: #3f4348;
 }
 
@@ -39,8 +41,8 @@ body {
 }
 .lists_only{
     width: 100%;
-    height: 630px;
-    float: left;
+    height: auto;
+    margin: 0px 0px 300px 0px;
 }
 
 .menu_bar_ul{
@@ -86,12 +88,8 @@ body {
 .space_update {
     width: 100%;
     height: auto;
-    padding: 10px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 20px;
 }
 
 .space_div {
@@ -99,7 +97,6 @@ body {
     height: auto;
     padding: 50px 0px;
     color: white;
-    display: inline-block;
     font-weight: bold;
 }
 
@@ -153,25 +150,24 @@ body {
 }
 
 .upgrade_div {
-    border: none;
     width: 70%;
     height: auto;
-    background: none;
     border: 1px solid rgb(76, 175, 211);
     color: white;
     border-radius: 4px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
+    clear: right;
+    margin: auto;
 }
 .Upgrade_icon_span{
-    float: left;
     margin-left: 10px;
     line-height: 32px;
+    float: left;
 }
 .Upgrade_span{
     font-size: 16px;
     line-height: 32px;
-    float: right;
     margin-right: 10px;
 }
 
@@ -188,7 +184,7 @@ body {
 .input_eddie {
     width: 100%;
     height: auto;
-    display: inline-block;
+    padding: 40px 0px;
     border-bottom: 1px solid rgba(200, 200, 200, .2);
     
 }
@@ -196,7 +192,7 @@ body {
 .search_input {
     width: 50%;
     height: auto;
-    float:left;
+    height: auto;
     color: #848491;
 }
 
@@ -211,26 +207,27 @@ body {
     border: none;
     outline: none;
     font-size: 18px;
+    float: left;
 }
 .icon_lobanovskiy {
     width: 15%;
     height: auto;
     float: right;
-    line-height: 40px;
-    position: relative;
-    /* display: inline-block; */
 }
-.select_option {
-    width: 80%;
-    height: auto;
-    float: right;text-align: center;
+.icon_lobanovskiy > span{
+    vertical-align: middle;
+    font-size: 20px !important;
 }
+/* .select_option {
+    float: right;
+    text-align: center;
+} */
 
 /* Main_Photos */
 
 .Main_Photos {
     width: 100%;
-    height: 12%;
+    height: auto;
     margin: 20px 0px;
     border-bottom: 1px solid rgba(200, 200, 200, .2);
 }
@@ -243,7 +240,7 @@ body {
     width: 100%;
     height: auto;
     padding: 35px 0px;
-    display: inline-block;
+    clear: left;
     position: relative;
 }
 
@@ -274,7 +271,7 @@ body {
     border-radius: 3px;
     position: absolute;
     z-index: 1;
-    bottom: 0px;
+    bottom: -30px;
     left: -10px;
     font-size: 12px;
 }
@@ -306,14 +303,12 @@ body {
 
 .image_filter_ul {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: auto;
     list-style-type: none;
 }
 .image_filter_li{
     padding: 5px 10px;
+    display: inline-block;
     border-radius: 3px;
     font-size: 16px;
 }
