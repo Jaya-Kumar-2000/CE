@@ -214,3 +214,66 @@ var romanToInt = function (s) {
 
 
 romanToInt("MCMXCIV");
+
+
+// Longest_Common_prefix
+
+var longestCommonPrefix = function (strs) {
+
+    let min_str = "";
+
+    let count = strs[0].length;
+
+    let result = "";
+
+    let obj = {};
+
+    for (let i = 0; i < strs.length; i++) {
+
+        if (strs[i].length <= count) {
+            min_str = strs[i];
+            count = min_str.length;
+
+        }
+
+    }
+
+    console.log(min_str, count);
+
+    for (let i = 0; i < count; i++) {
+        // let char = min_str[i];
+        let char = `${i}+${min_str[i]}`;
+        obj[char] = 0;
+
+        for (let j = 0; j < strs.length; j++) {
+            if (strs[j][i] == min_str[i]) {
+
+                obj[char] += 1
+            }
+        }
+
+    }
+
+    console.log(obj)
+    for (let i = 0; i < count; i++) {
+        let char = `${i}+${min_str[i]}`
+
+        console.log(char);
+
+        if (obj[char] == strs.length) {
+            result += min_str[i];
+        } else {
+
+            i = count
+        }
+    }
+
+
+    return result;
+
+
+
+};
+
+
+longestCommonPrefix(["flower","flow","flight"])
