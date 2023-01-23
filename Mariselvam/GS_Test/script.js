@@ -161,3 +161,9 @@ function Equal_sum(arr) {
 
 Equal_sum([1, 2, 3, 5, 1]);
 
+
+
+// 1.
+
+
+
