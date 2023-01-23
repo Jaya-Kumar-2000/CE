@@ -10,7 +10,6 @@ class CreateObj {
     this.category = category;
     this.payMode = payMode;
   }
-
 }
 
 class Model {
