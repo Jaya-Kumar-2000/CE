@@ -54,7 +54,6 @@ body {
     width: 100%;
     height: auto;
     padding: 15px 0px;
-    color: #848491;
     position: relative;
 }
 
@@ -67,11 +66,15 @@ body {
     width: 20px;
     margin: 0px 10px;
     font-size: 20px;
+    color: #848491;
+
 }
 .menu_bar_text{
     width: 130px;
     margin: 0px 25px;
     font-size: 20px;
+    color: #848491;
+
 }
 
 .get_start_btn {
@@ -96,8 +99,6 @@ body {
     width: 100%;
     height: auto;
     padding: 50px 0px;
-    color: white;
-    font-weight: bold;
 }
 
 
@@ -114,6 +115,8 @@ body {
 
 .storage_value{
     font-size: 15px;
+    color: white;
+    font-weight: bold;
 }
 .add_icon {
     width: 25px;
@@ -153,7 +156,6 @@ body {
     width: 70%;
     height: auto;
     border: 1px solid rgb(76, 175, 211);
-    color: white;
     border-radius: 4px;
     text-align: center;
     padding: 5px 0px;
@@ -164,11 +166,15 @@ body {
     margin-left: 10px;
     line-height: 32px;
     float: left;
+    color: white;
+
 }
 .Upgrade_span{
     font-size: 16px;
     line-height: 32px;
     margin-right: 10px;
+    color: white;
+
 }
 
 
@@ -192,12 +198,12 @@ body {
 .search_input {
     width: 50%;
     height: auto;
-    height: auto;
-    color: #848491;
 }
 
 .search_input_icon{
     position: absolute;
+    color: #848491;
+
 }
 
 .search_input_box{
@@ -208,6 +214,8 @@ body {
     outline: none;
     font-size: 18px;
     float: left;
+    color: #848491;
+
 }
 .icon_lobanovskiy {
     width: 15%;
@@ -247,16 +255,19 @@ body {
 .upload_icons{
     width: 20%;
     height: 100%;
-    color: #bbbbbf;
     float: left;
 }
 
 .Folder_icons{
     font-size: 25px;
+    color: #bbbbbf;
+
 }
 
 .fold_mg_space{
     margin-left: 20px;
+    color: #bbbbbf;
+
 }
 .tooltiptext {
     width: 70px;
