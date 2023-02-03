@@ -1,0 +1,71 @@
+.Analytic_header_Filter{
+    width: 100%;
+    height: auto;
+    font-family: 'Zoho_Puvi_Regular';
+    padding: 70px 0px;
+    display: inline-block;
+}
+.Analytic_header_Filter > .header{
+    width:50%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+.Analytic_header_Filter > .header > h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.Analytic_header_Filter > .header > p > span{
+    color: rgb(233, 229, 229);
+    margin-bottom: 10px;
+}
+.hypen{
+    margin: 0px 10px;
+}
+.Analytic_header_Filter > .filter{
+    width:50%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+.Analytic_header_Filter > .filter > .btns{
+    border-radius: 5px;
+    margin: 0px 0px 0px 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.filter_icon{
+    width:15%;
+    height: 100%;
+    float: right;
+    background-color: rgba(192,231,236,.5);
+    padding: 7px;
+    color: white;
+}
+
+.filter_icon > span{
+    vertical-align: middle;
+}
+.create_btn > p{
+    vertical-align: middle;
+}
+.create_btn{
+    width:15%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    float: right;
+    padding: 9px;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: right;
+}

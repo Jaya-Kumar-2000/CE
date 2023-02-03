@@ -1,0 +1,40 @@
+.Left_nav{
+    width: 50%;
+    height: auto;
+    font-family: 'Zoho_Puvi_Regular';
+    float: left;
+}
+.Left_nav > .Logo{
+    width: 40px;
+    height: 40px;
+    background-image: url("/Images/Analytic_logo.png");
+    background-size: 50px;
+    float: left;
+    background-position: -5px -9px;
+}
+.Left_nav_lists{
+    list-style-type:none;
+}
+.Left_nav_lists_und{
+    text-decoration: none;
+    color: white;
+}
+.Left_nav_lists > li{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+.Left_nav_lists > .li_active{
+    background-color: rgba(190,222,253,.3);
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
