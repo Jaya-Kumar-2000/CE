@@ -1,0 +1,70 @@
+:root {
+
+    /* main-page-color */
+    --body_bg: #f0f1ff;
+    --page_bg: #fff;
+
+
+    /* Most_used_colors */
+    --primary_color_of_page: #353d9f;
+    --secondary_color_of_page: #686eb3;
+
+    /* Extra_colors */
+
+    --table_header:#f6f7fb;
+
+    --red_color:#ff8686;
+
+    --parrot_green:#44d35b;
+
+    --pink_color: #ff9ad5;
+    --light_pink_bg: #fef3f9;
+
+
+    --sky_blue_color: #50b5ff;
+    --light_sky_blue_bg: #ecf6fe;
+
+
+    --violet_color: #5a65dc;
+    --light_violet_bg: #f2f2ff;
+
+
+    --orange_color: #f1c189;
+    --light_orange_bg: #fdf4ea;
+
+    --anchor_blue: #01d7ff;
+    --anchor_blue_light: #e4fafe;
+
+    --light_green: #e8f6f3;
+    --dark_green: #20b898;
+
+    /* nav_bar_item_color */
+
+    --nav_item_bg: #5057ac;
+    --nav_item_color: #d1d2e9;
+    --nav_item_active_bg: #02d7ff;
+    --nav_item_active_text_color: #f2f3f9;
+
+    /* menu_bar_color */
+
+    --menu_bar_active_text_color: #e8e8f4;
+    --menu_bar_text_color: #a7aad5;
+
+
+
+
+
+    /* text color */
+
+    --PrimaryText_color: #2f2e36;
+    --SeondaryText_color: #4b4a51;
+    --small_text_color: #a1a1a1;
+
+    /* border */
+
+    --UI_border_Dark:  black;
+    
+    --UI_border_light: rgb(238, 234, 234);
+
+
+}

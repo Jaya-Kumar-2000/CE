@@ -1,0 +1,81 @@
+/* Size_variations */
+
+.UI_icon_s_size {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.UI_icon_m_size {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.UI_icon_l_size {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.UI_icon_xl_size {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+/* color_variations */
+
+.UI_icon.light_sky_blue_bg {
+    background-color: var(--light_sky_blue_bg);
+}
+
+.UI_icon.sky_blue {
+    color: var(--sky_blue_color);
+}
+
+
+
+.UI_icon.light_pink_bg {
+    background-color: var(--light_pink_bg);
+}
+
+.UI_icon.pink {
+    color: var(--pink_color);
+}
+
+
+.UI_icon.light_orange_bg {
+    background-color: var(--light_orange_bg);
+}
+
+.UI_icon.orange_color {
+    color: var(--orange_color);
+}
+
+
+.UI_icon.light_violet_bg {
+    background-color: var(--light_violet_bg);
+}
+
+.UI_icon.violet_color {
+    color: var(--violet_color);
+}
+
+
+.UI_icon.anchor_blue_light {
+    background-color: var(--anchor_blue_light);
+}
+
+.UI_icon.anchor_blue {
+    color: var(--anchor_blue);
+}
+
+.UI_icon.light_green{
+    background-color: #e8f6f3;
+}
+
+.UI_icon.green{
+    color: var(--dark_green) ;
+}
+

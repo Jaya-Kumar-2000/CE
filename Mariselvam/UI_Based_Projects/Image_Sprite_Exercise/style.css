@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.All_Zoho_Apps {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.All_Zoho_Apps>header {
+    height: 3%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.Sale_customer_e-mail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Sale_customer_e-mail_sec {
+    width: 33%;
+    height: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Sale_customer_e-mail_div {
+    width: 80%;
+    height: 100px;
+    margin: 130px auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Sale_customer_e-mail_div>h2 {
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.Sale_customer_e-mail_div>h5 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.Sale_Marketing {
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Customer_service {
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Image_sec_Sale_Mail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* grid-template-columns: auto auto auto; */
+}
+
+.Images_Sale_Mail_one {
+    width: 254px !important;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Images_Sale_Mail {
+    min-width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Images_Sale_Mail_one:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(106, 157, 245);
+}
+
+.Images_Sale_Mail:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(106, 157, 245);
+}
+
+.Images_Sale_Mail>h4 {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.Images_Mail_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Images_Mail_one:hover {
+    border-bottom: 1px solid rgb(245, 122, 106);
+}
+
+.Images_Mail:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(245, 122, 106);
+}
+
+.Images_Mail {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Images_Mail>h4 {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.img {
+    width: 30px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+}
+
+.crm {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 14% -2% !important;
+    background-size: 1000px !important;
+}
+
+.bigin {
+    background-position: -2px -134px;
+    background-size: 1012px;
+}
+
+.campaigns {
+    width: 35px;
+    background-position: -337px -66px;
+    background-size: 1012px;
+}
+
+.forms {
+    width: 35px;
+    background-position: -134px -64px;
+    background-size: 1012px;
+}
+
+.sign {
+    width: 35px;
+    background-position: -167px -64px;
+    background-size: 1012px;
+}
+
+.social {
+    width: 35px;
+    background-position: -200px -64px;
+    background-size: 1012px;
+}
+
+.salesiq {
+    width: 35px;
+    background-position: -235px -65px;
+    background-size: 1012px;
+}
+
+.survey {
+    width: 35px;
+    background-position: -267px -65px;
+    background-size: 1012px;
+}
+
+.sites {
+    width: 35px;
+    background-position: -371px -65px;
+    background-size: 1012px;
+}
+
+.pagesense {
+    width: 35px;
+    background-position: -101px -65px;
+    background-size: 1012px;
+}
+
+.backstage {
+    width: 35px;
+    background-position: -541px -100px;
+    background-size: 1012px;
+}
+
+.commerce {
+    width: 35px;
+    background-position: -507px -100px;
+    background-size: 1012px;
+}
+
+.bookings {
+    width: 35px;
+    background-position: -743px -100px;
+    background-size: 1012px;
+}
+
+.marketing_automation {
+    width: 35px;
+    background-position: -776px -100px;
+    background-size: 1012px;
+}
+
+.landing_page {
+    width: 35px;
+    background-position: -665px -141px;
+    background-size: 1064px;
+}
+
+.thrive {
+    width: 35px;
+    background-position: -695px -141px;
+    background-size: 1064px;
+}
+
+.webinar {
+    width: 35px;
+    background-position: -784px -138px;
+    background-size: 1044px;
+}
+
+.Image_sec_customer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.Images_customer_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    border-bottom: 1px solid rgb(244, 241, 241);
+
+}
+
+.Images_customer_one:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_customer {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Images_customer:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+
+}
+
+.assist_Images_customer {
+    border-bottom: 1px solid rgb(244, 241, 241);
+}
+
+.lens_Images_customer {
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Desk {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 36% -2% !important;
+    background-size: 1000px !important;
+}
+
+.Assist {
+    width: 35px;
+    height: 37px;
+    background-image: url(image_sprite_all.png);
+    background-repeat: no-repeat;
+    background-position: -210px -104px;
+    background-size: 1049px;
+}
+
+.Lens {
+    width: 35px;
+    height: 37px;
+    background-image: url(image_sprite_all.png);
+    background-repeat: no-repeat;
+    background-position: -36px -138px;
+    background-size: 1049px;
+}
+
+.Finance_div {
+    width: 100%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(244, 241, 241);
+}
+
+.Finance_div>h2 {
+    font-size: 21px;
+}
+
+.Finance_div>h5 {
+    width: 80%;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
+
+.Image_sec_finance {
+    min-width: 20%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    padding: 30px 20px;
+}
+
+.Images_finance_one {
+    width: 60%;
+}
+
+.finance_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.Books {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 0% -1%;
+    background-size: 1000px;
+}
+
+.Inventory {
+    background-position: -490px -68px;
+}
+
+.Invoice {
+    background-position: -524px -68px;
+}
+
+.Subscriptions {
+    background-position: -559px -68px;
+}
+
+.Expense {
+    background-position: -594px -68px;
+}
+
+.Checkout {
+    background-position: -628px -69px;
+}
+
+.Payroll {
+    background-position: -735px -105px;
+}
+
+.Images_finance_one {
+    width: 230px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    border-bottom: 1px solid rgb(244, 241, 241);
+}
+
+.Images_finance_one:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_finance {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.fin_img {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Images_finance:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_finance>h4 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.fin_img:hover {
+    border-bottom: 1px solid rgb(243, 243, 110) !important;
+}
+
+.Mail {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 29% -1%;
+    background-size: 1000px;
+}
+
+.e_mail_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.Meeting {
+    background-position: -2px -104px;
+}
+
+.Cliq {
+    background-position: -733px -68px;
+}
+
+.Voice {
+    background-position: -492px -138px;
+}
+
+.Workdrive {
+    background-position: -838px -105px;
+}
+
+.Writer {
+    background-position: -838px -105px;
+}
+
+.Sheet {
+    background-position: -840px -67px;
+}
+
+.show {
+    background-position: -874px -67px;
+}
+
+.project {
+    background-position: -874px -67px;
+}
+
+.sprints {
+    background-position: -946px -67px;
+}
+
+.bug_tracker {
+    background-position: -978px -67px;
+}
+
+.connect {
+    background-position: -1014px -67px;
+}
+
+.showtime {
+    background-position: -69px -104px;
+}
+
+.notebook {
+    background-position: -105px -104px;
+}
+
+.teamInbox {
+    background-position: -280px -138px;
+}
+
+.ZeptoMail {
+    background-position: -315px -138px;
+}
+
+.learn {
+    background-position: -387px -138px;
+}
+
+.calendar {
+    background-position: -981px -106px;
+}
+
+
+/* Human_Resource */
+
+.Human_Resource {
+    margin: 70px 0px;
+}
+
+.RECRUIT {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 0% -1%;
+    background-size: 1000px;
+}
+
+.RECRUIT {
+    background-position: -399px 7px;
+}
+
+.PEOPLE {
+    background-position: -385px -105px;
+}
+
+.WORKERLY {
+    background-position: -697px -106px;
+}
+
+.BACKTOWORK {
+    background-position: -175px -139px;
+}
+
+.SHIFTS {
+    background-position: -622px -139px;
+}
+
+/* security */
+
+.Images_security {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.security_div {
+    width: 100%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.security_div>h2 {
+    font-size: 21px;
+}
+
+.security_div>h5 {
+    width: 80%;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
+
+.secure_img:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_security>h4 {
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.Security_img_one {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 29% -1%;
+    background-size: 1000px;
+}
+
+.Security_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.vault {
+    background-position: -425px -314px;
+}
+
+.serviceDesk_plus {
+    background-position: -246px -102px;
+}
+
+.mobile_device_management {
+    background-position: -283px -105px;
+    background-size: 1065px;
+}
+
+.patch_manager_plus {
+    background-position: -628px -104px;
+}
+
+.remote_access_plus {
+    background-position: -70px -139px;
+}
+
+.site_24_7 {
+    background-position: -315px -102px;
+}
+
+.cloud_siem {
+    background-position: -909px -102px;
+}
+
+.identity_management {
+    background-position: -943px -104px;
+}
+
+.endpoint_central {
+    background-position: -209px -138px;
+}
+
+.domain_toolkit {
+    background-position: -351px -138px;
+}
+
+/* custom */
+
+.creater {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: -200px 2px;
+    background-size: 1000px;
+}
+
+.catalyst {
+    background-position: -1013px -104px;
+}
+
+.flow {
+    background-position: -454px -104px;
+}
+
+.office_integrator {
+    background-position: -591px -104px;
+}
+
+.qntrl {
+    background-position: -419px -138px;
+}
+
+.research_studio {
+    background-position: -718px -138px;
+}
+
+.apptics {
+    background-position: -751px -139px;
+}
+
+.custom_img:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+/* legal */
+
+.contract {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: -1066px -265px;
+    background-size: 2009px;
+}
+
+.LEGAL:hover {
+    border-bottom: 1px solid rgb(243, 243, 110);
+}
+
+
+/* business */
+
+.busniess_div {
+    width: 80%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid rgb(244, 241, 241);;
+}
+
+.busniess_div>h2 {
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.busniess_div>h5 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.analytics {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1010px;
+    background-position: -674px 5px;
+}
+
+.Images_business_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Images_business_one:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+.image_business {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.bus_img:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+.dataprep {
+    background-position: -526px -139px;
+}
+
+.embedded_bi {
+    background-position: -614px -146px;
+    background-size: 1094px;
+}

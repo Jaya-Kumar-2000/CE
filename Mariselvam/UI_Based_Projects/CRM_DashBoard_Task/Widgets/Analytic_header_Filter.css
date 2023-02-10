@@ -1,0 +1,77 @@
+.Analytic_header_Filter{
+    width: 100%;
+    height: auto;
+    font-family: 'Zoho_Puvi_Regular';
+    padding: 80px 0px;
+    display: inline-block;
+}
+.Analytic_header_Filter > .header{
+    width:50%;
+    height: 100%;
+    float: left;
+}
+.header_p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Home_Dash{
+    color: rgb(233, 229, 229);
+    margin-bottom: 10px;
+}
+.hypen{
+    margin: 0px 10px;
+    color: white;
+}
+.Analytic_header_Filter > .filter{
+    width:15%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+
+.create_btn:hover{
+    background-color: #d9cccc;
+    color: rgb(71, 52, 52);
+}
+
+.filter_btns{
+    border-radius: 5px;
+    margin: 0px 0px 0px 15px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter_icon:hover{
+    background-color: #82aaaf;
+    color: #000;
+}
+
+.filter_icon{
+    width:40%;
+    height: 100%;
+    float: left;
+    background-color: rgba(192,231,236,.5);
+    padding: 7px;
+    color: white;
+}
+.create_btn{
+    width:40%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    float: right;
+    padding: 9px;
+}
+
+.filter_clear:before,
+.filter_clear:after {
+    content: " ";
+    display: table;
+}
+
+.filter_clear:after {
+    clear: both;
+}

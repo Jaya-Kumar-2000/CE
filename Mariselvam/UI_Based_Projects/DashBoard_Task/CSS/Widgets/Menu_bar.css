@@ -1,0 +1,45 @@
+.DB-menu_bar{
+    width: 300px;
+    height: 100%;
+    margin-left: var(--);
+    border-radius: var(--border_radius_10);
+    border: 1px solid var(--UI_border_light);
+    font-family: 'Zoho_Puvi_Regular';
+    position: relative;
+}
+
+.DB-menu_bar_title{
+    color: var(--small_text_color);
+}
+.DB-menu_bar_ul{
+    height: auto;
+    list-style-type: none;
+}
+
+.DB-menu_bar_ul_a{
+    text-decoration: none;
+}
+
+.DB-menu_bar_li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--SeondaryText_color);
+}
+
+.DB-menu_bar_li > span{
+    vertical-align: middle;
+    color: var(--SeondaryText_color);
+}
+
+.DB-menu_bar_li_active{
+    color:var(--primary_color_of_page);
+}
+.DB-menu_bar_logOut{
+    position: absolute;
+    bottom: 30px;
+}
+
+.db_icons_name{
+    font-weight: 600;
+}

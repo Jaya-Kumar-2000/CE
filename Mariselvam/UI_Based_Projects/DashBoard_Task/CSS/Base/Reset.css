@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div,
+header,section,main,aside,article,footer,
+ul,ol,li,form,input,textarea,button,select,option,label
+,img,figure,audio,a,nav{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+

@@ -1,0 +1,34 @@
+.DB-profile_bar{
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--UI_border_light);
+    border-radius: var(--border_radius_10);
+    font-family: 'Zoho_Puvi_Regular';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DB-search_icon{
+    font-size: var(--h5_size);
+}
+.DB-search_input{
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+.DB-Profle_image{
+    display: inline;
+    border-radius: var(--border_radius_5);
+    border: 2px solid var(--anchor_blue);
+    background-image: url("../../Images/Profile_Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px;
+}
+
+.DB-Profile_name{
+    display: inline;
+    font-size: var(--Small_size);
+}

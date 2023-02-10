@@ -1,0 +1,1885 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100%;
+}
+
+.title_of_project {
+    width: 30%;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    color: rgb(99, 104, 110);
+    position: relative;
+    z-index: 100;
+}
+
+.Poll_Section {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 40px 0px;
+    position: relative;
+    z-index: 100;
+}
+
+.Poll_Visibility {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Poll_Visibility>h4 {
+    color: rgba(56, 53, 53, .6);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans Tamil', sans-serif;
+}
+
+.Poll_Section>.Create_and_header {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+}
+
+.Poll_Section>.Create_and_header>h5 {
+    color: rgba(56, 53, 53, .6);
+    letter-spacing: 1px;
+}
+
+.Poll_Section>.Create_and_header>h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.Add_Poll_Question__options {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+}
+
+.Add_Poll_Question__options>label {
+    font-size: 16px;
+    color: rgba(56, 53, 53, .6);
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.Add_Poll_Question__options>textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    padding: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Add_Poll_Question__options>textarea:focus {
+    box-shadow: #53C1FF 0px 4px 12px;
+    border: 2px solid #53C1FF;
+    color: #53C1FF;
+}
+
+.Add_Poll_Question__options>input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Add_Poll_Question__options>input:focus {
+    box-shadow: #53C1FF 0px 4px 12px;
+    border: 2px solid #53C1FF;
+    color: #53C1FF;
+}
+
+.Add_Poll_Question__options>span {
+    color: red;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.poll_options {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+}
+
+.Add_Another_option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 0px 10px;
+    background-color: rgb(97, 169, 255);
+    border-radius: 3px;
+    color: rgb(237, 245, 252);
+}
+
+.Add_Another_option:hover {
+    cursor: pointer;
+    background-color: rgb(198, 222, 244);
+    color: rgb(57, 139, 215);
+}
+
+.Poll_visibility_selection {
+    width: 90%;
+    height: 200px;
+}
+
+.poll_visibility_input {
+    width: 80%;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.poll_visibility_input>h4 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    color: rgb(142, 189, 232);
+    cursor: pointer;
+
+}
+
+.poll_visibility_input>span {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.show_Poll_Options {
+    display: block !important;
+}
+
+.Poll_options {
+    width: 80%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.Poll_options>h4 {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Noto Sans Tamil', sans-serif;
+    letter-spacing: 2px;
+}
+
+.Poll_options>h4:hover {
+    cursor: pointer;
+    background-color: rgb(221, 227, 231);
+}
+
+.Create_Poll_button {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+}
+
+.Create_Poll_button>button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    background-color: rgb(142, 189, 232);
+    border-radius: 3px;
+}
+
+.Create_Poll_button>button:hover {
+    background-color: rgb(184, 214, 241);
+    cursor: pointer;
+}
+
+.error_Msg_Question {
+    display: none;
+}
+
+
+/* Poll_created_successful */
+
+
+.Poll_created_successful {
+    width: 40%;
+    padding: 40px;
+    margin: 40px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Solway', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.After_Poll_created_successful {
+    width: 40%;
+    padding: 40px;
+    margin: 40px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Solway', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.After_Question_of_poll {
+    font-size: 40px;
+}
+
+.Question_of_poll {
+    font-size: 40px;
+}
+
+.Poll_Visibility_after_chose {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(128, 125, 125);
+    letter-spacing: 1px;
+}
+
+.icon_visibility {
+    display: flex;
+    align-items: center;
+}
+
+.Show_Results {
+    width: 95%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Show_Options {
+    width: 70%;
+    min-height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.result_of_options {
+    min-width: 300px;
+    min-height: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
+    transition: 1s;
+    border-radius: 3px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.option_percentage {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.percentage_border {
+    border: 3px solid #EFEFEF;
+    border-radius: 5px;
+}
+
+.total_vote {
+    width: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total_vote>span {
+    font-family: 'Abel', sans-serif;
+}
+
+.chosed_options {
+    min-width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    left: 0;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.options_Value {
+    width: 70%;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.chosed_options>h3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(120, 119, 119);
+}
+
+.submit_result {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.submit_result>button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background: #3BBD6C;
+    color: azure;
+    font-family: 'Anek Devanagari', sans-serif;
+    cursor: pointer;
+    line-height: 60px;
+    border-radius: 3px;
+}
+
+.results {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.results>h5 {
+    font-size: 15px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.results>h5:hover {
+    cursor: pointer;
+    color: #67aaea;
+}
+
+.before_check {
+    width: 100%;
+    height: 100%;
+    font-size: 38px !important;
+    background-color: #3BBD6C;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+}
+
+.jump_to_result {
+    width: 18%;
+    height: 600px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    top: 250px;
+    right: 170px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.jump_to_result>button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background: #3BBD6C;
+    color: azure;
+    font-family: 'Anek Devanagari', sans-serif;
+    cursor: pointer;
+    line-height: 60px;
+    border-radius: 3px;
+}
+
+.Votes_share {
+    width: 100%;
+    height: 80%;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.votes {
+    width: 100%;
+    height: 40%;
+    border: none;
+    border-bottom: 1px solid rgb(210, 206, 206);
+    float: left;
+}
+
+.votes>h5 {
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    color: rgb(128, 125, 125);
+}
+
+.votes>h4 {
+    font-size: 50px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: 800;
+}
+
+.share>h5 {
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    color: rgb(128, 125, 125);
+}
+
+.Shared_via {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.share_icon_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Twitter {
+    color: #00AAEC;
+}
+
+.Facebook {
+    color: #4460A0;
+}
+
+.Whatsapp {
+    color: #00D856;
+}
+
+.Share_link {
+    color: #FF9E72;
+}
+
+.Share_QR {
+    color: #A46CFF;
+}
+
+.Twitter:hover {
+    color: #4DC4F2;
+    cursor: pointer;
+}
+
+.Facebook:hover {
+    color: #7C90BD;
+    cursor: pointer;
+}
+
+.Whatsapp:hover {
+    cursor: pointer;
+    color: #67E094;
+}
+
+.Share_link:hover {
+    cursor: pointer;
+    color: #FFD0BB;
+}
+
+.Share_QR:hover {
+    cursor: pointer;
+    color: #CBB5FF;
+}
+
+
+
+.Pop_up_of_Share_link {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, .8);
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.share_link_box {
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10% auto;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.share_link_box>span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
+.share_link_box>span:hover {
+    cursor: pointer;
+    color: rgba(49, 47, 47, .4);
+}
+
+.share_link_title_para {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.share_link_title_para>h4,
+p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.share_link_title_para>p {
+    font-size: 15px;
+    color: rgb(162, 159, 159);
+}
+
+.links_of_share {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result_link {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vote_link {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result_link>p {
+    font-size: 15px;
+    color: rgb(162, 159, 159);
+}
+
+.vote_link>p {
+    color: rgb(162, 159, 159);
+    font-size: 15px;
+}
+
+.links_div {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.links_div>input {
+    width: 100%;
+    height: 100%;
+    padding: 12px 90px 12px 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgba(168, 161, 161, .3);
+}
+
+.links_div>button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #7AA9E0;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 25%;
+    font-size: 15px;
+}
+
+.links_div>button:hover {
+    cursor: pointer;
+    background-color: #357DD0;
+}
+
+/* media query poll maker */
+
+
+/* media query poll maker  280-500   start*/
+
+@media screen and (min-width: 280px) and (max-width:500px) {
+    .title_of_project {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .Poll_Section {
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .Poll_Visibility {
+        width: 80%;
+        padding: 10px 10px;
+    }
+
+    .Poll_Section>.Create_and_header {
+        font-size: 18px;
+    }
+
+    .Poll_Section>.Create_and_header>h3 {
+        font-size: 20px;
+    }
+
+    .Add_Poll_Question__options {
+        margin: 10px 0px;
+    }
+
+    .Add_Poll_Question__options>textarea {
+        width: 100%;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .Add_Poll_Question__options>input {
+        font-size: 15px;
+    }
+
+    .Add_Poll_Question__options>span {
+        font-size: 15px;
+    }
+
+    .Add_Another_option {
+        width: 80%;
+        height: 50px;
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+
+    .poll_visibility_input {
+        width: 90%;
+        height: 50px;
+    }
+
+    .poll_visibility_input>h4 {
+        font-size: 18px;
+    }
+
+    .poll_visibility_input>span {
+        font-size: 25px;
+    }
+
+
+    /* After created the poll */
+
+    .Poll_created_successful {
+        width: 90%;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        width: 70%;
+        font-size: 13px;
+    }
+
+    .Show_Options {
+        width: 80%;
+        min-height: 150px;
+    }
+
+    .chosed_options {
+        min-width: 200px;
+        height: 50px;
+    }
+
+    .options_Value {
+        width: 70%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .chosed_options>h3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid rgb(120, 119, 119);
+    }
+
+    .before_check {
+        width: 100%;
+        height: 100%;
+        font-size: 30px !important;
+    }
+
+    .submit_result {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .submit_result>button {
+        width: 80%;
+        height: 50px;
+        font-size: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        font-weight: 600px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h5 {
+        font-size: 18px;
+    }
+
+
+    .After_Poll_created_successful {
+        width: 90%;
+        min-height: 500px;
+    }
+
+    .After_Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        font-size: 12px;
+    }
+
+    .Show_Results {
+        width: 100%;
+    }
+
+    .result_of_options {
+        min-width: 200px;
+        min-height: 50px;
+    }
+
+    .option_percentage {
+        min-height: 50px;
+        font-size: 20px;
+    }
+
+    .percentage_border {
+        border: 2px solid #EFEFEF;
+    }
+
+
+
+    .jump_to_result {
+        width: 80%;
+        min-height: 600px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        top: 700px;
+        bottom: 0;
+        right: 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .jump_to_result>button {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background: #3BBD6C;
+        color: azure;
+        font-family: 'Anek Devanagari', sans-serif;
+        cursor: pointer;
+        line-height: 60px;
+        border-radius: 3px;
+    }
+
+    .Votes_share {
+        width: 100%;
+        height: 80%;
+        font-family: 'Anek Devanagari', sans-serif;
+        /* border: 1px solid black; */
+    }
+
+    .votes {
+        width: 100%;
+        height: 40%;
+        border: none;
+        border-bottom: 1px solid rgb(210, 206, 206);
+        float: left;
+    }
+
+    .votes>h5 {
+        font-size: 20px;
+        font-family: 'Anek Devanagari', sans-serif;
+        color: rgb(128, 125, 125);
+    }
+
+    .votes>h4 {
+        font-size: 50px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-weight: 800;
+    }
+
+    .share>h5 {
+        font-size: 18px;
+    }
+
+    .Shared_via {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .share_icon_content {
+        font-size: 15px;
+    }
+
+    /* share _link  */
+
+    .share_link_box {
+        width: 90%;
+        height: 50%;
+        position: relative;
+        top: 150px;
+        padding: 10px;
+
+    }
+
+    .links_div>input {
+        font-size: 13px;
+        padding: 12px 70px 12px 10px;
+    }
+
+    .links_div>button {
+        font-size: 11px;
+    }
+
+}
+
+/* media query poll maker  280-500   end*/
+
+
+/* media query poll maker  500-800   start*/
+
+@media screen and (min-width: 500px) and (max-width:700px) {
+
+    .title_of_project {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .Poll_Section {
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .Poll_Visibility {
+        width: 80%;
+        padding: 10px 10px;
+    }
+
+    .Poll_Section>.Create_and_header {
+        font-size: 20px;
+    }
+
+    .Poll_Section>.Create_and_header>h3 {
+        font-size: 25px;
+    }
+
+    .Add_Poll_Question__options {
+        margin: 10px 0px;
+    }
+
+    .Add_Poll_Question__options>textarea {
+        width: 100%;
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .Add_Poll_Question__options>input {
+        font-size: 18px;
+    }
+
+    .Add_Poll_Question__options>span {
+        font-size: 18px;
+    }
+
+    .Add_Another_option {
+        width: 50%;
+        height: 50px;
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+
+    .poll_visibility_input {
+        width: 90%;
+        height: 50px;
+    }
+
+    .poll_visibility_input>h4 {
+        font-size: 18px;
+    }
+
+    .poll_visibility_input>span {
+        font-size: 25px;
+    }
+
+
+    /* After created the poll */
+
+    .Poll_created_successful {
+        width: 90%;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 50px;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .Show_Options {
+        width: 80%;
+        min-height: 150px;
+    }
+
+    .chosed_options {
+        min-width: 200px;
+        height: 50px;
+    }
+
+    .options_Value {
+        width: 70%;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .chosed_options>h3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid rgb(120, 119, 119);
+    }
+
+    .before_check {
+        width: 100%;
+        height: 100%;
+        font-size: 30px !important;
+    }
+
+    .submit_result {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .submit_result>button {
+        width: 80%;
+        height: 50px;
+        font-size: 22px;
+        line-height: 20px;
+        border-radius: 3px;
+        font-weight: 600px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h5 {
+        font-size: 20px;
+    }
+
+
+    .After_Poll_created_successful {
+        width: 90%;
+        min-height: 500px;
+    }
+
+    .After_Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        font-size: 16px;
+    }
+
+    .Show_Results {
+        width: 100%;
+    }
+
+    .result_of_options {
+        min-width: 200px;
+        min-height: 50px;
+    }
+
+    .option_percentage {
+        min-height: 50px;
+        font-size: 25px;
+    }
+
+    .percentage_border {
+        border: 2px solid #EFEFEF;
+    }
+
+
+
+    .jump_to_result {
+        width: 80%;
+        min-height: 600px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        top: 700px;
+        bottom: 0;
+        right: 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .jump_to_result>button {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background: #3BBD6C;
+        color: azure;
+        font-family: 'Anek Devanagari', sans-serif;
+        cursor: pointer;
+        line-height: 60px;
+        border-radius: 3px;
+    }
+
+    .Votes_share {
+        width: 100%;
+        height: 80%;
+        font-family: 'Anek Devanagari', sans-serif;
+        /* border: 1px solid black; */
+    }
+
+    .votes {
+        width: 100%;
+        height: 40%;
+        border: none;
+        border-bottom: 1px solid rgb(210, 206, 206);
+        float: left;
+    }
+
+    .votes>h5 {
+        font-size: 25px;
+        font-family: 'Anek Devanagari', sans-serif;
+        color: rgb(128, 125, 125);
+    }
+
+    .total_vote {
+        font-size: 25px;
+    }
+
+    .votes>h4 {
+        font-size: 50px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-weight: 800;
+    }
+
+    .share>h5 {
+        font-size: 25px;
+    }
+
+    .Shared_via {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .share_icon_content {
+        font-size: 20px;
+    }
+
+
+    /* share _link  */
+
+    .share_link_box {
+        width: 70%;
+        height: 50%;
+        position: relative;
+        top: 150px;
+        padding: 10px;
+
+    }
+
+    .links_div>input {
+        font-size: 15px;
+        padding: 12px 80px 12px 10px;
+    }
+
+    .links_div>button {
+        font-size: 12px;
+    }
+
+
+}
+
+/* media query poll maker  500-800   end*/
+
+/* media query poll maker  700-900   start*/
+
+@media screen and (min-width: 700px) and (max-width:950px) {
+
+    .title_of_project {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .Poll_Section {
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .Poll_Visibility {
+        width: 80%;
+        padding: 10px 10px;
+    }
+
+    .Poll_Section>.Create_and_header {
+        font-size: 20px;
+    }
+
+    .Poll_Section>.Create_and_header>h3 {
+        font-size: 30px;
+    }
+
+    .Add_Poll_Question__options {
+        margin: 10px 0px;
+    }
+
+    .Add_Poll_Question__options>textarea {
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .Add_Poll_Question__options>input {
+        font-size: 20px;
+    }
+
+    .Add_Poll_Question__options>span {
+        font-size: 20px;
+    }
+
+    .Add_Another_option {
+        width: 40%;
+        height: 50px;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+
+    .poll_visibility_input {
+        width: 90%;
+        height: 50px;
+    }
+
+    .poll_visibility_input>h4 {
+        font-size: 20px;
+    }
+
+    .poll_visibility_input>span {
+        font-size: 30px;
+    }
+
+
+    /* After created the poll */
+
+    .Poll_created_successful {
+        width: 70%;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 50px;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .Show_Options {
+        width: 80%;
+        min-height: 150px;
+    }
+
+    .chosed_options {
+        min-width: 200px;
+        height: 50px;
+    }
+
+    .options_Value {
+        width: 70%;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .chosed_options>h3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid rgb(120, 119, 119);
+    }
+
+    .before_check {
+        width: 100%;
+        height: 100%;
+        font-size: 30px !important;
+    }
+
+    .submit_result {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .submit_result>button {
+        width: 80%;
+        height: 50px;
+        font-size: 22px;
+        line-height: 20px;
+        border-radius: 3px;
+        font-weight: 600px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h5 {
+        font-size: 20px;
+    }
+
+
+    .After_Poll_created_successful {
+        width: 70%;
+        min-height: 500px;
+    }
+
+    .After_Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        font-size: 16px;
+    }
+
+    .Show_Results {
+        width: 100%;
+    }
+
+    .result_of_options {
+        min-width: 200px;
+        min-height: 50px;
+    }
+
+    .option_percentage {
+        min-height: 50px;
+        font-size: 25px;
+    }
+
+    .percentage_border {
+        border: 2px solid #EFEFEF;
+    }
+
+
+
+    .jump_to_result {
+        width: 60%;
+        min-height: 600px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        top: 700px;
+        bottom: 0;
+        right: 150px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .jump_to_result>button {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background: #3BBD6C;
+        color: azure;
+        font-family: 'Anek Devanagari', sans-serif;
+        cursor: pointer;
+        line-height: 60px;
+        border-radius: 3px;
+    }
+
+    .Votes_share {
+        width: 100%;
+        height: 80%;
+        font-family: 'Anek Devanagari', sans-serif;
+        /* border: 1px solid black; */
+    }
+
+    .votes {
+        width: 100%;
+        height: 40%;
+        border: none;
+        border-bottom: 1px solid rgb(210, 206, 206);
+        float: left;
+    }
+
+    .votes>h5 {
+        font-size: 25px;
+        font-family: 'Anek Devanagari', sans-serif;
+        color: rgb(128, 125, 125);
+    }
+
+    .total_vote {
+        font-size: 25px;
+    }
+
+    .votes>h4 {
+        font-size: 50px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-weight: 800;
+    }
+
+    .share>h5 {
+        font-size: 25px;
+    }
+
+    .Shared_via {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .share_icon_content {
+        font-size: 20px;
+    }
+
+
+
+    .share_link_box {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        top: 150px;
+        padding: 10px;
+
+    }
+
+    .links_div>input {
+        font-size: 15px;
+        padding: 12px 80px 12px 10px;
+    }
+
+    .links_div>button {
+        font-size: 12px;
+    }
+
+}
+
+/* media query poll maker 700-900   end*/
+
+@media screen and (min-width:950px) and (max-width:1100px) {
+    .After_Poll_created_successful {
+        width: 50%;
+        min-height: 500px;
+    }
+
+    .Add_Another_option {
+        width: 50%;
+        height: 50px;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+
+    .Poll_created_successful {
+        width: 70%;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .jump_to_result {
+        width: 40%;
+        min-height: 600px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        top: 700px;
+        bottom: 0;
+        right: 250px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .share_link_box {
+        width: 40%;
+        height: 50%;
+        position: relative;
+        top: 150px;
+        padding: 10px;
+
+    }
+
+    .links_div>input {
+        font-size: 18px;
+        padding: 12px 90px 12px 10px;
+    }
+
+    .links_div>button {
+        font-size: 15px;
+    }
+}
+
+
+/* media query poll maker  950-1200   start*/
+
+@media screen and (min-width: 1100px) and (max-width:1500px) {
+
+    .title_of_project {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .Poll_Section {
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .Poll_Visibility {
+        width: 80%;
+        padding: 10px 10px;
+    }
+
+    .Poll_Section>.Create_and_header {
+        font-size: 20px;
+    }
+
+    .Poll_Section>.Create_and_header>h3 {
+        font-size: 30px;
+    }
+
+    .Add_Poll_Question__options {
+        margin: 10px 0px;
+    }
+
+    .Add_Poll_Question__options>textarea {
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .Add_Poll_Question__options>input {
+        font-size: 20px;
+    }
+
+    .Add_Poll_Question__options>span {
+        font-size: 20px;
+    }
+
+    .Add_Another_option {
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+
+    .poll_visibility_input {
+        width: 90%;
+        height: 50px;
+    }
+
+    .poll_visibility_input>h4 {
+        font-size: 20px;
+    }
+
+    .poll_visibility_input>span {
+        font-size: 30px;
+    }
+
+
+    .Poll_created_successful {
+        width: 70%;
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 50px;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .Show_Options {
+        width: 80%;
+        min-height: 150px;
+    }
+
+    .chosed_options {
+        min-width: 200px;
+        height: 50px;
+    }
+
+    .options_Value {
+        width: 70%;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .chosed_options>h3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid rgb(120, 119, 119);
+    }
+
+    .before_check {
+        width: 100%;
+        height: 100%;
+        font-size: 30px !important;
+    }
+
+    .submit_result {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .submit_result>button {
+        width: 80%;
+        height: 50px;
+        font-size: 22px;
+        line-height: 20px;
+        border-radius: 3px;
+        font-weight: 600px;
+    }
+
+    .results {
+        width: 90%;
+    }
+
+    .results>h5 {
+        font-size: 20px;
+    }
+
+
+    .After_Poll_created_successful {
+        width: 40%;
+        min-height: 500px;
+    }
+
+    .After_Question_of_poll {
+        font-size: 25px;
+    }
+
+    .Poll_Visibility_after_chose {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .Poll_Visibility_after_chose>h4 {
+        font-size: 16px;
+    }
+
+    .Show_Results {
+        width: 100%;
+    }
+
+    .result_of_options {
+        min-width: 200px;
+        min-height: 50px;
+    }
+
+    .option_percentage {
+        min-height: 50px;
+        font-size: 25px;
+    }
+
+    .percentage_border {
+        border: 2px solid #EFEFEF;
+    }
+
+
+
+    .jump_to_result {
+        width: 27%;
+        min-height: 200px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        top: 300px;
+        bottom: 0;
+        right: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .jump_to_result>button {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background: #3BBD6C;
+        color: azure;
+        font-family: 'Anek Devanagari', sans-serif;
+        cursor: pointer;
+        line-height: 60px;
+        border-radius: 3px;
+    }
+
+    .Votes_share {
+        width: 100%;
+        height: 80%;
+        font-family: 'Anek Devanagari', sans-serif;
+    }
+
+    .votes {
+        width: 100%;
+        height: 40%;
+        border: none;
+        border-bottom: 1px solid rgb(210, 206, 206);
+        float: left;
+    }
+
+    .votes>h5 {
+        font-size: 25px;
+        font-family: 'Anek Devanagari', sans-serif;
+        color: rgb(128, 125, 125);
+    }
+
+    .total_vote {
+        font-size: 25px;
+    }
+
+    .votes>h4 {
+        font-size: 50px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-weight: 800;
+    }
+
+    .share>h5 {
+        font-size: 25px;
+    }
+
+    .Shared_via {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .share_icon_content {
+        font-size: 20px;
+    }
+
+
+    .share_link_box {
+        width: 30%;
+        height: 50%;
+        position: relative;
+        top: 150px;
+        padding: 10px;
+
+    }
+
+    .links_div>input {
+        font-size: 18px;
+        padding: 12px 90px 12px 10px;
+    }
+
+    .links_div>button {
+        font-size: 15px;
+    }
+
+}
+
+/* media query poll maker 950-1200   end*/
+
+
+@media screen and (min-width:1400px) {
+    .After_Poll_created_successful {
+        width: 40%;
+        min-height: 500px;
+    }
+
+    .jump_to_result {
+        width: 20%;
+        min-height: 500px;
+        right: 50px;
+    }
+}

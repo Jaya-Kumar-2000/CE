@@ -1,0 +1,6 @@
+.DB-Details{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 60px;
+    gap: 30px;
+}

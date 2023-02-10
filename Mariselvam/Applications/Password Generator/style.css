@@ -1,0 +1,175 @@
+/* style for body and html */
+
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #f7ebe8;
+}
+
+/* paswordgenerator full section */
+.passwordGenerator{
+    width:40%;
+    height:auto;
+    border:2px solid #333533;
+    border-radius: 8px;
+    background-color: #30343f;
+    color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* clipboard image */
+
+i{
+    color: white;
+    font-size: 25px;
+}
+
+
+/* clipboard button */
+.btn{
+    position: absolute;
+    right:1%;
+    /* top:10%; */
+    background-color: #ef3e36;
+    border: none;
+    width:40px;
+    height: 40px;
+    margin: 4px 0px;
+}
+
+/* password box full div */
+
+#password{
+    width:70%;
+    height:50px;
+    border-radius: 3px;
+    margin:auto;
+    position: relative;
+    background-color: #1b2021;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* input box of output password */
+.passValue{
+    width:95%;
+    height:40px;
+    background-color: #1b2021;
+    color: white;
+    border: none;
+    /* font-size: 10rem; */
+    text-align: center;
+}
+
+
+label{
+    position: absolute;
+    left:1%;
+}
+
+.options{
+    width:70%;
+    height:30px;
+    margin:auto;
+    padding: 20px 0px;
+    position: relative;
+    font-size: 20px;
+}
+
+input{
+    position: absolute;
+    right:1%;
+}
+#lenValue{
+    width:20%;
+    height:30px;
+    outline: none;
+    font-size: 20px;
+}
+.ticBox{
+    width:20px;
+    height: 20px;
+}
+#generatedPassword{
+    background-color: #ef3e36;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#finalPassword{
+    font-size: 1.3rem;
+    /* margin-top: 20px; */
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .passwordGenerator{
+        width:500px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .passwordGenerator{
+        width:300px;
+        height:auto;
+        font-size: 15px;
+        
+    }
+
+    #password{
+        width:70%;
+        height:50px;
+        
+    }
+
+    .options{
+        font-size: 16px;
+        height:5px;
+        
+    }
+
+    #generatedPassword{
+        font-size: 15px;
+        width:70%;
+        line-height: 10px;
+
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .passwordGenerator{
+        width:90%;
+        height: auto;
+        
+    }
+
+    #password{
+        width:70%;
+        height:50px;
+        
+    }
+
+    .options{
+        font-size: 16px;
+        height:10px;
+        
+    }
+
+    #generatedPassword{
+        font-size: 18px;
+        width:70%;
+        line-height: 10px;
+
+    }
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bundles{
+    width: 70%;
+    height: 650px;
+    margin: 250px auto;
+    position: relative;
+    border: 1px solid rgb(200, 195, 195);
+    padding: 10px;
+}
+.bundles > h6{
+    position: absolute;
+    right: 50%;
+    top: -8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding:0px 5px;
+    background-color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+}
+.zoho_one_bundle{
+    width: 98%;
+    height: auto;
+    margin:30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 195, 195);
+}
+.zoho_one_img{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.zoho_one_img > .img{
+    width: 90px;
+    height: 90px;
+}
+.bundles_img{
+    background-image: url("image_sprite_all.png");
+    background-size: 1279px;
+    background-position: -1103px -208px;
+    background-repeat: no-repeat;
+}
+.zoho_one_img > .text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+.zoho_content{
+    width: 60%;
+}
+.zoho_content > h4{
+    color: rgb(73, 67, 67);
+}
+.zoho_content > h4,span{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.zoho_content > span{
+    color: #03a9f5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.other_bundles{
+    width: 100%;
+    height: 280px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.other_bundle_box{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.other_bundle_box > .image{
+    width: 90px;
+    height: 90px;
+    background-image: url("image_sprite_2.png");
+    background-repeat: no-repeat;
+}
+.other_bundle_box > .content{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.other_bundle_box > .content > span{
+    font-size: 15px;
+}
+.other_bundle_box > .content > h4{
+    color: rgb(73, 67, 67);
+    font-size: 12px;
+}
+.other_bundle_box > .content > span{
+    color: #03a9f5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.crm_img{
+    background-size: 1229px;
+    background-position: 0px 0px;
+}
+.finance_img{
+    background-size: 1279px;
+    background-position: -187px 0px;
+}
+.workplace_img{
+    background-size: 1279px;
+    background-position: -95px 0px;
+}
+.people_img{
+    background-size: 1254px;
+    background-position: -463px 0px;
+}
+.ITmanage_img{
+    background-size: 1255px;
+    background-position: -269px 0px;
+}
+.marketing_img{
+    background-size: 1279px;
+    background-position: -1191px 0px;
+}

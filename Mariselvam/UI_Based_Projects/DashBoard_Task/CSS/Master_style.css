@@ -1,0 +1,18 @@
+@import "Base/Reset.css";
+@import "Base/Color.css";
+@import "Base/Typography.css";
+@import "Base/Helper.css";
+@import "Elements/Container.css";
+@import "Base/Common.css";
+@import "Elements/Icon.css";
+
+@import "Widgets/Details.css";
+@import "Widgets/Menu_bar.css";
+@import "Widgets/Nav_bar.css";
+@import "Widgets/Profile_Bar.css";
+@import "Widgets/Showing_Data.css";
+@import "Widgets/Rate_Calculations.css";
+
+@import "../less/main_style.css";
+@import "../less/main_style.less";
+

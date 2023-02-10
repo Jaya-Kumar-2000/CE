@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLL Maker</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/26bf5e416e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <h1 class="title_of_project">POLL MAKER</h1>
+
+    <div class="main">
+
+
+        <section class="Poll_Section">
+
+            <div class="Create_and_header">
+
+                <h3>Create a poll</h3>
+
+                <h5>Complete the below fields to create Your poll</h5>
+
+            </div>
+
+
+            <div class="poll_Question_Option">
+
+                <form>
+
+                    <div class="Add_Poll_Question__options">
+
+                        <label>Poll question</label>
+
+                        <textarea class="Qus_val" placeholder="Eg. What is your favorite team in cricket ? " cols="30" rows="10"></textarea>
+
+                        <span class="error_Msg_Question Qus_val_error">*You need to Enter a pool question</span>
+
+                    </div>
+
+                    <div class="Add_Poll_Question__options poll_options">
+
+                        <label>Poll option</label>
+
+                        <input class="option_1 options_val" placeholder="Eg. Option 1" />
+
+                        <span class="error_Msg_Question option_1_error">*You need to Enter a minimum of 2 options</span>
+
+                    </div>
+
+                    <div class="Add_Poll_Question__options poll_options">
+
+                        <label>Poll option</label>
+
+                        <input class="option_2 options_val" placeholder="Eg. Option 2" />
+
+                        <span class="error_Msg_Question option_2_error">*You need to Enter a minimum of 2 options</span>
+
+                    </div>
+
+                </form>
+
+                <button type="button" class="Add_Another_option">
+
+                    Add another option
+
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <div class="Poll_Visibility">
+
+            <h4>Poll Visibility</h4>
+
+
+            <div class="Poll_visibility_selection">
+
+                <div class="poll_visibility_input">
+
+                    <h4 class="Poll_Visibility_value">Private</h4>
+
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+
+                </div>
+
+                <div class="Poll_options" style="display: none;">
+
+                    <h4 class="Private">Private</h4>
+
+                    <h4 class="Public">Public</h4>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="Create_Poll_button">
+
+            <button class="create_poll">
+                Create Your Poll
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <section class="Poll_created_successful" style="display: none;">
+
+        <h3 class="Question_of_poll">Qus_1</h3>
+
+
+        <div class="Poll_Visibility_after_chose">
+
+            <h4>Asked by anonymous about an hour ago</h4>
+
+            <div class="icon_visibility">
+
+                <span class="material-symbols-outlined">
+                    lock
+                </span>
+
+                <h5>Private</h5>
+
+            </div>
+
+        </div>
+
+
+        <div class="Show_Options">
+
+            <div class="chosed_options">
+
+                <h3 class="h3_round">
+
+                    <span class="material-symbols-outlined before_check">
+                        check
+                    </span>
+
+                </h3>
+
+                <input class="options_Value" value="Value" disabled></input>
+
+            </div>
+
+
+        </div>
+
+        <div class="submit_result">
+
+            <button class="submit_your_vote_first">Submit your vote</button>
+
+            <div class="results">
+
+                <h5 class="direct_jump_result">Jump to results</h5>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="jump_to_result" style="display: none;">
+
+        <button class="jumped_result_submit">Submit your vote</button>
+
+        <div class="Votes_share">
+
+            <div class="votes">
+
+                <h5>Votes</h5>
+
+                <h4 class="result_of_vote">0</h4>
+
+            </div>
+
+
+            <div class="share">
+
+                <h5>Share</h5>
+
+                <div class="Shared_via">
+
+                    <div class="share_icon_content Twitter">
+
+                        <i class="fa-brands fa-twitter"></i>
+
+                        <h4>Share on Twitter</h4>
+
+                    </div>
+
+                    <div class="share_icon_content Facebook">
+
+                        <i class="fa-brands fa-square-facebook"></i>
+
+                        <h4>Share on Facebook</h4>
+
+                    </div>
+
+                    <div class="share_icon_content Whatsapp">
+
+                        <i class="fa-brands fa-square-whatsapp"></i>
+
+                        <h4>Share on Whatsapp</h4>
+
+                    </div>
+
+                    <div class="share_icon_content Share_link">
+
+                        <i class="fa-solid fa-link"></i>
+
+                        <h4>Share on Share_link</h4>
+
+                    </div>
+
+                    <div class="share_icon_content Share_QR">
+
+                        <i class="fa-solid fa-qrcode"></i>
+
+                        <h4>Share on Share QR Code</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="After_Poll_created_successful" style="display: none;">
+
+        <h3 class="After_Question_of_poll">Qus_1</h3>
+
+
+        <div class="Poll_Visibility_after_chose">
+
+            <h4>Asked by anonymous about an hour ago</h4>
+
+            <div class="icon_visibility">
+
+                <span class="material-symbols-outlined">
+                    lock
+                </span>
+
+                <h5>Private</h5>
+
+            </div>
+
+        </div>
+
+
+        <div class="Show_Results">
+
+            <div class="result_of_options">
+
+                <div class="option_percentage">
+
+                    <h4 class="show_result_value">Value</h4>
+
+                    <h5>0%</h5>
+
+                </div>
+
+                <h4 class="percentage_border"></h4>
+
+                <div class="total_vote">
+
+                    <span class="votes_count">0</span>
+
+                    <h5>Votes</h5>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="Pop_up_of_Share_link" style="display: none;">
+
+        <div class="share_link_box">
+
+            <span class="material-symbols-outlined">
+                close
+            </span>
+
+            <div class="share_link_title_para">
+
+                <h4>Share link</h4>
+
+                <p>Copy a link from below to easily share this poll</p>
+
+            </div>
+
+            <div class="links_of_share">
+
+                <div class="result_link">
+
+                    <p>poll results link</p>
+
+                    <div class="links_div">
+
+                        <input type="text" id="result_val"  value="https://fast-poll.com/poll/results/5992bcc1" readonly="true"/>
+
+                        <button class="copy_result_link">copy link</button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="vote_link">
+
+                    <p>poll vote link</p>
+
+                    <div class="links_div">
+
+                        <input type="text" id="vote_val" value="https://fast-poll.com/poll/5992bcc1" readonly="true"/>
+
+                        <button class="copy_vote_link">copy link</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

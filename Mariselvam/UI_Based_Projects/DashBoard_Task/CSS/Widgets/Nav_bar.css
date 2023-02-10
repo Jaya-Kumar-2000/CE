@@ -1,0 +1,47 @@
+.DB-nav_bar{
+    width: 100px;
+    height: auto;
+    border-radius: var(--border_radius_10);
+    background-color: var(--primary_color_of_page);
+    font-family: 'Zoho_Puvi_Regular';
+}
+
+
+.DB-nav_bar_ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+.DB-nav_bar_item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.DB-nav_bar_item > a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.DB-nav_bar_item_active{
+    color: var(--page_bg);
+    border-radius: var(--border_radius_4);
+    background-color: var(--nav_item_active_bg);
+}
+
+.DB-nav_bar_item_deActive{
+    background-color: var(--nav_item_bg);
+    color: var(--page_bg);
+    border-radius: var(--border_radius_4);
+}
+
+.DB-nav_bar_item_p{
+    font-size: var(--Small_size);
+    color: var(--page_bg);
+}

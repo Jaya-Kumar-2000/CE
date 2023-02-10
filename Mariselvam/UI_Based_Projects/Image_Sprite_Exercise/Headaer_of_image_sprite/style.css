@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .Headers_link{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > .img{
+    width: 120px;
+    height: 50px;
+    background-image: url("image_sprite_2.png");
+    background-repeat: no-repeat;
+    background-size: 955px;
+    background-position: -422px 2px;
+}
+
+
+.Headers_link > a{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.Headers_link > div,span{
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.Headers_link >  a:nth-child(4){
+    color: green !important;
+}

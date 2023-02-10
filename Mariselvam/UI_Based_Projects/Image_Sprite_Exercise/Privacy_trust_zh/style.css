@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.privacy_trust_sec{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Privacy_zoho{
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0F;
+}
+
+.Privacy_zoho > .img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    background-image: url("privacy-shield.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.Privacy_zoho > .content{
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
+    position: absolute;
+    z-index: 100;
+}
+.Privacy_zoho > .content >h3{
+    font-size: 30px;
+}
+.Privacy_zoho > .content >p{
+    font-size: 18px;
+}
+.Privacy_zoho > .content >span{
+    width: 120px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+/* customer_sec_part */
+
+.customer_sec_part{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+.customer_sec_part > h2{
+    font-size: 38px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+.zcustomer_vid_customers{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.zcustomer_vid_customers > .customer_vid{
+    width: 48%;
+    height: 100%;
+    background-image: url("zoho-home-testimonial-nicolas-2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.customer_vid > .customer_vid_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    text-decoration: none;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.73) 100%);
+}
+
+.customer_vid_bg > .content{
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+}
+.customer_vid_bg > .content > h5{
+    font-size: 19px;
+    word-spacing: 3px;
+}
+.customer_vid_bg > .content > p > span{
+    font-size: 13px;
+    font-weight: bold;
+}
+.customer_vid_bg > .content > p{
+    font-size: 11px;
+}
+.customer_vid_bg > .content > span{
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0483e;
+}
+
+.zcustomer_vid_customers > .customer_brands{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.customer_brands > ul{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.customer_brands > ul > li{
+    list-style-type: none;
+}
+
+.customer_brands > ul > li > span{
+    width: 120px;
+    height: 58px;
+    display: flex;
+    background-image: url("zoho-customers-top-brands.png");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+.hyatt{
+    background-position: -1010px 17px;
+    background-size:1127px !important;
+}
+.kpmg{
+    background-position: -249px 1px;
+    background-size: 1823px !important;
+}
+.loreal{
+    background-position: -481px -43px;
+    background-size: 1168px !important;
+}
+.mahindra{
+    height: 40px !important;
+    background-position: -110px -32px;
+    background-size: 1027px !important;
+}
+.tata{
+    height: 40px !important;
+    background-position: -100px -67px;
+    background-size: 938px !important;
+}
+.suzuki{
+    background-position: -519px 1px;
+    background-size: 1290px!important;
+    width: 40px !important;
+}
+.customer_brands > a{
+    color: #03a9f5;
+    font-size: 13px;
+    text-transform: uppercase;font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* partner_marketer_sec */
+
+.partner_marketer_sec{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.partner_marketer_sec > div{
+    width: 200px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.partner_marketer_sec > div > .partner{
+    width: 162px !important;
+}
+
+.partner_marketer_sec > div > h5{
+    width: 150px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partner_marketer_sec > div > p{
+    font-size: 12px;
+    line-height: 1.6;
+    color: #787880;
+}
+.partner_marketer_sec > div > a{
+    color: #03a9f5;
+}
+.partner_marketer_sec > div > h5 > a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-image: url("social_img.png");
+    background-repeat: no-repeat;
+
+}
+.developer_img{
+    background-size: 1297px;
+    background-position: -369px -36px;
+}
+.market_img{
+    background-size: 1506px;
+    background-position: -463px -46px;
+}

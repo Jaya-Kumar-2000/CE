@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Marketers_Full_Page{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black;  */
+    position: relative;
+}
+.Marketers_Full_Page > span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+.Marketers_Full_Page > button{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+    border: none;
+    position: fixed;
+    z-index: 1;
+}
+.Marketers_Full_Page > button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.Marketers_Full_Page > span:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.full_Marketers{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 50px;
+    overflow: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.full_Marketers::-webkit-scrollbar {
+    display: none;
+}
+.Show_marketers{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-color:rgb(244, 233, 219);
+    /* flex-wrap: wrap; */
+}
+.Show_marketers::-webkit-scrollbar {
+    display: none;
+}
+.Show_Admins::-webkit-scrollbar {
+    display: none;
+}
+.Show_marketers > span{
+    position: fixed;
+    top: 28%;
+    cursor: pointer;
+    z-index: 4;
+    font-size: 35px;
+    background-color: rgb(193, 209, 223);
+}
+.Show_marketers > span:nth-child(2){
+    right: 0;
+}
+.Marketer{
+    min-width:300px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgb(231, 235, 238);
+    margin: 20px; 
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.Marketer > .Marketer_image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.MName{
+    /* width: 80%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.Mroll{
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.Mroll > span{
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+    scale: 0;
+}
+.Mroll:hover > span{
+   scale: 1;
+}
+.pwd_div{
+    display: flex;
+}
+#roll{
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    appearance: none;
+}
+.AddMark{
+    width: 80%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgb(214, 211, 205);
+    cursor: pointer;
+}
+.AddMark:hover{
+    background-color: rgb(242, 240, 235);
+    cursor: pointer;
+}
+.Marketer > span:nth-child(1){
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 50%;
+}
+.Marketer > span:nth-child(2){
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 50%;
+}
+.Marketer > span:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(205, 242, 211);
+}
+.Marketer > span:nth-child(1):hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+/* Adding_Marketer_Pop start */
+.Marketers_Full_Page_2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(254, 254, 254, 0.8);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.Marketers_Full_Page_2 > span{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+.Marketers_Full_Page_2 > h2{
+    margin: 20px 0px;
+}
+.Marketers_Full_Page_2 > span:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.Adding_Marketer_Pop{
+    width: 30%;
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgb(252, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.Marketer_Image{
+    width: 120px;
+    height: 120px;
+    border: 2px dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Marketer_Image_upload{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.Marketer_Image input{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    /* border: 1px solid black; */
+}
+.Marketer_Image:hover{
+    cursor: pointer;
+    background-color: rgba(248, 238, 225,.5);
+}
+.Marketer_Image span{
+    font-size: 50px;
+}
+form{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+form label{
+    font-size: 20px;
+}
+form > div{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    position: relative;
+}
+form > div > h5{
+    position: absolute;
+    bottom: -5px;
+    color: red;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+form > div > input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+form > button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: rgb(172, 172, 224);
+    position: absolute;
+    left: 40%;
+    border-radius: 3px;
+    font-size: 18px;
+}
+form > button:hover{
+    background-color: rgb(191, 191, 246);
+    cursor: pointer;
+}
+select{
+    width: 330px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.others{
+    width: 10px;
+    font-size: 25px;
+    background-color: rgb(213, 207, 204);
+}
+/* Adding_Marketer_Pop end */
+
+/* Marketers_only start */
+
+.Marketers_only{
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.Marketers_only > h2{
+    font-size: 30px;
+}
+/* Marketers_only end */
+
+/* Admins only start */
+
+.Admins_only{
+    width: 100%;
+    height: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+.Admins_only > h2{
+    font-size: 30px;
+}
+.Show_Admins{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-color: rgb(244, 233, 219);
+}
+.Show_Admins > span{
+    position: fixed;
+    top: 30%;
+    cursor: pointer;
+    z-index: 4;
+    font-size: 35px;
+    background-color: rgb(193, 209, 223);
+}
+.Show_Admins > span:nth-child(2){
+    right: 0;
+}
+.Show_Admins > span{
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+}
+.Show_Admins > span:nth-child(2){
+    right: 0;
+}
+.Admin{
+    min-width:300px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgb(231, 235, 238);
+    margin: 20px; 
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.Admin > .Admin_image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.Admin > span:nth-child(1){
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 50%;
+}
+.Admin > span:nth-child(2){
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 50%;
+}
+.Admin > span:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(205, 242, 211);
+}
+.Admin > span:nth-child(1):hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.AName{
+    /* width: 80%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.Aroll{
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.Aroll > span{
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+    scale: 0;
+}
+.Aroll:hover > span{
+   scale: 1;
+}
+.Apwd_div{
+    display: flex;
+}
+/* Admins only end */

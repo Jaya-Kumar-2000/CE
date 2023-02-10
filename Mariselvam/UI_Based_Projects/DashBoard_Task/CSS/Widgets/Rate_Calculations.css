@@ -1,0 +1,141 @@
+.DB-rate_calculations {
+    width: 100%;
+    height: auto;
+    font-family: 'Zoho_Puvi_Bold';
+}
+
+.DB-Rate_calculations_header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.DB-rate_Show_details {
+    float: right;
+    border: 1px solid var(--UI_border_light);
+    border-radius: var(--border_radius_7);
+    font-family: 'Zoho_Puvi_Regular';
+    /* font-weight: bold; */
+}
+
+
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.DB-rate_Show {
+    display: inline;
+    color: var(--small_text_color);
+    font-size: var(--Default_size);
+}
+
+.DB-Rate_show_Servilence {
+    color: var(--SeondaryText_color);
+}
+
+.DB-drop_arrow {
+    color: var(--small_text_color);
+}
+
+.Rate_calculations_title {
+    float: left;
+    color: var(--primary_color_of_page);
+    line-height: 40px;
+}
+
+.DB-Rates {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: 'Zoho_Puvi_Regular';
+}
+
+
+.DB-Card{
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--UI_border_light);
+    border-radius: var(--border_radius_7);
+}
+
+.DB-Card_Content{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.DB-Card_content_head{
+    color: var(--primary_color_of_page);
+    font-weight: bold;
+}
+
+.DB-Card_content_rate{
+    font-family: 'Zoho_Puvi_Bold';
+}
+.DB-Card_content_rate_percent_incre{
+    font-size: var(--Default_size);
+    font-family: 'Zoho_Puvi_Regular';
+    color: var(--parrot_green);
+    font-weight: 900;
+}
+
+.DB-Card_content_rate_percent_decre{
+    color: var(--red_color);
+    font-size: var(--Default_size);
+    font-family: 'Zoho_Puvi_Regular';
+    font-weight: 900;
+}
+
+.DB-Card_content_para{
+    font-size: var(--Default_size);
+    color: var(--small_text_color);
+}
+
+.DB-Card_Icon{
+    float: right;
+    border-radius: var(--border_radius_8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--h2_size);
+}
+
+.Sessions{
+    color: var(--sky_blue_color);
+    background-color: var(--light_sky_blue_bg);
+}
+.Users{
+    color: var(--pink_color);
+    background-color: var(--light_pink_bg);
+}
+.Time_On_Site{
+    color: var(--orange_color);
+    background-color: var(--light_orange_bg);
+}
+
+.Goal_Completions{
+    color: var(--violet_color);
+    background-color: var(--light_violet_bg);
+}
+.Bounce_Rate{
+    color: var(--anchor_blue);
+    background-color: var(--anchor_blue_light);
+}
+.New_Sessions{
+    color: var(--dark_green);
+    background-color: var(--light_green);
+}
+
+.DB-user_name{
+    color: var(--primary_color_of_page);
+    font-weight: bold;
+}

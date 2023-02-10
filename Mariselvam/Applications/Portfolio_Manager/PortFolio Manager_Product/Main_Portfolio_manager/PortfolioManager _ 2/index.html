@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Manager</title>
+    <link href="portfolio_page_2.css" rel="stylesheet" type="text/css" />
+    <link href="Admin_log_in.css" rel="stylesheet" type="text/css" />
+    <link href="Marketer.css" rel="stylesheet" type="text/css"/>
+    <link href="curtain.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/26bf5e416e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Admin LogIn Page -->
+    <section class="curtain_sec" style="display: block;">
+
+        <section class="Admin_logIn_full_page">
+
+
+            <div class="loader_page">
+                <div class="default_loader loader">
+                    <div class="log_In_tick_view">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Admin_logIn_start">
+
+                <div class="Admin_logIn_start_head">
+                    <h3>Log In</h3>
+                </div>
+
+                <form action="">
+                    <div class="Admin_logIn_start_inputs">
+
+                        <div class="Admin_logIn_start_input_box">
+
+                            <input type="text" placeholder="UserName" id="fname" autocomplete="off"  value="Mariselvam" oninput="Admin_log_in_input()" />
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+
+                        </div>
+
+                        <p class="username_error">* Please Enter Username</p>
+
+
+                        <div class="Admin_logIn_start_input_box">
+                            <input type="password" placeholder="Password" id="pwd" autocomplete="off"  value="Ma@ri@20" oninput="Admin_log_in_input()" />
+                            <span class="material-symbols-outlined">
+                                key
+                            </span>
+                        </div>
+
+                        <p class="Password_error">* Please Enter Password</p>
+
+
+                        <h3>Forget Password ?</h3>
+
+                        <p class="Admin_error">*Enter Valid UserName & Password</p>
+
+                    </div>
+                </form>
+
+
+
+
+
+            </div>
+
+            <div class="Admin_logIn_end">
+                <button type="submit" id="Admin_logIn_end_h3">Log In</button>
+            </div>
+
+        </section>
+
+        <div class="div-1"></div>
+        <div class="div-2"></div>
+        <div class="div-3"></div>
+        <div class="div-4"></div>
+        <div class="div-5"></div>
+        <div class="div-6"></div>
+        <div class="div-7"></div>
+        <div class="div-8"></div>
+    </section>
+
+    <!-- admin login page end -->
+
+
+
+
+    <section class="portfolio_page_2" style="display: none;">
+
+        <div class="Heading_page_2">
+            <h2>Welcome, MariSelvam</h2>
+
+            <div class="Heading_page_2_span">
+                <span class="material-symbols-outlined" onclick="Add_The_Marketers()">
+                    groups
+                </span>
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </div>
+
+        </div>
+
+
+        <section class="Saved_Portfolio_page">
+
+            <button id="main_add_album_button">
+                <span class="material-symbols-outlined">
+                    add_box
+                </span>ADD ALBUMS
+            </button>
+
+            <div class="saved_portfolio_images">
+
+                <template class="temp">
+
+                    <div class="saved_portfolio_image">
+
+                        <div class="portfolio_image">
+                            <span class="material-symbols-outlined select_icon">
+                                check_small
+                            </span>
+                            <span class="material-symbols-outlined share_delete">
+                                more_vert
+                            </span>
+                        </div>
+
+                        <div class="portfolio_rename_delete">
+                            <h5 id="portfolio_Delete">Delete</h5>
+                            <h5 id="portfolio_share_to">Share To</h5>
+                            <h5 id="portfolio_rename">Rename</h5>
+                        </div>
+
+                        <div class="saved_portfolio__content">
+
+                            <h2 class="saved_portfolio__content_album_name"></h2>
+                            <span class="material-symbols-outlined" id="edit_the_album">
+                                edit_document
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </template>
+
+            </div>
+
+
+            <div class="selected_edit_delete">
+
+                <div class="count_selected_elements">
+
+                    <span class="material-symbols-outlined selected_item_close_button">
+                        close
+                    </span>
+
+                    <h2><span class="selected_item_total"> no:of </span> Items</h2>
+
+                </div>
+
+                <div class="count_selected_elements_icon">
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
+                    <span class="material-symbols-outlined">
+                        share
+                    </span>
+                </div>
+
+            </div>
+
+            
+
+        </section>
+
+
+        <!-- Open the Albums and show Images start-->
+
+        <section class="showed_the_full_images" style="display:none">
+
+            <button>
+                <span class="material-symbols-outlined  showed_the_full_images_button">
+                arrow_back
+                </span>
+            </button>
+
+
+            <div class="showed_images_page">
+                <span class="showed_images_page_album_name">Album_name</span>
+
+                <div class="showed_images">
+                    
+                    <!-- <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div>
+                    <div class="showed_album_iamge"></div> -->
+
+                    
+                    <!-- <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                      <img src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                    </a>
+                    
+                    <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1657997805033-7b1b095ae28f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+                      <img src="https://images.unsplash.com/photo-1657997805033-7b1b095ae28f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+                    </a> -->
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Open the Albums and show Images start-->
+            
+
+
+
+
+
+
+
+        <!-- album section -->
+
+
+        <!-- <section class="album_section" style="display: none;">
+
+            <div class="create_album_page">
+
+                <div class="create_album">
+
+                </div>
+
+                <button class="before_add_create_album">
+                    <span class="material-symbols-outlined">
+                    add_box
+                    </span>
+                    Create Album
+
+                    <input type="file" id="choose_file_image_0" multiple="multiple" accept="image/jpeg, image/png, image/jpg" autocomplete="off"/>
+
+                </button>
+
+                <p>The Albums You create are shown here</p>
+
+            </div>
+
+
+
+        </section> -->
+
+        <!----album added--->
+
+        <div class="Album_add_photos" style="display: none;">
+
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+
+
+            <div class="Album_name">
+
+                <input id="album_name_input" type="text" placeholder="Album Name" required autocomplete="off" />
+
+                <p class="album_name_input_error">* Please give album name</p>
+
+            </div>
+
+            <div class="Add_phots_page">
+
+
+                <p>The Album is empty</p>
+
+                <div class="Add_phots_page_file_input">
+
+                    <button class="add_photos_button_click">
+                        <span class="material-symbols-outlined">add_box</span>
+                        Add Photos
+                    </button>
+
+                    <input type="file" id="choose_file_image" multiple="multiple"
+                        accept="image/jpeg, image/png, image/jpg" autocomplete="off" />
+
+                </div>
+                <!-- 
+                <div class="first_time_Add_Album_icon">
+
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+
+                </div> -->
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="main_Portfolio_album_page" style="display: none;">
+
+            <div class="Album_edit_page">
+                <input id="edited_album_name" />
+                <button id="edited_album_saved">Save</button>
+            </div>
+
+            <div class="Portfolio_album_page">
+
+                <div class="Add_Album_icon Saved_albums">
+
+                    <span class="Add_Album_icon material-symbols-outlined">
+                        add
+                    </span>
+                    <input type="file" multiple required>
+                </div>
+
+                
+                <template class="template_3">
+                    <div class="Saved_albums saved_images">
+
+                        <div class="photo_portfolio_image">
+                            <span class="material-symbols-outlined select_icon">
+                                check_small
+                            </span>
+                            <span class="material-symbols-outlined share_delete">
+                                more_vert
+                            </span>
+                        </div>
+    
+                        <div class="portfolio_rename_delete">
+                            <h5 id="portfolio_Delete">Delete</h5>
+                        </div>
+                    </div>
+                </template>
+
+
+                
+
+                <div class="selected_photo_edit_delete">
+
+                    <div class="count_selected_photo_elements">
+    
+                        <span class="material-symbols-outlined selected_item_close_button">
+                            close
+                        </span>
+    
+                        <h2><span class="selected_photo_item_total"> no:of </span> Items</h2>
+    
+                    </div>
+    
+                    <div class="count_selected_photo_elements_icon">
+                        <span class="material-symbols-outlined">
+                            delete
+                        </span>
+                        <span class="material-symbols-outlined">
+                            share
+                        </span>
+                    </div>
+    
+                </div>
+
+            </div>
+
+            
+        </div>
+
+
+
+
+    </section>
+
+        <!-- Show the added images before post start -->
+
+        <!-- <section class="show_image_before_post_page">
+
+            <div class="show_image_before_post">
+
+                <div class="show_image_before_post_photos">
+                    
+                        
+                </div>scroll images using swiper
+
+                <button>OK</button>
+                <button>CANCEL</button>
+
+            </div>
+
+            <span class="material-symbols-outlined">
+                cancel
+            </span>
+
+        </section> -->
+
+        <!-- Show the added images before post start -->
+
+    <section class="click_the_image_to_view" style="display: none;">
+
+        <div class="close_the_image">
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+
+        <!-- <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide swiper-slide_1"></div>
+                <div class="swiper-slide swiper-slide_2"></div>
+                <div class="swiper-slide swiper-slide_3"></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+
+
+        </div> -->
+            <div class="slide-container">
+        
+                <button class="arrow left-arrow" id="left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+        
+                <button class="arrow right-arrow" id="right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+        
+                <div class="Zoom">
+                    <button class="material-symbols-outlined">
+                        zoom_in
+                    </button>
+                    <button class="material-symbols-outlined">
+                        zoom_out
+                    </button>
+                </div>
+
+            </div>
+
+
+
+
+
+    </section>
+    
+
+    
+  
+
+
+
+    <div class="backdrop" style="display: none;">
+        <div class="pop_up_page_album">
+
+            <div class="pop_up_iamge_content">
+                <div class="pop_up_iamge">
+
+                </div>
+
+                <div class="pop_up_content">
+                    <h2>Rename album</h2>
+                    <input id="rename_input" type="text" autocomplete="off" required/>
+                    <h5 class="rename_album_name_error">* Please give a album name</h5>
+                </div>
+            </div>
+
+
+
+            <div class="cancel_done">
+                <button class="album_pop_up_cancel">Cancel</button>
+                <button class="album_pop_up_done">Done</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="backdrop_share" style="display: none;">
+
+        <div class="pop_up_page_share">
+            <div class="pop_up_page_share_head">
+                <span class="material-symbols-outlined" id="pop_up_page_share_close">
+                    close
+                </span>
+                <h2>Share Album To</h2>
+            </div>
+
+            <div class="pop_up_page_share_body">
+
+
+                <div class="pop_up_page_share_body_input_div">
+
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+
+                    <input placeholder="Search..." id="marketer_name_search" type="text" autocomplete="off" required />
+                </div>
+
+                <div class="pop_up_page_share_body_error">No Marketers Found</div>
+
+
+
+                <div class="pop_up_page_share_marketers">
+
+                    <template class="template_2">
+
+                    <div class="pop_up_page_share_marketers_detail">
+                        <div class="pop_up_page_share_marketers_image">
+
+                        </div>
+                        <h2 class="pop_up_page_share_marketer_name">Marketer Name</h2>
+
+                        <span class="material-symbols-outlined" onclick="checked(this)">
+                            check
+                        </span>
+
+                    </div>
+
+                    </template>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Add the Marketer details  start-->
+
+    <section class="Marketers_Full_Page" style="display: none;">
+
+        <span class="material-symbols-outlined" id="Marketers_Full_Page_close">
+            close
+        </span>
+
+        <button class="add_marketers_btn">
+            <span class="material-symbols-outlined">
+                add
+            </span>
+            Add Marketers 
+        </button>
+
+        <div class="full_Marketers">
+
+            <div class="Marketers_only">
+
+                <h2>Marketers</h2>
+
+                <div class="Show_marketers">
+
+                    <span class="material-symbols-outlined" onclick="leftScroll()">
+                        keyboard_double_arrow_left
+                    </span>
+
+
+                    <span class="material-symbols-outlined" onclick="rightScroll()">
+                        keyboard_double_arrow_right
+                    </span>
+
+                    <template class="template_4">
+                        <div class="Marketer">
+        
+                            <span class="material-symbols-outlined">
+                                close
+                            </span>
+            
+                            <span class="material-symbols-outlined Edit_the_Marketer" >
+                                edit
+                            </span>
+            
+                            <div class="Marketer_image">
+            
+                            </div>
+            
+                            <div>
+                                <h2 class="MName"></h2>
+                            </div>
+        
+                            <h5 class="Memail"></h5>
+            
+                            <div class="pwd_div">
+                                <span>(pwd)</span>
+                                <h4 class="pwd"></h4>
+                            </div>
+            
+                            <!-- <div class="Mroll">
+                                <h2 class="M_roll_name"></h2>
+                            </div> -->
+            
+                        </div>
+                    </template>
+
+                </div>
+
+            </div>
+
+            <div class="Admins_only">
+
+                <h2>Admins</h2>
+
+                <div class="Show_Admins">
+
+                    <span class="material-symbols-outlined" onclick="AdminLeftScroll()">
+                        keyboard_double_arrow_left
+                    </span>
+
+
+                    <span class="material-symbols-outlined" onclick="AdminRightScroll()">
+                        keyboard_double_arrow_right
+                    </span>
+                    
+                    <template class="template_5">
+                        <div class="Admin">
+        
+                            <span class="material-symbols-outlined">
+                                close
+                            </span>
+            
+                            <span class="material-symbols-outlined Edit_the_Marketer" >
+                                edit
+                            </span>
+            
+                            <div class="Admin_image">
+            
+                            </div>
+            
+                            <div class="AName">
+                                <h2></h2>
+                            </div>
+        
+                            <h5 class="Aemail"></h5>
+            
+                            <div class="Apwd_div">
+                                <span>(pwd)</span>
+                                <h4 class="Apwd"></h4>
+                            </div>
+<!--             
+                            <div class="Aroll">
+                                <h2 class="A_roll_name"></h2>
+                            </div> -->
+            
+                        </div>
+                    </template>
+
+                </div>
+
+            </div>
+
+            
+
+            
+            
+            
+
+
+        </div>
+
+
+    </section>
+
+    <section class="Marketers_Full_Page_2" style="display: none;">
+
+        <span class="material-symbols-outlined" id="Marketers_Full_Page_2_close">
+            close
+        </span>
+
+        <h2>Marketer_Details</h2>
+
+        <div class="Adding_Marketer_Pop">
+
+            <div class="Marketer_Image_upload Marketer_Image">
+                <span class="material-symbols-outlined" id="Marketer_image_add_icon">
+                    add
+                </span>
+                <input type="file" id="marketer_choose_file_image" accept="image/jpeg, image/png, image/jpg">
+            </div>
+
+            <form action="" method="post">
+                
+                <div><label>Name : </label> <input type="text" id="Marketername" autocomplete="off" required/> <h5 class="Name_error">*Pleasae Enter Name</h5></div>
+            
+                <div><label>Email : </label> <input type="email" id="MarketerEmail" autocomplete="off" required/><h5 class="email_error">*Pleasae Enter Email</h5></div>
+
+                <div><label>Password : </label> <input type="password" id="MarketerPassword" autocomplete="off" required/><h5 class="password_error">*Pleasae Enter Password</h5></div>
+
+                <div>
+                    <label>Roll : </label> 
+
+                    <select id="my_selection" value="null">
+                        <option class="others">Marketer</option>
+                        <option class="others">Admin</option>
+                    </select>
+
+                </div>
+
+                <button type="button" class="Marketer_submit">Submit</button>
+
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Add the Marketer details end -->
+    
+    <script src="Admin_log_in.js"></script>
+    <script src="Marketer.js"></script>
+    <script src="curtain.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="portfolio_page_2.js"></script>
+    <!-- <script src="lightbox-plus-jquery.js"> </script> -->
+
+</body>
+
+</html>

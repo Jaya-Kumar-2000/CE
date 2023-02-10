@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Main_CRM_WORKPLACE{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main_crm_work_content{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.main_crm_work_content > h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+.main_crm_work_content > h3{
+    font-size: 19px;
+    color: rgb(39, 33, 33);
+    line-height: 1.6;
+}
+
+.featured_workRemote{
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+}
+
+.Featured_WremoteApps{
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+.featured_workRemote > p,h2{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.featured_workRemote > h2{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+
+.Featured_App_Sec{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right,#e8f4ff 30%,#fff 100%);
+    border: 1px solid #f8f8f8;
+}
+.remote_work_sec{
+    background: linear-gradient(to right,#ffeded 0%,#fff 100%);
+}
+
+
+.Featured_App_images{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Featured_App_images > h5{
+    font-size: 20px;
+}
+
+
+.Featured_App_content{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+.Featured_App_content > h3{
+    font-size: 25px;
+}
+.Featured_App_content > h5{
+    font-size: 15px;
+    color: rgb(68, 62, 62);
+}
+.Featured_App_content > span{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #F0483E;
+}
+
+.Featured_WremoteApps > ul{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.Featured_WremoteApps > ul > li{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.Featured_WremoteApps > ul > li > .img{
+    width: 80px;
+    height:80px;
+    margin: 20px 10px;
+    background-image: url("image_sprite_all.png");
+}
+.Featured_WremoteApps > ul > li > .content{
+    width: 140px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.Featured_WremoteApps > ul > li > .content > h5{
+    font-size: 13px;
+    color: #5d5757;
+    line-height: 20px;
+}
+.Featured_WremoteApps > ul > li > .content > span{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #03a9f5;
+    border: 1px solid #03a9f5;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.sprite_img{
+    width: 80px;
+    height: 80px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+}
+.Featured_App_images > .crm_img{
+    background-position: -137px 13px;
+    background-size: 1074px;
+}
+.feature_books{
+    background-position: -71px 3px;
+    background-size: 1140px;
+}
+.feature_mail{
+    background-position: -315px 0px;
+    background-size: 1179px;
+}
+.feature_people{
+    background-position: -241px -199px;
+    background-size: 1196px;
+}
+.feature_projects{
+    background-position: -528px 3px;
+    background-size: 1135px;
+}
+.Featured_App_images > .workplace_img{
+    background-position: -677px -187px;
+    background-size: 1135px;
+}
+.feature_assist{
+    background-position: -446px -223px;
+    background-size: 2255px;
+}
+.feature_meeting{
+    background-position: -1039px 0px;
+    background-size: 1200px;
+}
+.feature_sprints{
+    background-position: -160px -199px;
+    background-size: 1200px;
+}
+.feature_cliq{
+    background-position: -1118px 0px;
+    background-size: 1200px;
+}
+.Featured_WremoteApps > ul > li:nth-child(1){
+    border-bottom: 1px solid #f3f1f1;
+    border-right: 1px solid #f3f1f1 ;
+}
+.Featured_WremoteApps > ul > li:nth-child(2){
+    border-bottom: 1px solid #f3f1f1;
+}
+.Featured_WremoteApps > ul > li:nth-child(3){
+    border-right: 1px solid #f3f1f1;
+}

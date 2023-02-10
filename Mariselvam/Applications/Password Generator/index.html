@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <section class="passwordGenerator">
+
+        <h1>Password Generator </h1>
+
+        <div id ="password">
+            <input class="passValue" id="finalPassword" type="text" disabled/>
+            <button class="btn" id="clipBoard"> 
+                 <i class="fas fa-clipboard"></i> 
+            </button>
+        </div>
+
+        <div class="options">
+            <label>Password length</label>
+            <input type="number" class="lengthBOx" id="lenValue" />
+        </div>
+
+        <div class="options">
+            <label>Include uppercase letters</label>
+            <input type="checkbox" class="ticBox" id="upperCase" />
+        </div>
+
+        <div class="options">
+            <label>Include lowercase letters</label>
+            <input type="checkbox" class="ticBox" id="lowerCase" />
+        </div>
+
+        <div class="options">
+            <label>Include numbers</label>
+            <input type="checkbox" class="ticBox" id="numbers" />
+        </div>
+
+        <div class="options">
+            <label>Include symbols</label>
+            <input type="checkbox" class="ticBox" id="symbols" />
+        </div>
+
+        <div class="options" id='generatedPassword'>Generate Password</div>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

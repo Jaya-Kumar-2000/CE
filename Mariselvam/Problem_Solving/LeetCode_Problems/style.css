@@ -1,0 +1,66 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#myTable{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+button{
+    width: 150px;
+    height: 50px;
+}
+
+.trippleEffect{
+    width: 70px;
+    height:20px;
+    margin: 40px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 12.5rem 12.5rem;
+    background-color: #9E9E9E;
+    position: relative;
+}
+
+.circleTripple{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #9E9E9E;
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 0px;
+    transition: .2s;
+}
+.trippleEffect:hover{
+    cursor: pointer;
+}
+
+.SlidecircleTripple{
+    left: 50%;
+    background-color: #1976D2;
+    
+}
+.SlidetrippleEffect{
+    background-color: #1976D2;
+    
+}
+
+
+form{
+    margin: 20px;
+}
+
+
+.input_box{
+    border:1px solid  black;
+}

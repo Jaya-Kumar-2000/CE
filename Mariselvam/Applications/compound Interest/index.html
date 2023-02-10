@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js'></script>
+  </head>
+
+  <body>
+
+    <div class="title">COMPOUND INTEREST</div>
+
+    <!-- <div class="mode">
+      <div class="dark">
+
+      </div>
+
+      <div class="bright">
+
+      </div>
+    </div> -->
+
+    <section class="Full-part">
+
+        <section class="compoundInterest">
+
+            <div class="AnswerOfCompoundInterest">
+              
+              <!-- <input id="answer" type="number" placeholder="Total Amount" disabled/> -->
+              <div id="answer">Total Amount</div>
+
+              <div id="AnswerOfInterest">Total Interest</div>
+              <!-- <input id="AnswerOfInterest" type="number" placeholder="Interest" disabled/> -->
+
+            </div>
+
+            <div class="Calculation-Box">
+
+              <form>
+                
+                  <label  class="label" >Principal Amount : ₹ </label>
+                  <input id='PrincipalAmount' class="amountValue" type="number" placeholder="Enter the Amount" autocomplete="off"/>
+                
+                
+                
+                  <label class="label">Rate (R) : % </label>
+                  <input id='rateOfAmount' class="amountValue" type="number" placeholder="Enter the rate" autocomplete="off"/>
+               
+
+                
+                  <label class="label">Time (in years) : </label>
+                  <input id='timeOfYear' class="amountValue" type="number" placeholder="Enter in Year" autocomplete="off"/>  
+
+                  <label class="label">Investment :  </label>
+
+                  <span class="timeMonth">Monthly :</span>
+                  <input id="monthlyInterest" name="interest" value="monthly" type="radio" />
+                 
+                  <span class="timeYear">Yearly :</span>
+                  <input id="yearlyInterest" name="interest" value="yearly" type="radio" />
+                  
+
+              </form>
+
+              <!-- <div id='timePeriods' class="timePeriod">
+
+                <label class="timeMonth" >Monthly : </label>
+                <input id="monthlyInterest" name="interest" value="monthly" type="radio" />
+
+                <label class="timeYear" >Yearly : </label>
+                <input id="yearlyInterest" name="interest" value="yearly" type="radio" />
+              </div> -->
+
+                <div class="submit">
+                     <button id='submited' class="btn"> Submit </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="chartView">
+
+          <div class="chart-box">
+
+            <div class="btns">
+                <button id='graphbtn' class='chartbtn'>Graph</button>
+                <button id='tableBtn' class='chartbtn'>Table</button>
+            </div>
+
+          </div>
+
+          <div id="graph">
+            <canvas id='myChart'></canvas>
+          </div>
+
+          <div id="table">
+
+          </div>
+
+
+        </section>
+
+    </section>
+
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>

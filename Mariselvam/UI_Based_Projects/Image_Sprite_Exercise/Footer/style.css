@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    height: 850px;
+    background-color: #333333;
+}
+
+.footer_links {
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+}
+
+.product_links_column>h3 {
+    font-size: 23px;
+    margin: 20px 0px;
+}
+
+.product_links_column {
+    color: #ccc;
+    display: table-cell;
+    padding: 0 40px 0 0;
+    box-sizing: border-box;
+}
+
+.product_links_column>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.product_links_column>ul>li {
+    width: 160px;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.product_links_column>ul>li>a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer_search_input {
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer_search_input>input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px 70px 0px 20px;
+    border: 1px solid rgb(113, 109, 109);
+}
+
+.footer_search_input>button {
+    width: 50px;
+    height: 90%;
+    position: absolute;
+    right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+    border: none;
+    color: white;
+}
+
+.footer_search_input>button>span {
+    font-size: 30px;
+}
+
+.footer_links_privacy {
+    width: 65%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    color: #ccc;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer_links_privacy>ul {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.footer_links_privacy>ul>li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.footer_links_privacy>ul>li {
+    border-right: 1px solid #ccc;
+}
+
+footer>.share_social {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>.share_social>span {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("social_img.png");
+}
+
+footer>.share_social>.twitter {
+    background-position: -972px -103px;
+    background-size: 2000px;
+}
+
+footer>.share_social>.fb {
+    background-position: -897px -103px;
+    background-size: 2000px;
+}
+
+footer>.share_social>.youtube {
+    background-position: -695px -73px;
+    background-size: 1500px;
+}
+
+footer>.share_social >.IN {
+    background-position: -754px -73px;
+    background-size: 1500px;
+}
+
+footer>.share_social>.instagram {
+    background-position: -782px -73px;
+    background-size: 1500px;
+}
+
+footer > .language{
+    width: 6%;
+    height: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ccc;
+    align-items: center;
+    font-size: 12px;
+}
+footer > .language > .img{
+    width: 30px; 
+    height: 20px;
+    background-image: url("zh-language-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 5px -18px;
+    background-size: 320px;
+}

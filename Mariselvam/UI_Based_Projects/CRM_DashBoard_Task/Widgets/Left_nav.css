@@ -1,0 +1,47 @@
+.Left_nav {
+    width: 50%;
+    height: auto;
+    font-family: 'Zoho_Puvi_Regular';
+    float: left;
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+    background-size: 50px;
+    float: left;
+    background-position: -5px -9px;
+}
+
+.Left_nav_lists {
+    list-style-type: none;
+    float: right;
+}
+
+.right_li_Items:hover{
+    background-color: rgba(190, 222, 253, .3);
+    cursor: pointer;
+
+}
+
+.Left_nav_lists_und {
+    text-decoration: none;
+    color: white;
+}
+
+.right_li_Items{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}

@@ -1,0 +1,1770 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>.Headers_link {
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>.img {
+    width: 120px;
+    height: 50px;
+    background-image: url("image_sprite_2.png");
+    background-repeat: no-repeat;
+    background-size: 955px;
+    background-position: -422px 2px;
+}
+
+
+.Headers_link>a {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.Headers_link>div,
+span {
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.top_eng_language {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_eng_language>span:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    background-image: url("zh-language-sprite.png");
+    background-repeat: no-repeat;
+    background-size: 311px;
+    background-position: -290px 1px;
+
+}
+
+.Headers_link>a:nth-child(4) {
+    color: green !important;
+}
+
+
+
+/* first_section_crm_workplace start */
+
+.Main_CRM_WORKPLACE {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Main_CRM_WORKPLACE>.content {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.Main_CRM_WORKPLACE>.content>h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.Main_CRM_WORKPLACE>.content>h3 {
+    font-size: 19px;
+    color: rgb(39, 33, 33);
+    line-height: 1.6;
+}
+
+.featured_Work_Remote {
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+}
+
+.featured_Work_Remote > p,h2 {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.featured_Work_Remote>h2 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+.featured_Work_Remote > .Apps {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+
+.Featured_App_Sec {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #e8f4ff 30%, #fff 100%);
+    border: 1px solid #f8f8f8;
+}
+
+
+.Featured_App_Sec > .images {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Featured_App_images>h5 {
+    font-size: 20px;
+}
+
+.remote_work_sec {
+    background: linear-gradient(to right, #ffeded 0%, #fff 100%);
+}
+
+
+.Featured_App_Sec > .content {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+.Featured_App_Sec > .content>h3 {
+    font-size: 25px;
+}
+
+.Featured_App_Sec > .content>h5 {
+    font-size: 15px;
+    color: rgb(68, 62, 62);
+}
+
+.Featured_App_Sec > .content>span {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #F0483E;
+}
+
+.featured_Work_Remote > .Apps >ul {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.featured_Work_Remote > .Apps >ul>li {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.featured_Work_Remote > .Apps >ul>li>.img {
+    width: 80px;
+    height: 80px;
+    margin: 20px 10px;
+    background-image: url("image_sprite_all.png");
+}
+
+.featured_Work_Remote > .Apps > ul > li >.content {
+    width: 140px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.featured_Work_Remote > .Apps >ul > li>.content>h5 {
+    font-size: 13px;
+    color: #5d5757;
+    line-height: 20px;
+}
+
+.featured_Work_Remote > .Apps >ul>li>.content>span {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #03a9f5;
+    border: 1px solid #03a9f5;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.Full_sprite_Img {
+    width: 80px;
+    height: 80px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+}
+
+.Featured_App_Sec > .images > .crm_img {
+    background-position: -137px 13px;
+    background-size: 1074px;
+}
+
+.feature_books {
+    background-position: -71px 3px;
+    background-size: 1140px;
+}
+
+.feature_mail {
+    background-position: -315px 0px;
+    background-size: 1179px;
+}
+
+.feature_people {
+    background-position: -241px -199px;
+    background-size: 1196px;
+}
+
+.feature_projects {
+    background-position: -528px 3px;
+    background-size: 1135px;
+}
+
+.Featured_App_images>.workplace_img {
+    background-position: -677px -187px;
+    background-size: 1135px;
+}
+
+.feature_assist {
+    background-position: -446px -223px;
+    background-size: 2255px;
+}
+
+.feature_meeting {
+    background-position: -1039px 0px;
+    background-size: 1200px;
+}
+
+.feature_sprints {
+    background-position: -160px -199px;
+    background-size: 1200px;
+}
+
+.feature_cliq {
+    background-position: -1118px 0px;
+    background-size: 1200px;
+}
+
+.featured_Work_Remote > .Apps >ul>li:nth-child(1) {
+    border-bottom: 1px solid #f3f1f1;
+    border-right: 1px solid #f3f1f1;
+}
+
+.featured_Work_Remote > .Apps >ul>li:nth-child(2) {
+    border-bottom: 1px solid #f3f1f1;
+}
+
+.featured_Work_Remote > .Apps >ul>li:nth-child(3) {
+    border-right: 1px solid #f3f1f1;
+}
+
+/* first_section_crm_workplace end */
+
+/* Bundles_start */
+
+.bundles {
+    width: 70%;
+    height: 650px;
+    margin: 200px auto;
+    position: relative;
+    border: 1px solid rgb(200, 195, 195);
+    padding: 10px;
+}
+
+.bundles > h6 {
+    position: absolute;
+    right: 50%;
+    top: -8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0px 5px;
+    background-color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+}
+
+.zoho_one_bundle {
+    width: 98%;
+    height: auto;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 195, 195);
+}
+
+.zoho_one_img {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zoho_one_img>.img {
+    width: 90px;
+    height: 90px;
+}
+
+.bundles_img {
+    background-image: url("image_sprite_all.png");
+    background-size: 1279px;
+    background-position: -1103px -208px;
+    background-repeat: no-repeat;
+}
+
+.zoho_one_img > .text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+
+.zoho_one_bundle > .content {
+    width: 60%;
+}
+
+.content>h4 {
+    color: rgb(73, 67, 67);
+}
+
+.zoho_one_bundle > .content>h4,
+span {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.zoho_one_bundle > .content>span {
+    color: #03a9f5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.other_bundles {
+    width: 100%;
+    height: 280px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.other_bundle_box {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other_bundle_box>.image {
+    width: 90px;
+    height: 90px;
+    background-image: url("image_sprite_2.png");
+    background-repeat: no-repeat;
+}
+
+.other_bundle_box>.content {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.other_bundle_box>.content>span {
+    font-size: 15px;
+}
+
+.other_bundle_box>.content>h4 {
+    color: rgb(73, 67, 67);
+    font-size: 12px;
+}
+
+.other_bundle_box>.content>span {
+    color: #03a9f5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.crm_img {
+    background-size: 1229px;
+    background-position: 0px 0px;
+}
+
+.bundle_finance_img {
+    background-size: 1279px;
+    background-position: -187px 0px;
+}
+
+.workplace_img {
+    background-size: 1279px;
+    background-position: -95px 0px;
+}
+
+.people_img {
+    background-size: 1254px;
+    background-position: -463px 0px;
+}
+
+.ITmanage_img {
+    background-size: 1255px;
+    background-position: -269px 0px;
+}
+
+.marketing_img {
+    background-size: 1279px;
+    background-position: -1191px 0px;
+}
+
+/* Bundles_end */
+
+
+/* Zoho all apps start */
+
+.All_Zoho_Apps {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.All_Zoho_Apps>h1 {
+    height: 3%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.Sale_customer_e-mail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Sale_customer_e-mail_sec {
+    width: 33%;
+    height: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Sale_customer_e-mail_div {
+    width: 80%;
+    height: 100px;
+    margin: 130px auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Sale_customer_e-mail_div>h2 {
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.Sale_customer_e-mail_div>h5 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.Sale_Marketing {
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Customer_service {
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Image_Boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* grid-template-columns: auto auto auto; */
+}
+
+.Images_Sale_Mail_one {
+    width: 254px !important;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Single_Image_Item {
+    min-width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Images_Sale_Mail_one:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(106, 157, 245);
+}
+
+.Single_Image_Item:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(106, 157, 245);
+}
+
+.Single_Image_Item>h4 {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.Images_Mail_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Images_Mail_one:hover {
+    border-bottom: 1px solid rgb(245, 122, 106);
+}
+
+.Images_Mail:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(245, 122, 106);
+}
+
+.Images_Mail {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.Images_Mail>h4 {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.img {
+    width: 30px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+}
+
+.crm {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 14% -2% !important;
+    background-size: 1000px !important;
+}
+
+.bigin {
+    background-position: -2px -134px;
+    background-size: 1012px;
+}
+
+.campaigns {
+    width: 35px;
+    background-position: -337px -66px;
+    background-size: 1012px;
+}
+
+.forms {
+    width: 35px;
+    background-position: -134px -64px;
+    background-size: 1012px;
+}
+
+.sign {
+    width: 35px;
+    background-position: -167px -64px;
+    background-size: 1012px;
+}
+
+.social {
+    width: 35px;
+    background-position: -200px -64px;
+    background-size: 1012px;
+}
+
+.salesiq {
+    width: 35px;
+    background-position: -235px -65px;
+    background-size: 1012px;
+}
+
+.survey {
+    width: 35px;
+    background-position: -267px -65px;
+    background-size: 1012px;
+}
+
+.sites {
+    width: 35px;
+    background-position: -371px -65px;
+    background-size: 1012px;
+}
+
+.pagesense {
+    width: 35px;
+    background-position: -101px -65px;
+    background-size: 1012px;
+}
+
+.backstage {
+    width: 35px;
+    background-position: -541px -100px;
+    background-size: 1012px;
+}
+
+.commerce {
+    width: 35px;
+    background-position: -507px -100px;
+    background-size: 1012px;
+}
+
+.bookings {
+    width: 35px;
+    background-position: -743px -100px;
+    background-size: 1012px;
+}
+
+.marketing_automation {
+    width: 35px;
+    background-position: -776px -100px;
+    background-size: 1012px;
+}
+
+.landing_page {
+    width: 35px;
+    background-position: -665px -141px;
+    background-size: 1064px;
+}
+
+.thrive {
+    width: 35px;
+    background-position: -695px -141px;
+    background-size: 1064px;
+}
+
+.webinar {
+    width: 35px;
+    background-position: -784px -138px;
+    background-size: 1044px;
+}
+
+.Image_sec_customer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.Images_customer_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    border-bottom: 1px solid rgb(244, 241, 241);
+
+}
+
+.Images_customer_one:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_customer {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Images_customer:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+
+}
+
+.assist_Images_customer {
+    border-bottom: 1px solid rgb(244, 241, 241);
+}
+
+.lens_Images_customer {
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Desk {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 36% -2% !important;
+    background-size: 1000px !important;
+}
+
+.Assist {
+    width: 35px;
+    height: 37px;
+    background-image: url(image_sprite_all.png);
+    background-repeat: no-repeat;
+    background-position: -210px -104px;
+    background-size: 1049px;
+}
+
+.Lens {
+    width: 35px;
+    height: 37px;
+    background-image: url(image_sprite_all.png);
+    background-repeat: no-repeat;
+    background-position: -36px -138px;
+    background-size: 1049px;
+}
+
+.Finance_div {
+    width: 100%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(244, 241, 241);
+}
+
+.Finance_div>h2 {
+    font-size: 21px;
+}
+
+.Finance_div>h5 {
+    width: 80%;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
+
+.Image_sec_finance {
+    min-width: 20%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    padding: 30px 20px;
+}
+
+.Images_finance_one {
+    width: 60%;
+}
+
+.finance_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.Books {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 0% -1%;
+    background-size: 1000px;
+}
+
+.Inventory {
+    background-position: -490px -68px;
+}
+
+.Invoice {
+    background-position: -524px -68px;
+}
+
+.Subscriptions {
+    background-position: -559px -68px;
+}
+
+.Expense {
+    background-position: -594px -68px;
+}
+
+.Checkout {
+    background-position: -628px -69px;
+}
+
+.Payroll {
+    background-position: -735px -105px;
+}
+
+.Images_finance_one {
+    width: 230px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+    border-bottom: 1px solid rgb(244, 241, 241);
+}
+
+.Images_finance_one:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_finance {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.fin_img {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+}
+
+.Images_finance:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_finance>h4 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.fin_img:hover {
+    border-bottom: 1px solid rgb(243, 243, 110) !important;
+}
+
+.Mail {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 29% -1%;
+    background-size: 1000px;
+}
+
+.e_mail_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.Meeting {
+    background-position: -2px -104px;
+}
+
+.Cliq {
+    background-position: -733px -68px;
+}
+
+.Voice {
+    background-position: -492px -138px;
+}
+
+.Workdrive {
+    background-position: -838px -105px;
+}
+
+.Writer {
+    background-position: -838px -105px;
+}
+
+.Sheet {
+    background-position: -840px -67px;
+}
+
+.show {
+    background-position: -874px -67px;
+}
+
+.project {
+    background-position: -874px -67px;
+}
+
+.sprints {
+    background-position: -946px -67px;
+}
+
+.bug_tracker {
+    background-position: -978px -67px;
+}
+
+.connect {
+    background-position: -1014px -67px;
+}
+
+.showtime {
+    background-position: -69px -104px;
+}
+
+.notebook {
+    background-position: -105px -104px;
+}
+
+.teamInbox {
+    background-position: -280px -138px;
+}
+
+.ZeptoMail {
+    background-position: -315px -138px;
+}
+
+.learn {
+    background-position: -387px -138px;
+}
+
+.calendar {
+    background-position: -981px -106px;
+}
+
+
+/* Human_Resource */
+
+.Human_Resource {
+    margin: 70px 0px;
+}
+
+.RECRUIT {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 0% -1%;
+    background-size: 1000px;
+}
+
+.RECRUIT {
+    background-position: -399px 7px;
+}
+
+.PEOPLE {
+    background-position: -385px -105px;
+}
+
+.WORKERLY {
+    background-position: -697px -106px;
+}
+
+.BACKTOWORK {
+    background-position: -175px -139px;
+}
+
+.SHIFTS {
+    background-position: -622px -139px;
+}
+
+/* security */
+
+.Images_security {
+    min-width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    border-right: 1px solid rgb(244, 241, 241);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+}
+
+.security_div {
+    width: 100%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.security_div>h2 {
+    font-size: 21px;
+}
+
+.security_div>h5 {
+    width: 80%;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
+
+.secure_img:hover {
+    border-bottom: 1px solid rgb(163, 231, 161);
+}
+
+.Images_security>h4 {
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.Security_img_one {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: 29% -1%;
+    background-size: 1000px;
+}
+
+.Security_img {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.vault {
+    background-position: -425px -314px;
+}
+
+.serviceDesk_plus {
+    background-position: -246px -102px;
+}
+
+.mobile_device_management {
+    background-position: -283px -105px;
+    background-size: 1065px;
+}
+
+.patch_manager_plus {
+    background-position: -628px -104px;
+}
+
+.remote_access_plus {
+    background-position: -70px -139px;
+}
+
+.site_24_7 {
+    background-position: -315px -102px;
+}
+
+.cloud_siem {
+    background-position: -909px -102px;
+}
+
+.identity_management {
+    background-position: -943px -104px;
+}
+
+.endpoint_central {
+    background-position: -209px -138px;
+}
+
+.domain_toolkit {
+    background-position: -351px -138px;
+}
+
+/* custom */
+
+.creater {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: -200px 2px;
+    background-size: 1000px;
+}
+
+.catalyst {
+    background-position: -1013px -104px;
+}
+
+.flow {
+    background-position: -454px -104px;
+}
+
+.office_integrator {
+    background-position: -591px -104px;
+}
+
+.qntrl {
+    background-position: -419px -138px;
+}
+
+.research_studio {
+    background-position: -718px -138px;
+}
+
+.apptics {
+    background-position: -751px -139px;
+}
+
+.custom_img:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+/* legal */
+
+.contract {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-position: -1066px -265px;
+    background-size: 2009px;
+}
+
+.LEGAL:hover {
+    border-bottom: 1px solid rgb(243, 243, 110);
+}
+
+
+/* business */
+
+.busniess_div {
+    width: 80%;
+    height: 100px;
+    margin: 70px auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid rgb(244, 241, 241);
+    ;
+}
+
+.busniess_div>h2 {
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.busniess_div>h5 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    letter-spacing: 1px;
+}
+
+.analytics {
+    width: 70px;
+    height: 70px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1010px;
+    background-position: -674px 5px;
+}
+
+.Images_business_one {
+    width: 254px !important;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(244, 241, 241) !important;
+}
+
+.Images_business_one:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+.image_business {
+    width: 35px;
+    height: 37px;
+    background-image: url("image_sprite_all.png");
+    background-repeat: no-repeat;
+    background-size: 1049px;
+}
+
+.bus_img:hover {
+    border-bottom: 1px solid rgb(81, 164, 227) !important;
+}
+
+.dataprep {
+    background-position: -526px -139px;
+}
+
+.embedded_bi {
+    background-position: -614px -146px;
+    background-size: 1094px;
+}
+
+/* Zoho All apps end */
+
+/* privacy link start */
+
+.privacy_trust_sec {
+    width: 70%;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Privacy_zoho {
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0F;
+}
+
+.Privacy_zoho>.img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    background-image: url("privacy-shield.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.Privacy_zoho>.content {
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
+    position: absolute;
+    z-index: 100;
+}
+
+.Privacy_zoho>.content>h3 {
+    font-size: 30px;
+}
+
+.Privacy_zoho>.content>p {
+    font-size: 18px;
+}
+
+.Privacy_zoho>.content>span {
+    width: 120px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+/* customer_sec_part */
+
+.customer_sec_part {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+.customer_sec_part>h2 {
+    font-size: 38px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 100px 0px;
+}
+
+.zcustomer_vid_customers {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zcustomer_vid_customers>.customer_vid {
+    width: 48%;
+    height: 100%;
+    background-image: url("zoho-home-testimonial-nicolas-2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.customer_vid>.customer_vid_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.73) 100%);
+}
+
+.customer_vid_bg>.content {
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+}
+
+.customer_vid_bg>.content>h5 {
+    font-size: 19px;
+    word-spacing: 3px;
+}
+
+.customer_vid_bg>.content>p>span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.customer_vid_bg>.content>p {
+    font-size: 11px;
+}
+
+.customer_vid_bg>.content>span {
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0483e;
+}
+
+.zcustomer_vid_customers>.customer_brands {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.customer_brands>ul {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.customer_brands>ul>li {
+    list-style-type: none;
+}
+
+.customer_brands>ul>li>span {
+    width: 120px;
+    height: 58px;
+    display: flex;
+    background-image: url("zoho-customers-top-brands.png");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+.hyatt {
+    background-position: -1010px 17px;
+    background-size: 1127px !important;
+}
+
+.kpmg {
+    background-position: -249px 1px;
+    background-size: 1823px !important;
+}
+
+.loreal {
+    background-position: -481px -43px;
+    background-size: 1168px !important;
+}
+
+.mahindra {
+    height: 40px !important;
+    background-position: -110px -32px;
+    background-size: 1027px !important;
+}
+
+.tata {
+    height: 40px !important;
+    background-position: -100px -67px;
+    background-size: 938px !important;
+}
+
+.suzuki {
+    background-position: -519px 1px;
+    background-size: 1290px !important;
+    width: 40px !important;
+}
+
+.customer_brands>a {
+    color: #03a9f5;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* partner_marketer_sec */
+
+.partner_marketer_sec {
+    width: 80%;
+    height: 200px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.partner_marketer_sec>div {
+    width: 200px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.partner_marketer_sec>div>.partner {
+    width: 162px !important;
+}
+
+.partner_marketer_sec>div>h5 {
+    width: 150px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner_marketer_sec>div>p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #787880;
+}
+
+.partner_marketer_sec>div>a {
+    color: #03a9f5;
+}
+
+.partner_marketer_sec>div>h5>a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-image: url("social_img.png");
+    background-repeat: no-repeat;
+
+}
+
+.developer_img {
+    background-size: 1297px;
+    background-position: -369px -36px;
+}
+
+.market_img {
+    background-size: 1506px;
+    background-position: -463px -46px;
+}
+
+/* privacy link end */
+
+/* footer_start */
+
+footer {
+    width: 100%;
+    height: 850px;
+    background-color: #333333;
+}
+
+.footer_links {
+    width: 70%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+    font-family: Dosis, sans-serif;
+}
+
+.product_links_column>h3 {
+    font-size: 23px;
+    margin: 20px 0px;
+}
+
+.product_links_column {
+    color: #ccc;
+    display: table-cell;
+    padding: 0 40px 0 0;
+    box-sizing: border-box;
+}
+
+.product_links_column>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.product_links_column>ul>li {
+    width: 160px;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.product_links_column>ul>li>a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer_search_input {
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer_search_input>input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px 70px 0px 20px;
+    border: 1px solid rgb(113, 109, 109);
+}
+
+.footer_search_input>button {
+    width: 50px;
+    height: 90%;
+    position: absolute;
+    right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+    border: none;
+    color: white;
+}
+
+.footer_search_input>button>span {
+    font-size: 30px;
+}
+
+.footer_links_privacy {
+    width: 65%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    color: #ccc;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer_links_privacy>ul {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.footer_links_privacy>ul>li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.footer_links_privacy>ul>li {
+    border-right: 1px solid #ccc;
+}
+
+footer>.share_social {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>.share_social>span {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("social_img.png");
+}
+
+footer>.share_social>.twitter {
+    background-position: -972px -103px;
+    background-size: 2000px;
+}
+
+footer>.share_social>.fb {
+    background-position: -897px -103px;
+    background-size: 2000px;
+}
+
+footer>.share_social>.youtube {
+    background-position: -695px -73px;
+    background-size: 1500px;
+}
+
+footer>.share_social>.IN {
+    background-position: -754px -73px;
+    background-size: 1500px;
+}
+
+footer>.share_social>.instagram {
+    background-position: -782px -73px;
+    background-size: 1500px;
+}
+
+footer>.language {
+    width: 6%;
+    height: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ccc;
+    align-items: center;
+    font-size: 12px;
+}
+
+footer>.language>.img {
+    width: 30px;
+    height: 20px;
+    background-image: url("zh-language-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 5px -18px;
+    background-size: 320px;
+}
+
+/* footer_end */

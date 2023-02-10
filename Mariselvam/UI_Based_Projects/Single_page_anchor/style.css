@@ -1,0 +1,39 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+}
+
+header > ul{
+   display: flex;
+   list-style-type: none;
+   font-size: 30px;
+   padding: 20px;
+   justify-content: space-around;
+}
+
+header > ul > li > a{
+    text-decoration: none;
+}
+.FrontEnd_Topics{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.FrontEnd_Topics > .concepts{
+    font-size: 25px;
+    margin: 20px;
+}

@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Admin_page{
+    width: 85%;
+    height: 800px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+}
+.Admin_page > .Admin_Profile_page{
+    width: 25%;
+    height: 800px;
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'Catamaran', sans-serif;
+}
+.Product_name{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eee4e1;
+}
+.Product_name > .Product_image{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    background-image: url("Product_image.png");
+    background-size: cover;
+}
+.Product_name > h2{
+    font-size: 25px;
+}
+.Admin_Profile_page > .Admin_profile{
+    width: 100%;
+    height: 120px;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(246, 222, 222,0.3);
+}
+.Admin_profile > .Admin_profile_img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-image: url("mariselvam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Admin_profile > .Admin_profile_content{
+    width: 50%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Admin_profile_content > h2{
+    font-size: 30px;
+}
+.Admin_profile_content_status{
+    width: 40%;
+    height: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Admin_profile_content_status > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Admin_profile_content_status > h6{
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: green;
+}
+.Admin_Profile_page > .Admin_profile_menu{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f2f0; 
+}
+.Admin_Profile_page > .Admin_profile_menu:hover{
+    background-color: #f1e7dd; 
+    cursor: pointer;
+
+}
+.Admin_profile_menu > span{
+font-size: 30px;
+}
+.Admin_profile_menu > .Admin_profile_create_content{
+    width: 47%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Admin_profile_create_content > h3{
+    font-size: 25px;
+}
+.Admin_profile_create_content > span{
+  font-size: 35px;
+}
+
+.Admin_profile_menu  > .Admin_profile_saved_portfolio_content{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Admin_profile_saved_portfolio_content > h3{
+    font-size: 25px;
+}
+.Admin_profile_saved_portfolio_content > span{
+    font-size: 35px;
+}
+
+.Admin_Profile_page > .saved_portfolio_list{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.saved_portfolios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 5px 0px;
+
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.portfolio > .cliq_image {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    background-image: url("zoho_cliq.png");
+    background-size: cover;
+}
+.portfolio > .zoho_show_image {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    background-image: url("zoho_show.png");
+    background-size: cover;
+}
+
+
+
+/* alnbum */
+.Admin_Profile_page > .saved_Albums{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.saved_Albums{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 5px 0px;
+
+}
+.Albums_list{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.Albums_list > .Albums_list_image_1 {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    /* background-image: url("zoho_cliq.png"); */
+    background-size: cover;
+}
+.Albums_list > .Albums_list_image_2 {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    /* background-image: url("zoho_show.png"); */
+    background-size: cover;
+}
+
+/* albnum */
+
+
+.Admin_profile_menu  > .Admin_profile_Albums_content{
+    width: 47%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Admin_profile_Albums_content > h3{
+    font-size: 25px;
+}
+.Admin_profile_Albums_content > span{
+    font-size: 35px;
+}
+
+
+.Album_page{
+    width: 75%;
+    height: 800px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Catamaran', sans-serif;
+    /* display: none; */
+}
+.Album_page > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Album_page > .album_section{
+    /* border: 1px solid black; */
+    height: 730px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;                                                      /*album section display*/
+    justify-content: center;
+    align-items: center;
+}
+.create_album_page{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;                         /* Create Album page display*/
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.create_album_page > .create_album{
+    width: 150px;
+    height: 150px;
+    background-image: url("album_image.jpg");
+    /* border: 1px solid black; */
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.create_album_page > button{
+    width: 22%;
+    height: 10%;
+    border: none;
+    padding: 10px 0px;
+    background-color:   #4f6d7a;
+    color: #f1e7dd;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.create_album_page > button:hover{
+    cursor: pointer;
+    background-color:   #5f7782;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.create_album_page > p{
+    font-size: 20px;
+}
+.album_section {
+    display: block;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.album_section > .Album_add_photos{
+    width: 100%;
+    height: 100%;
+    display: none;    
+    flex-direction: column;  
+    /* Add photos page display */
+    /* border: 1px solid black; */
+}
+.Album_add_photos >.Add_phots_page{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid black; */
+    /* margin: 20% auto; */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: flex;                        
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Album_add_photos > span{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 25px 0px 0px 20px;
+    background-color: #b3c3d6;
+}
+.Album_add_photos > span:hover{
+    background-color: #8db8e9;
+    cursor: pointer;
+}
+.Album_name > p{
+    width:80%;
+    /* border: 1px solid black; */
+    margin: 50px 0px 50px 50px;
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+.Album_name > input{
+    margin: 50px 0px 0px 50px;
+    width: 80%;
+    height:100px;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: none;
+}
+.Add_phots_page > p{
+    font-size: 20px;
+}
+.Add_phots_page_file_input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.Add_phots_page_file_input > input{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    cursor: pointer;
+}
+.Add_phots_page  button{
+    width: 60%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 3px;
+    border: none;
+    background-color: #5390d9;
+    font-size: 18px;
+}
+
+                /* adding_album_images */
+
+.adding_album_images{
+    width: 100%;
+    height: 92%;
+    /* border: 1px solid black; */
+    position: relative;
+    display: none;
+    /* filter: blur(2px); */
+    /* -webkit-filter:blur(2px); */
+}
+.adding_album_images > button{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    margin:30px;
+    background-color: #96c5f7;
+    font-size: 18px;
+}
+.adding_album_images > button:hover{
+    cursor: pointer;
+    background-color: #afcbe9;
+}
+.adding_album_images > .Added_images{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid rgb(84, 73, 73); */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Added_images > .images{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid green; */
+    margin:20px;
+    position: relative;
+}
+.images > .recent_album_image_1{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    /* background-image: url("mari_album.jpeg"); */
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px;
+}
+.images > .created_album_name{
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+}
+.images > .number_of_photos{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.images > span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    /* border: 1px solid black ; */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+.images > .recent_album_image_1:hover +span{
+    background-color: rgba(99, 96, 96, 0.8);
+    color: aliceblue;
+}
+.images > .recent_album_image_1:hover{
+    cursor: pointer;
+}
+.images > span:hover{
+    cursor: pointer;
+    background-color: rgba(99, 96, 96, 0.8);
+    color: aliceblue;
+}
+.show_rename_delete{
+    width: 140px;
+    height: auto;
+    right: -90px;
+    top: 5px;
+    background-color: #ebeaea;
+    border-radius: 3px;
+    display: block !important;  
+    position: absolute;
+    z-index: 1;
+    /* opacity: 0; */
+}
+.show_rename_delete > h5{
+    height: auto;
+    padding: 10px 0px 10px 10px;
+    margin: 10px 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.show_rename_delete > h5:hover{
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+.rename_delete{
+    display: none;
+}
+.backdrop{
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Catamaran', sans-serif;
+    background-color:rgba(247,247,247,.1);
+    position: absolute;
+    z-index: 3;
+    backdrop-filter: blur(2px);
+}
+.pop_up_page_album{
+    /* position: absolute; */
+    width: 400px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    top: 35%;
+    left: 30%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    /* filter: blur(2px); */
+}
+.pop_up_content > h5{
+    margin:10px 0px;
+    /* border: 1px solid black; */
+    color: rgb(208, 56, 56);
+    display: none;
+}
+.pop_up_page_album > .pop_up_iamge_content{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.pop_up_content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.pop_up_iamge_content > .pop_up_iamge{
+    width: 130px;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url("mari_album.jpeg");
+    background-size: cover;
+    border-radius: 3px;
+}
+.pop_up_content > input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.pop_up_page_album > .cancel_done{
+    height: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.cancel_done > button{
+    width:80px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 2px;
+}
+.cancel_done > button:nth-child(1){
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+}
+.cancel_done > button:nth-child(2){
+    background-color: rgb(70, 70, 221);
+    color: white;
+    font-size: 15px;
+}
+.cancel_done > button:nth-child(1):hover{
+    background-color: #dee6f0;
+    cursor: pointer;
+}
+.cancel_done > button:nth-child(2):hover{
+    background-color: rgb(140, 140, 248);
+    cursor: pointer;
+}
+
+
+               /* albumed_photos_view */
+
+.albumed_photos_view{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.albumed_photos_view > .selected_album_name{
+    font-size: 35px;
+}
+.albumed_photos_view >.selected_album_photos{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.selected_album_photos > .selected_album_photo_1,.selected_album_photo_2{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    margin:20px;
+}
+
+
+/* Saved_Portfolio_page start*/
+
+
+.Saved_Portfolio_page{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.Saved_Portfolio_page > h2{
+    font-size: 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+.Saved_Portfolio_page > .saved_portfolio_images{
+    width: 100%;
+    height: 89%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+}
+.saved_portfolio_images > .saved_portfolio_image{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 10px;
+    position: relative;
+}
+.saved_portfolio_image > .saved_portfolio__content{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    align-items:center;
+    position: absolute;
+    bottom: 0;
+    background-color: #f3f6f9;
+}
+.saved_portfolio_image > .saved_portfolio__content > span{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.saved_portfolio_image > .saved_portfolio__content > span:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.saved_portfolio_image > .portfolio_image{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url("zoho_cliq.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.saved_portfolio_image:hover span{
+    opacity: 1;
+    cursor: pointer;
+}
+.portfolio_image > span{
+    width: 30px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    opacity: 0.4;
+}
+.portfolio_image :last-child{
+    position: absolute;
+    right: 0;
+}
+.portfolio_image_select_icon{
+    background-color: blue;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    opacity: 1 !important;
+}
+
+.portfolio_image_select_parent{
+    transform: scale(0.9,0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* portfolio rename */
+
+.show_portfolio_rename_delete{
+    width: 140px;
+    height: auto;
+    right: -90px;
+    top: 5px;
+    background-color: #ebeaea;
+    border-radius: 3px;
+    display: block !important;  
+    position: absolute;
+    z-index: 1;
+    /* opacity: 0; */
+}
+.portfolio_rename_delete> h5{
+    height: auto;
+    padding: 10px 0px 10px 10px;
+    margin: 10px 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.portfolio_rename_delete > h5:hover{
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+.portfolio_rename_delete{
+    display: none;
+}
+
+/* Saved_Portfolio_page end*/
+
+
+

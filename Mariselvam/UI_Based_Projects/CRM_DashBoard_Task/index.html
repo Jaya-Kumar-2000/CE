@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM_DashBoard</title>
+
+
+    <link href="https://www.zohowebstatic.com/sites/all/themes/zoho/css/zfont.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="Main_style.css" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="d3.js"></script>
+    <script src="zc.js"></script>
+</head>
+
+<body>
+
+    <span class="Explore">
+        EXPLORE
+    </span>
+
+    <div class="Analytic_DashBoard">
+
+        <div class="Analytic_Nav_Bar clear">
+            <div class="Left_nav clear">
+                <img class="Logo" src="Images/Analytic_logo.png"></img>
+                <ul class="Left_nav_lists">
+
+                    <li class="li_active right_li_Items"> <a href="#" class="Left_nav_lists_und">DashBoard</a></li>
+                    <li class="right_li_Items"><a href="#" class="Left_nav_lists_und">Crafted</a></li>
+                    <li class="right_li_Items"><a href="#" class="Left_nav_lists_und">Apps</a></li>
+                    <li class="right_li_Items"><a href="#" class="Left_nav_lists_und">Resources</a></li>
+                    <li class="right_li_Items"><a href="#" class="Left_nav_lists_und">Mega Menu</a></li>
+                </ul>
+            </div>
+
+
+            <div class="Right_Nav">
+
+                <span class="material-symbols-outlined Items">
+                    search
+                </span>
+
+                <span class="material-symbols-outlined Items">
+                    signal_cellular_alt
+                </span>
+
+                <span class="material-symbols-outlined Items">
+                    atr
+                </span>
+
+                <span class="material-symbols-outlined Items">
+                    chat
+                </span>
+
+                <span class="material-symbols-outlined Items">
+                    grid_view
+                </span>
+
+                <img class="Profile_Image Items">
+
+                </img>
+            </div>
+
+        </div>
+
+
+        <div class="Analytic_header_Filter">
+
+            <div class="header">
+
+                <p class="header_p">DashBoard</p>
+
+                <p><span class="Home_Dash">Home</span><span class="hypen">-</span><span
+                        class="Home_Dash">DashBoard</span></p>
+
+            </div>
+
+
+            <div class="filter filter_clear">
+
+
+                <div class="filter_btns create_btn">
+
+                    <p class="vertical_align">Create</p>
+
+                </div>
+
+
+                <div class="filter_btns filter_icon">
+
+                    <span class="material-symbols-outlined vertical_align">
+                        filter_alt
+                    </span>
+
+                    <span class="vertical_align">Filter</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="Trends Trends_clear">
+
+            <div class="Trends_left_side">
+
+                <div class="Trends_head Trends_head_clear">
+
+                    <div class="Trends_head_content">
+
+                        <p class="trends">Trends</p>
+
+                        <p class="latest_trends">Latest trends</p>
+
+                    </div>
+
+
+                    <span class="material-symbols-outlined Trends_head_icon">
+                        grid_view
+                    </span>
+
+                </div>
+
+                <div class="Trends_Chart" id="T_chart">
+
+                    <!-- <iframe frameborder=0 width="100%" height="100%"
+                        src="https://analytics.zoho.com/open-view/2672004000000020203"></iframe> -->
+                </div>
+
+                <div class="Trends_Chart_Details">
+
+                    <div class="Trends_Chart_Details_Content clear">
+
+                        <img class="Image" src="Images/author.png">
+
+                        </img>
+
+
+
+                        <div class="content">
+
+                            <p class="chart_content_title">Top Authors</p>
+
+                            <p class="chart_content_p">Ricky Hunt, Sandra Trepp</p>
+
+                        </div>
+
+
+                        <p><span>+82$</span></p>
+
+                    </div>
+
+                    <div class="Trends_Chart_Details_Content clear">
+
+                        <img class="Image" src="Images/Top_sale.png">
+
+                        </img>
+
+
+
+                        <div class="content">
+
+                            <p class="chart_content_title">Top Sales</p>
+
+                            <p class="chart_content_p">PitStop Emails</p>
+
+                        </div>
+
+
+                        <p><span>+82$</span></p>
+
+                    </div>
+
+
+                    <div class="Trends_Chart_Details_Content clear">
+
+                        <img class="Image" src="Images/Engagement_bg.png">
+
+                        </img>
+
+
+
+                        <div class="content">
+
+                            <p class="chart_content_title">Top Engagement</p>
+
+                            <p class="chart_content_p">KT.com</p>
+
+                        </div>
+
+
+                        <p><span>+82$</span></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Trends_Right_side">
+
+                <div class="Top_report">
+
+                    <div class="prop scal">
+
+                        <img class="prop_img" src="Images/prop_bg.jpg" alt="">
+
+                        <p class="Text">Properties</p>
+
+                    </div>
+
+                    <div class="report scal">
+
+
+                        <div class="report_content">
+                            <p class="report_content_h">Create CRM Reports</p>
+
+                            <p class="report_content_p">Generate the latest CRM report for company projects</p>
+                        </div>
+
+                        <div class="report_btn">
+                            Start Now
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="Bottom_report">
+
+
+                    <div class="LeftSide_btm">
+
+                        <div class="Saas_port scal">
+
+                            <img src="Images/Saas.jpg" alt="" class="Saas_port_img">
+
+                            <p class="Saas_port_content">Create Saas Based Reports</p>
+
+                            <span class="Saas_port_btn">
+                                Create Report
+                            </span>
+
+                        </div>
+
+
+                        <div class="Saas_port_btm Saas_port_btm_clear">
+
+                            <div class="Saas_port_btm_left_s Saas_port_btm_box scal">
+
+                                <span class="material-symbols-outlined">
+                                    grid_view
+                                </span>
+
+                                <p class="product_count">790</p>
+
+                                <p>New Products</p>
+
+                            </div>
+
+                            <div class="Saas_port_btm_right_s Saas_port_btm_box scal">
+
+
+                                <span class="material-symbols-outlined">
+                                    rocket_launch
+                                </span>
+
+                                <p class="product_count">790</p>
+
+                                <p>New Products</p>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="Right_side_btm scal">
+
+                        <img class="planet_img" src="Images/planet_bg.webp" alt="">
+
+                        <p class="Right_side_btm_h">Create Reports With App</p>
+
+
+                        <p class="Right_side_btm_f">
+                            <span> Create Report</span>
+                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

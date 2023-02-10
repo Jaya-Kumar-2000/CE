@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  </head>
+
+  <body>
+
+    <section id="weatherApp">         <!---weatherApp page-->
+
+        <div id="currentWeather">      <!---country and temparature-->
+
+            
+
+            <!--- country  -->
+
+            <div class="location">
+              <i class="fas fa-map-marker-alt"></i>
+                <span id="CountryName">Madurai</span>
+            </div>
+
+            <!--- weather icon -->
+
+            <div class="weatherIcon">
+
+             <i id="defaultIcon" class="far fa-smoke"></i>
+             
+             <i id="Icon"></i>
+
+            </div>
+
+            <!---temparature-->
+
+            <div id="showTemparature" class="temparature">306.26 K</div>
+
+            <div id="climate" class="weatherLook">broken clouds</div>
+        </div>
+
+        <!----weather Details -->
+
+        <div id="weatherDetails">
+
+            <div class="humidity">
+                Humidity
+
+                <span id="HumiValue" class="weatherValue"> 30% </span>
+            </div>
+
+            <div class="weatherProperties">
+                Wind
+
+                <span id="windSpeed" class="weatherValue"> 6.5km/h </span>
+            </div>
+
+            <div class="weatherProperties">
+              Temp_min
+
+              <span id="min_temp" class="weatherValue"> 304.91 K</span>
+            </div>
+
+          <div class="weatherProperties">
+            Temp_max
+
+            <span id="max_temp" class="weatherValue"> 306.26 K</span>
+          </div>
+
+          <!----Change location button -->
+
+          <div class="countrySearch">
+            <div id="CName">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="mapLocation"> Change location </span>
+            </div>
+          </div>
+<!-- 
+          <div class="days">
+
+            <div class="day-weather">
+              <i class="fad fa-sun"></i>
+              <div class="tD">23-02-22</div>
+              <div class="tT">29 °C</div>
+            </div>
+
+              <div class="day-weather">
+                <i class="far fa-clouds"></i>
+                <div class="tD">24-02-22</div>
+                <div class="tT">21 °C</div>
+              </div>
+
+          </div> -->
+
+
+
+        </div>
+
+    </section>
+
+    <!----close the map -->
+
+    <div class="closed">
+
+    <p id="close">X</p>
+    <div id="map">
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+
+  </body>
+</html>
