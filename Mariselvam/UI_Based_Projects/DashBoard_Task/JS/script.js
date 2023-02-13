@@ -1,6 +1,10 @@
-var chart_js = {
+var chart_js ={
 	"legend": {
-		"layout": "vertical"
+        "color":[
+            "#ff9ad5","#01d7ff", "#5a65dc"
+        ],
+		"layout": "vertical",
+		"enabled": false
 	},
 	"chart": {
 		"plot": {
@@ -53,15 +57,15 @@ var chart_js = {
 					[
 						[
 							"2010",
-							225881.08
+							602394.08
 						],
 						[
 							"2011",
-							297103.28
+							309824.28
 						],
 						[
 							"2012",
-							338301.21
+							152304.21
 						]
 					]
 				]
@@ -85,7 +89,8 @@ var chart_js = {
 	},
 	"map": {
 		"labels": {
-			"show": false
+			"show": false,
+			"fontSize": 10
 		}
 	}
 }
