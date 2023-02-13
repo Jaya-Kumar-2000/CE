@@ -1,17 +1,19 @@
 var chart_js ={
 	"legend": {
-      
-      	"colors": [
-			"#ff9ad5","#01d7ff", "#5a65dc"
-		],
+        "color":[
+            "#ff9ad5","#01d7ff", "#5a65dc"
+        ],
 		"layout": "vertical",
-        "enabled" : false,
+		"enabled": false
 	},
 	"chart": {
 		"plot": {
 			"plotoptions": {
 				"pie": {
-					"innerRadius": "65%"
+					"innerRadius": "65%",
+					"marker": {
+						"enabled": false
+					}
 				}
 			}
 		}
@@ -72,12 +74,26 @@ var chart_js ={
 	},
 	"canvas": {
 		"title": {
+			"show": false,
 			"text": "Simple donut"
+		},
+		"subtitle": {
+			"show": false
+		},
+		"border": {
+			"show": false
+		},
+		"shadow": {
+			"show": false
 		}
 	},
 	"map": {
-		"strokeColor": "#D64040"
+		"labels": {
+			"show": false,
+			"fontSize": 10
+		}
 	}
 }
+
 
 var Chart_Obj = new $ZC.charts(chart_view,chart_js)
