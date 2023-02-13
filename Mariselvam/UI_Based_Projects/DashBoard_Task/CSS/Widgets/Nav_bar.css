@@ -10,6 +10,7 @@
 .DB-nav_bar_ul{
     height: 100%;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .DB-nav_bar_item{
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    cursor: pointer;
 }
 
 .DB-nav_bar_item > a{
