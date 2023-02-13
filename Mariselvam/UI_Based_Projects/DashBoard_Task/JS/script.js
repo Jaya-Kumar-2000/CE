@@ -90,4 +90,4 @@ var chart_js = {
 	}
 }
 
-var Chart_Obj = new $ZC.charts(Session_Devices_chart_view,chart_js)
+var Chart_Obj = new $ZC.charts(DB-Session_Devices_chart_view,chart_js)
