@@ -1,17 +1,18 @@
 var chart_js ={
 	"legend": {
-        "color":[
-            "#ff9ad5","#01d7ff", "#5a65dc"
-        ],
+      
+      	"colors": [
+			"#ff9ad5","#01d7ff", "#5a65dc"
+		],
 		"layout": "vertical",
-		"enabled": false
+        "enabled" : false,
 	},
 	"chart": {
 		"plot": {
 			"plotoptions": {
 				"pie": {
 					"innerRadius": "65%",
-					"marker": {
+                    "marker": {
 						"enabled": false
 					}
 				}
@@ -74,24 +75,18 @@ var chart_js ={
 	},
 	"canvas": {
 		"title": {
-			"show": false,
+            "show": false,
 			"text": "Simple donut"
 		},
-		"subtitle": {
+        "subtitle": {
 			"show": false
 		},
-		"border": {
+        "border": {
 			"show": false
 		},
-		"shadow": {
-			"show": false
-		}
 	},
 	"map": {
-		"labels": {
-			"show": false,
-			"fontSize": 10
-		}
+		"strokeColor": "#D64040"
 	}
 }
 
