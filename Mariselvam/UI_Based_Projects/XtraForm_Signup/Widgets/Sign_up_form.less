@@ -1,0 +1,210 @@
+.XF-Sign_up_page {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: "Zoho_Puvi_Light";
+    display: grid;
+
+    .XF-Sign_Up_Heads {
+        width: 50%;
+        display: grid;
+        margin: auto;
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+
+        .XF-Main_Head_prefix {
+            font-size: var(--h1_size);
+            color: var(--label_color);
+            font-weight: 600;
+
+            .XF-Main_Head_suffix {
+                color: var(--anchor_blue);
+                font-weight: 600;
+            }
+        }
+
+        .XF-Sub_Head {
+            font-size: var(--h6_size);
+            color: var(--paragraph_color);
+            font-weight: 600;
+        }
+
+    }
+
+    @Mobile: ~"(max-width:600px)";
+    @Tablet: ~"(min-width:768px)";
+    @Computer :~"(min-width:992px)";
+    @Large :~"(min-width:1200px)";
+
+
+    .XF-Sign_Up_Box {
+
+        @media @Mobile {
+            min-width: 150px;
+        }
+
+        @media @Tablet{
+            min-width: 400px;
+        }
+
+        @media @Computer{
+            min-width: 500px;
+        }
+
+        @media @Large{
+            min-width: 600px;
+        }
+
+        min-width: 600px;
+        height: auto;
+        margin: auto;
+        border-radius: var(--border_radius_5);
+        overflow: hidden;
+        // background-color: var(--Primary_Color) ;
+
+        .XF-Header {
+            width: auto;
+            height: 50px;
+            font-size: var(--h5_size);
+            color: var(--Header_color);
+            // background-color: var(--Secondary_Color);
+            text-align: center;
+            line-height: 45px;
+            font-weight: 600;
+        }
+
+        .XF-Form_Box {
+            width: auto;
+            height: 100%;
+            display: grid;
+            // gap: 20px;
+            // background-color: var(--Primary_Color);
+            padding: 10px 50px 50px 30px;
+
+            .XF-form_elements {
+                display: grid;
+                grid-template-rows: repeat(4, 1fr);
+                border-bottom: 1px dotted var(--paragraph_color);
+                // padding: 10px 0px;
+                // gap: 20px;
+
+                .XF-Sign_up_field {
+                    display: grid;
+                    grid-template-rows: repeat(2, 1fr);
+
+                    .XF-sign_up_label {
+                        color: var(--label_color);
+                        font-weight: 600;
+                        font-size: var(--h6_size);
+                        // margin: 10px 0px;
+                    }
+
+                    .XF-sign_up_input {
+                        border: none;
+                        outline: none;
+                        // background-color: var(--Secondary_Color);
+                        border-radius: var(--border_radius_3);
+                        font-size: var(--h5_size);
+                        // padding: 10px;
+                        color: var(--btn_text_color);
+
+                        &:focus {
+                            box-shadow: rgba(151, 226, 174, 0.725) 0px 1px 1px, rgba(151, 226, 174, 0.725) 0px 0px 1px 1px;
+                            // box-shadow:  0px 2px 8px 0px;
+                        }
+                    }
+                }
+
+                .XF-Terms_policy {
+                    width: 100%;
+                    height: 50px;
+                    display: grid;
+                    grid-template-columns: 10px 1fr;
+                    // gap: 20px;
+                    align-items: center;
+
+                    .XF-check_Box {
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                    }
+
+                    .XF-text {
+                        color: var(--paragraph_color);
+                        font-weight: 600;
+                        font-size: var(--Default_size);
+                        letter-spacing: .5px;
+                    }
+
+                }
+
+                .XF-Sign_up_btn {
+                    width: 100px;
+                    background-color: var(--anchor_blue);
+                    // padding: 10px;
+                    border: none;
+                    outline: none;
+                    color: var(--btn_text_color);
+                    border-radius: var(--border_radius_2);
+                    font-size: var(--h6_size);
+                    font-weight: bold;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: var(--_hover_btn_color);
+                        background-color: var(--light_anchor_blue);
+                    }
+                }
+            }
+
+            .XF-Sign_In_Box {
+                display: grid;
+                grid-template-rows: 1fr 50px;
+                text-align: center;
+                // gap: 15px;
+
+                .XF-Sign_In_btn {
+                    // color: var(--btn_text_color);
+                    border-radius: var(--border_radius_2);
+                    font-size: var(--h6_size);
+                    font-weight: bold;
+                    border: none;
+                    outline: none;
+                    // background-color: var(--Secondary_Color);
+
+                    &:hover {
+                        cursor: pointer;
+                        color: var(--_hover_btn_color);
+                        background-color: var(--hover_sign_in);
+                    }
+                }
+
+                .XF-paragraph {
+                    // color: var(--btn_text_color);
+                    font-weight: 700;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(.98);
+                        color: var(--Sign_In_color);
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .XF-Footer {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: var(--paragraph_color);
+        font-weight: 600;
+
+        .XF-anchor_text {
+            text-decoration: none;
+            color: var(--anchor_blue);
+        }
+    }
+}

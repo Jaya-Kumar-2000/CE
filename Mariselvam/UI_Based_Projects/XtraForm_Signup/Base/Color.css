@@ -1,0 +1,23 @@
+:root {
+  --body_bg: #303136;
+  --page_bg: #fff;
+  --white: #fff;
+  --black: #000;
+  --White_Mode: #eeeef1;
+  --white_secondary: #dbdce2;
+  --Black_Mode: #000;
+  --Black_Mode_change: #c3bbbb;
+  --Primary_Color: #24252a;
+  --Primary_Color_Change: #b7b8be;
+  --Secondary_Color: #454857;
+  --Sign_In_color: #f3f4f4;
+  --hover_sign_in: #858a9f;
+  --anchor_blue: #3199ca;
+  --light_anchor_blue: #81c2e0;
+  --paragraph_color: #676771;
+  --label_color: #888c9a;
+  --Header_color: #6a6f75;
+  --btn_text_color: #c5cacd;
+  --btn_text_color_change: #8c9092;
+  --_hover_btn_color: #f3f4f4;
+}

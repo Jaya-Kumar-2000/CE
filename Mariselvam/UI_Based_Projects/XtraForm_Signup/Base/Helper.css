@@ -1,0 +1,364 @@
+/* Margin_sizes */
+.mg1 {
+  margin: 4px;
+}
+.mg2 {
+  margin: 8px;
+}
+.mg3 {
+  margin: 12px;
+}
+.mg4 {
+  margin: 16px;
+}
+.mg5 {
+  margin: 20px;
+}
+.mg6 {
+  margin: 24px;
+}
+.mg7 {
+  margin: 28px;
+}
+.mg8 {
+  margin: 32px;
+}
+.mg9 {
+  margin: 36px;
+}
+.mg10 {
+  margin: 40px;
+}
+/* Margin_left */
+.mg_l_1 {
+  margin-left: 4px;
+}
+.mg_l_2 {
+  margin-left: 8px;
+}
+.mg_l_3 {
+  margin-left: 12px;
+}
+.mg_l_4 {
+  margin-left: 16px;
+}
+.mg_l_5 {
+  margin-left: 20px;
+}
+.mg_l_6 {
+  margin-left: 24px;
+}
+.mg_l_7 {
+  margin-left: 28px;
+}
+.mg_l_8 {
+  margin-left: 32px;
+}
+.mg_l_9 {
+  margin-left: 36px;
+}
+.mg_l_10 {
+  margin-left: 40px;
+}
+/* Margin_right */
+.mg_r_1 {
+  margin-right: 4px;
+}
+.mg_r_2 {
+  margin-right: 8px;
+}
+.mg_r_3 {
+  margin-right: 12px;
+}
+.mg_r_4 {
+  margin-right: 16px;
+}
+.mg_r_5 {
+  margin-right: 20px;
+}
+.mg_r_6 {
+  margin-right: 24px;
+}
+.mg_r_7 {
+  margin-right: 28px;
+}
+.mg_r_8 {
+  margin-right: 32px;
+}
+.mg_r_9 {
+  margin-right: 36px;
+}
+.mg_r_10 {
+  margin-right: 40px;
+}
+/* margin bottom */
+.mg_b_1 {
+  margin-bottom: 4px;
+}
+.mg_b_2 {
+  margin-bottom: 8px;
+}
+.mg_b_3 {
+  margin-bottom: 12px;
+}
+.mg_b_4 {
+  margin-bottom: 16px;
+}
+.mg_b_5 {
+  margin-bottom: 20px;
+}
+.mg_b_6 {
+  margin-bottom: 24px;
+}
+.mg_b_7 {
+  margin-bottom: 28px;
+}
+.mg_b_8 {
+  margin-bottom: 32px;
+}
+.mg_b_9 {
+  margin-bottom: 36px;
+}
+.mg_b_10 {
+  margin-bottom: 40px;
+}
+/* Margin_top_bottom */
+.mg_tb_1 {
+  margin: 4px 0px;
+}
+.mg_tb_2 {
+  margin: 8px 0px;
+}
+.mg_tb_3 {
+  margin: 12px 0px;
+}
+.mg_tb_4 {
+  margin: 16px 0px;
+}
+.mg_tb_5 {
+  margin: 20px 0px;
+}
+.mg_tb_6 {
+  margin: 24px 0px;
+}
+.mg_tb_7 {
+  margin: 28px 0px;
+}
+.mg_tb_8 {
+  margin: 32px 0px;
+}
+.mg_tb_9 {
+  margin: 36px 0px;
+}
+.mg_tb_10 {
+  margin: 40px 0px;
+}
+/* padding */
+.pd1 {
+  padding: 4px;
+}
+.pd2 {
+  padding: 8px;
+}
+.pd3 {
+  padding: 12px;
+}
+.pd4 {
+  padding: 16px;
+}
+.pd5 {
+  padding: 20px;
+}
+.pd6 {
+  padding: 24px;
+}
+.pd7 {
+  padding: 28px;
+}
+.pd8 {
+  padding: 32px;
+}
+.pd9 {
+  padding: 36px;
+}
+.pd10 {
+  padding: 40px;
+}
+/* padding left right */
+.pd_lr_1 {
+  padding: 0px 4px;
+}
+.pd_lr_2 {
+  padding: 0px 8px;
+}
+.pd_lr_3 {
+  padding: 0px 12px;
+}
+.pd_lr_4 {
+  padding: 0px 16px;
+}
+.pd_lr_5 {
+  padding: 0px 20px;
+}
+.pd_lr_6 {
+  padding: 0px 24px;
+}
+.pd_lr_7 {
+  padding: 0px 28px;
+}
+.pd_lr_8 {
+  padding: 0px 32px;
+}
+.pd_lr_9 {
+  padding: 0px 36px;
+}
+.pd_lr_10 {
+  padding: 0px 40px;
+}
+/* padding right */
+.pd_tb_1 {
+  padding: 4px 0px;
+}
+.pd_tb_2 {
+  padding: 8px 0px;
+}
+.pd_tb_3 {
+  padding: 12px 0px;
+}
+.pd_tb_4 {
+  padding: 16px 0px;
+}
+.pd_tb_5 {
+  padding: 20px 0px;
+}
+.pd_tb_6 {
+  padding: 24px 0px;
+}
+.pd_tb_7 {
+  padding: 28px 0px;
+}
+.pd_tb_8 {
+  padding: 32px 0px;
+}
+.pd_tb_9 {
+  padding: 36px 0px;
+}
+.pd_tb_10 {
+  padding: 40px 0px;
+}
+/* padding:left_right */
+.pd_lr_tb_1 {
+  padding: 4px 12px;
+}
+.pd_lr_tb_2 {
+  padding: 6px 14px;
+}
+.pd_lr_tb_3 {
+  padding: 8px 16px;
+}
+.pd_lr_tb_4 {
+  padding: 10px 18px;
+}
+.pd_lr_tb_5 {
+  padding: 12px 20px;
+}
+.pd_lr_tb_6 {
+  padding: 14px 22px;
+}
+.pd_lr_tb_7 {
+  padding: 16px 24px;
+}
+.pd_lr_tb_8 {
+  padding: 18px 26px;
+}
+.pd_lr_tb_9 {
+  padding: 20px 28px;
+}
+.pd_lr_tb_10 {
+  padding: 22px 30px;
+}
+/* gaps */
+.gap_1 {
+  gap: 4px;
+}
+.gap_2 {
+  gap: 8px;
+}
+.gap_3 {
+  gap: 12px;
+}
+.gap_4 {
+  gap: 16px;
+}
+.gap_5 {
+  gap: 20px;
+}
+.gap_6 {
+  gap: 24px;
+}
+.gap_7 {
+  gap: 28px;
+}
+.gap_8 {
+  gap: 32px;
+}
+.gap_9 {
+  gap: 36px;
+}
+.gap_10 {
+  gap: 40px;
+}
+/* Flex */
+.flex_sp_column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.flex_sa_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inline_flex {
+  display: inline-flex;
+}
+.justify_between {
+  justify-content: space-between;
+}
+.justify_around {
+  justify-content: space-around;
+}
+.justify_evenly {
+  justify-content: space-evenly;
+}
+/* display_grid */
+.grid {
+  display: grid;
+}
+/* float */
+.float_r {
+  float: right;
+}
+.float_l {
+  float: left;
+}
+.tt {
+  color: red;
+}
+/* align_center */
+.align_center {
+  vertical-align: middle;
+}
+.text_align_r {
+  text-align: right;
+}
+.secondary_color {
+  background-color: var(--Secondary_Color);
+}
+.Primary_Color {
+  background-color: var(--Primary_Color);
+}
+.btn_text_color {
+  color: var(--btn_text_color);
+}
