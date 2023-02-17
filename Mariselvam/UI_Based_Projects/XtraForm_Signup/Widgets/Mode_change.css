@@ -31,25 +31,3 @@
 .d-mode_to_l-mode .icon_color {
   color: var(--black);
 }
-.body_bg {
-  background-color: var(--white);
-}
-.light {
-  background-color: var(--White_Mode) !important;
-}
-.secondary_color_change {
-  background-color: var(--white_secondary);
-  color: #5a5959 !important;
-}
-.Black_Mode_change {
-  background-color: var(--Black_Mode_change);
-}
-.Primary_Color_Change {
-  background-color: var(--Primary_Color_Change);
-}
-.btn_text_color_change {
-  color: var(--btn_text_color_change);
-}
-.dark_mode {
-  background-color: var(--Black_Mode) !important;
-}

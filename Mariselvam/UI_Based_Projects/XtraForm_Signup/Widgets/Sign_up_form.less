@@ -14,18 +14,18 @@
 
         .XF-Main_Head_prefix {
             font-size: var(--h1_size);
-            color: var(--label_color);
+            color: var(--heading_color);
             font-weight: 600;
 
             .XF-Main_Head_suffix {
-                color: var(--anchor_blue);
+                color: var(--anchor_color);
                 font-weight: 600;
             }
         }
 
         .XF-Sub_Head {
             font-size: var(--h6_size);
-            color: var(--paragraph_color);
+            color: var(--text_color);
             font-weight: 600;
         }
 
@@ -60,14 +60,14 @@
         margin: auto;
         border-radius: var(--border_radius_5);
         overflow: hidden;
-        // background-color: var(--Primary_Color) ;
+        background-color: var(--page_bg) ;
 
         .XF-Header {
             width: auto;
             height: 50px;
             font-size: var(--h5_size);
-            color: var(--Header_color);
-            // background-color: var(--Secondary_Color);
+            color: var(--text_color);
+            background-color: var(--element_bg);
             text-align: center;
             line-height: 45px;
             font-weight: 600;
@@ -102,11 +102,11 @@
                     .XF-sign_up_input {
                         border: none;
                         outline: none;
-                        // background-color: var(--Secondary_Color);
+                        background-color: var(--element_bg);
                         border-radius: var(--border_radius_3);
                         font-size: var(--h5_size);
                         // padding: 10px;
-                        color: var(--btn_text_color);
+                        color: var(--text_color);
 
                         &:focus {
                             box-shadow: rgba(151, 226, 174, 0.725) 0px 1px 1px, rgba(151, 226, 174, 0.725) 0px 0px 1px 1px;
@@ -130,7 +130,7 @@
                     }
 
                     .XF-text {
-                        color: var(--paragraph_color);
+                        color: var(--text_color);
                         font-weight: 600;
                         font-size: var(--Default_size);
                         letter-spacing: .5px;
@@ -140,19 +140,19 @@
 
                 .XF-Sign_up_btn {
                     width: 100px;
-                    background-color: var(--anchor_blue);
+                    background-color: var(--anchor_color);
                     // padding: 10px;
                     border: none;
                     outline: none;
-                    color: var(--btn_text_color);
+                    color: var(--sign_up_color);
                     border-radius: var(--border_radius_2);
                     font-size: var(--h6_size);
                     font-weight: bold;
 
                     &:hover {
                         cursor: pointer;
-                        color: var(--_hover_btn_color);
-                        background-color: var(--light_anchor_blue);
+                        // color: var(--_hover_btn_color);
+                        background-color: var(--sign_up_light_bg);
                     }
                 }
             }
@@ -164,29 +164,29 @@
                 // gap: 15px;
 
                 .XF-Sign_In_btn {
-                    // color: var(--btn_text_color);
+                    color: var(--button_color);
                     border-radius: var(--border_radius_2);
                     font-size: var(--h6_size);
                     font-weight: bold;
                     border: none;
                     outline: none;
-                    // background-color: var(--Secondary_Color);
+                    background-color: var(--element_bg);
 
                     &:hover {
                         cursor: pointer;
                         color: var(--_hover_btn_color);
-                        background-color: var(--hover_sign_in);
+                        background-color: var(--sign_in_light_bg);
                     }
                 }
 
                 .XF-paragraph {
-                    // color: var(--btn_text_color);
+                    color: var(--button_color);
                     font-weight: 700;
 
                     &:hover {
                         cursor: pointer;
                         transform: scale(.98);
-                        color: var(--Sign_In_color);
+                        color: var(--light_para);
                     }
                 }
 
@@ -199,12 +199,12 @@
         width: 100%;
         margin: auto;
         text-align: center;
-        color: var(--paragraph_color);
+        color: var(--text_color);
         font-weight: 600;
 
         .XF-anchor_text {
             text-decoration: none;
-            color: var(--anchor_blue);
+            color: var(--anchor_color);
         }
     }
 }

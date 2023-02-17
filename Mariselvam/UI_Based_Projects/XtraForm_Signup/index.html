@@ -47,31 +47,35 @@
 
             <div class="XF-Form_Box Primary_Color gap_5">
 
-                <form action="" class="XF-form_elements pd_tb_3 gap_5">
+                <form action="" class="XF-form_elements pd_tb_3 gap_5" id="form">
 
 
 
                     <div class="XF-Sign_up_field">
                         <label for="" class="XF-sign_up_label mg_tb_3">Username</label>
-                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="text" placeholder="Username">
+                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="text"  name="UserName"
+                            placeholder="Username" autocomplete="off">
                     </div>
 
                     <div class="XF-Sign_up_field">
 
                         <label for="" class="XF-sign_up_label mg_tb_3">Email</label>
-                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="email" placeholder="Email">
+                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="email" name="Email"
+                            placeholder="Email" autocomplete="off">
 
                     </div>
 
                     <div class="XF-Sign_up_field">
                         <label for="" class="XF-sign_up_label mg_tb_3">Password</label>
-                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="password" placeholder="Password">
+                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="password" name="password"
+                            placeholder="Password">
                     </div>
 
                     <div class="XF-Sign_up_field">
 
                         <label for="" class="XF-sign_up_label mg_tb_3">Retype password</label>
-                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="password" placeholder="Retype password">
+                        <input class="XF-sign_up_input secondary_color white_shadow pd3" type="password" name="confirmPassword"
+                            placeholder="Retype password">
 
                     </div>
 
@@ -84,9 +88,7 @@
                         <p class="XF-text">Accept the terms and policies</p>
                     </div>
 
-                    <button class="XF-Sign_up_btn pd3">
-                        SIGN UP
-                    </button>
+                    <input type="button" class="XF-Sign_up_btn pd3" value="SIGN UP"/>
 
                 </form>
 

@@ -14,16 +14,16 @@
 }
 .XF-Sign_up_page .XF-Sign_Up_Heads .XF-Main_Head_prefix {
   font-size: var(--h1_size);
-  color: var(--label_color);
+  color: var(--heading_color);
   font-weight: 600;
 }
 .XF-Sign_up_page .XF-Sign_Up_Heads .XF-Main_Head_prefix .XF-Main_Head_suffix {
-  color: var(--anchor_blue);
+  color: var(--anchor_color);
   font-weight: 600;
 }
 .XF-Sign_up_page .XF-Sign_Up_Heads .XF-Sub_Head {
   font-size: var(--h6_size);
-  color: var(--paragraph_color);
+  color: var(--text_color);
   font-weight: 600;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box {
@@ -32,6 +32,7 @@
   margin: auto;
   border-radius: var(--border_radius_5);
   overflow: hidden;
+  background-color: var(--page_bg);
 }
 @media (max-width:600px) {
   .XF-Sign_up_page .XF-Sign_Up_Box {
@@ -57,7 +58,8 @@
   width: auto;
   height: 50px;
   font-size: var(--h5_size);
-  color: var(--Header_color);
+  color: var(--text_color);
+  background-color: var(--element_bg);
   text-align: center;
   line-height: 45px;
   font-weight: 600;
@@ -85,9 +87,10 @@
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-form_elements .XF-Sign_up_field .XF-sign_up_input {
   border: none;
   outline: none;
+  background-color: var(--element_bg);
   border-radius: var(--border_radius_3);
   font-size: var(--h5_size);
-  color: var(--btn_text_color);
+  color: var(--text_color);
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-form_elements .XF-Sign_up_field .XF-sign_up_input:focus {
   box-shadow: rgba(151, 226, 174, 0.725) 0px 1px 1px, rgba(151, 226, 174, 0.725) 0px 0px 1px 1px;
@@ -105,25 +108,24 @@
   cursor: pointer;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-form_elements .XF-Terms_policy .XF-text {
-  color: var(--paragraph_color);
+  color: var(--text_color);
   font-weight: 600;
   font-size: var(--Default_size);
   letter-spacing: 0.5px;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-form_elements .XF-Sign_up_btn {
   width: 100px;
-  background-color: var(--anchor_blue);
+  background-color: var(--anchor_color);
   border: none;
   outline: none;
-  color: var(--btn_text_color);
+  color: var(--sign_up_color);
   border-radius: var(--border_radius_2);
   font-size: var(--h6_size);
   font-weight: bold;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-form_elements .XF-Sign_up_btn:hover {
   cursor: pointer;
-  color: var(--_hover_btn_color);
-  background-color: var(--light_anchor_blue);
+  background-color: var(--sign_up_light_bg);
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-Sign_In_Box {
   display: grid;
@@ -131,33 +133,36 @@
   text-align: center;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-Sign_In_Box .XF-Sign_In_btn {
+  color: var(--button_color);
   border-radius: var(--border_radius_2);
   font-size: var(--h6_size);
   font-weight: bold;
   border: none;
   outline: none;
+  background-color: var(--element_bg);
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-Sign_In_Box .XF-Sign_In_btn:hover {
   cursor: pointer;
   color: var(--_hover_btn_color);
-  background-color: var(--hover_sign_in);
+  background-color: var(--sign_in_light_bg);
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-Sign_In_Box .XF-paragraph {
+  color: var(--button_color);
   font-weight: 700;
 }
 .XF-Sign_up_page .XF-Sign_Up_Box .XF-Form_Box .XF-Sign_In_Box .XF-paragraph:hover {
   cursor: pointer;
   transform: scale(0.98);
-  color: var(--Sign_In_color);
+  color: var(--light_para);
 }
 .XF-Sign_up_page .XF-Footer {
   width: 100%;
   margin: auto;
   text-align: center;
-  color: var(--paragraph_color);
+  color: var(--text_color);
   font-weight: 600;
 }
 .XF-Sign_up_page .XF-Footer .XF-anchor_text {
   text-decoration: none;
-  color: var(--anchor_blue);
+  color: var(--anchor_color);
 }

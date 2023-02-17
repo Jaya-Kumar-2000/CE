@@ -7,58 +7,42 @@ let Mode_Change = () => {
 
 
     console.log(checked)
-    // if (checked) {
-    //     document.querySelectorAll('.dark_mode').forEach(function(e){
-    //         e.classList.remove("dark_mode");
-    //         e.classList.add("light")
-    //     });
-    //     document.querySelectorAll(".secondary_color").forEach(function(e){
-    //         e.classList.remove("secondary_color")
-    //         e.classList.add("secondary_color_change");
-    //     })
 
-    //     document.querySelectorAll(".Primary_Color").forEach(function(e){
-    //         e.classList.remove("Primary_Color");
-    //         e.classList.add("Primary_Color_Change")
-    //     })
+    if (checked) {
+        document.documentElement.setAttribute('data-theme', 'light');
 
-    //     document.querySelectorAll(".btn_text_color").forEach(function(e){
+        localStorage.setItem("theme", "light");
+    }
 
-    //         e.classList.remove("btn_text_color");
-    //         e.classList.add("btn_text_color_change");
+    else {
+        document.documentElement.setAttribute('data-theme', 'dark');
 
-    //     })
-        
-    //     document.querySelectorAll(".white_shadow").forEach(function(e){
-    //         e.classList.add("dark_shadow");
-    //     })
+        localStorage.setItem("theme", "dark");
+    }
 
-    // }
-    // else{
+    const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
-    //     document.querySelectorAll('.light').forEach(function(e){
-    //         e.classList.remove("light")
-    //         e.classList.add("dark_mode");
-    //     });
-    //     document.querySelectorAll(".secondary_color_change").forEach(function(e){
-    //         e.classList.remove("secondary_color_change")
-    //         e.classList.add("secondary_color");
-    //     })
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
 
-    //     document.querySelectorAll(".Primary_Color_Change").forEach(function(e){
-    //         e.classList.remove("Primary_Color_Change");
-    //         e.classList.add("Primary_Color")
-    //     })
-
-    //     document.querySelectorAll(".btn_text_color_change").forEach(function(e){
-
-    //         e.classList.remove("btn_text_color_change");
-    //         e.classList.add("btn_text_color");
-
-    //     })
-    // }
+    }
 
 }
 
 
-document.querySelector(".XF-sign_up_mode").addEventListener("click", Mode_Change)
+document.querySelector(".XF-sign_up_mode").addEventListener("click", Mode_Change);
+
+
+
+
+
+
+document.querySelector(".XF-Sign_up_btn").addEventListener("click", () => {
+    let form = document.getElementById("form");
+
+    let formdata = new FormData(form);
+
+    for (const [key, value] of formdata) {
+        console.log(key, value);
+    }
+})
